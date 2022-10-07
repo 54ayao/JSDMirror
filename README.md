@@ -18,6 +18,8 @@ CDN 侧配置
 
 不要闲着去攻击源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。
 
+itdog.cn  测试情况
+
 有缓存的情况下
 
 ![image](https://user-images.githubusercontent.com/86733666/194452812-bff30e13-ac87-4d6e-8b88-fb599a28bc11.png)
@@ -28,10 +30,11 @@ CDN 侧配置
 
 整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存
 
-官方展示的被攻击日志 
+官方给我展示的被攻击日志 
 
 ![image](https://user-images.githubusercontent.com/86733666/194457040-e599e47d-acbf-454f-b405-e12304e762d2.png)
 
+一些请求头问题介绍
 
 ![image](https://user-images.githubusercontent.com/86733666/194452924-1334eb1f-f468-4b89-aa76-97bf8900fc33.png)
 
@@ -39,7 +42,7 @@ CDN 侧配置
 
 ayao: https://www.ayao.ltd
 
-是我的个人主页
+是我的个人主页 想让知道这个负责人的网站
 
 china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for . It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
 
@@ -51,21 +54,21 @@ jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有�
 
 
 
-是项目介绍
+是项目介绍 介绍了这个项目的具体原因。
 
 contact: admin@eebbk.top
 
-是管理员邮箱
+是管理员邮箱 任何问题可以发邮件。
 
 static-resources: https://www.zzko.cn
 
-是静态域名专属标示
+是静态域名专属域名
 
 server: ayao
 
 copyright: ayao
 
-都是标示
+维护人标示
 
 ![image](https://user-images.githubusercontent.com/86733666/194453609-37f68ed7-2347-4078-b951-f9eafe7326c5.png)
 
