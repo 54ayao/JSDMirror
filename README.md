@@ -27,6 +27,11 @@ CDN 侧配置
 
 整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存
 
+被攻击日志
+
+![image](https://user-images.githubusercontent.com/86733666/194457040-e599e47d-acbf-454f-b405-e12304e762d2.png)
+
+
 ![image](https://user-images.githubusercontent.com/86733666/194452924-1334eb1f-f468-4b89-aa76-97bf8900fc33.png)
 
 在请求头中
@@ -36,10 +41,14 @@ ayao: https://www.ayao.ltd
 是我的个人主页
 
 china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for . It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
+
 大体意思就是说
 jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有效的ICP申请许可，使用Tencent Cloud CDN提供国内加速服务，我相信您可以看到这句话。 我希望您不要攻击网站，个人网站维护资金有限，良好的互联网氛围与每个人的共同努力都不分开。
 
-google机翻
+（google机翻）
+
+不要去CC我 目前没有过多限制请求 每秒单ip是500Qps 我也相信不会触碰到某些人利益吧。。。公益行为 我也希望灰黑产业的大佬别搞我哇随便引用我也要进去喝茶的哇，
+
 
 是项目介绍
 
@@ -61,7 +70,6 @@ copyright: ayao
 
 速度测试
 还是不错的
-我也希望灰黑产业别搞完，也不想开启 Referer 防盗链啊
 
 当然我还有一些镜像站
 www.googles.ltd （谷歌二级全站）
