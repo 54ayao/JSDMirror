@@ -3,6 +3,7 @@ Chinajsdelivr 项目是2021年与jsdelivr备案号掉的时候上线
 那时候使用了jsd.eagleyao.com 
 
 2022-09-26 新域名备案下来
+全面在cdn 侧完成了301
 
 现在使用了jsd.cdn.zzko.cn
 
