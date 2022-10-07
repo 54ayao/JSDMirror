@@ -5,6 +5,12 @@ Chinajsdelivr 项目是2021年与jsdelivr备案号掉的时候上线
 2022-09-26 新域名备案下来
 
 现在使用了jsd.cdn.zzko.cn
+访问301转200了 cdn源进行跳转完成之后，在用户这边不进行跳转直接进行展示 也就是伪200  可能导致有一定误解
+直接替换就行了
+比如说
+https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
+直接改成
+https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 换域名主要是com年年涨价，也受到美元汇率影响导致注册商涨价 也想短点好
 
