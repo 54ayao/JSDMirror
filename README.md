@@ -1,6 +1,6 @@
-Chinajsdelivr 项目是2021年与jsdelivr掉备案号的时候上线
+Chinajsdelivr 项目是2021年与jsdelivr备案号掉的时候上线
 
-使用了jsd.eagleyao.com 
+那时候使用了jsd.eagleyao.com 
 
 2022-09-26 新域名备案下来
 
@@ -15,7 +15,7 @@ CDN 侧配置
 
 ![image](https://user-images.githubusercontent.com/86733666/194452743-5af3b216-ac40-4bd5-bd56-6453814b11b6.png)
 
-不要闲着去查源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。
+不要闲着去攻击源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。
 
 有缓存的情况下
 
@@ -27,7 +27,7 @@ CDN 侧配置
 
 整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存
 
-被攻击日志
+官方展示的被攻击日志 
 
 ![image](https://user-images.githubusercontent.com/86733666/194457040-e599e47d-acbf-454f-b405-e12304e762d2.png)
 
@@ -47,7 +47,7 @@ jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有�
 
 （google机翻）
 
-不要去CC我 目前没有过多限制请求 每秒单ip是500Qps 我也相信不会触碰到某些人利益吧。。。公益行为 我也希望灰黑产业的大佬别搞我哇随便引用我也要进去喝茶的哇，
+
 
 
 是项目介绍
@@ -71,8 +71,6 @@ copyright: ayao
 速度测试
 还是不错的
 
-当然我还有一些镜像站
-www.googles.ltd （谷歌二级全站）
-www.pixiv.work  （pixiv二级全站）
-等等
+
+不要去CC我 目前没有过多限制请求 每秒单ip是500Qps 我也相信不会触碰到某些人利益吧。。。公益行为 我也希望灰黑产业的大佬别搞我哇随便引用我也要进去喝茶的哇，
 
