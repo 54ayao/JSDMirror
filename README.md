@@ -1,10 +1,15 @@
 Chinajsdelivr 项目是2021年与jsdelivr掉备案号的时候上线
 
-使用了jsd.eagleyao.com
+使用了jsd.eagleyao.com 
+
+2022-09-26 新域名备案下来
 
 现在使用了jsd.cdn.zzko.cn
 
-<P>目前测试3.0加速 使用 SNI 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置
+换域名主要是com年年涨价，也受到美元汇率影响导致注册商涨价 也想短点好
+
+
+目前使用3.0加速 使用 SNI 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置
 
 CDN 侧配置
 
@@ -30,7 +35,11 @@ ayao: https://www.ayao.ltd
 
 是我的个人主页
 
-china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for China. It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
+china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for . It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
+大体意思就是说
+jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有效的ICP申请许可，使用Tencent Cloud CDN提供国内加速服务，我相信您可以看到这句话。 我希望您不要攻击网站，个人网站维护资金有限，良好的互联网氛围与每个人的共同努力都不分开。
+
+google机翻
 
 是项目介绍
 
@@ -53,3 +62,8 @@ copyright: ayao
 速度测试
 还是不错的
 我也希望灰黑产业别搞完，也不想开启 Referer 防盗链啊
+
+当然我还有一些镜像站
+www.googles.ltd （谷歌二级全站）
+www.pixiv.work（pixiv二级全站）
+等等
