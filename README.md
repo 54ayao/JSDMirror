@@ -65,5 +65,5 @@ copyright: ayao
 
 当然我还有一些镜像站
 www.googles.ltd （谷歌二级全站）
-www.pixiv.work（pixiv二级全站）
+www.pixiv.work  （pixiv二级全站）
 等等
