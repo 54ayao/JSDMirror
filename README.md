@@ -125,5 +125,13 @@ copyright: ayao
 <td align="center">-</td>
   <td align="center">无</td>
 </tr>
+  <tr>
+<td align="center">3</td>
+<td align="center">Azure国内 世纪互联</td>
+<td align="center">2022/10-09-长期</td>
+<td align="center">CDN</td>
+<td align="center">-</td>
+  <td align="center">无</td>
+</tr>
 </tbody>
 </table></div></div>
