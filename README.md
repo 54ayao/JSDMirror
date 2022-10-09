@@ -114,9 +114,16 @@ copyright: ayao
 <td align="center">腾讯云</td>
 <td align="center">2021/12-长期</td>
 <td align="center">源站和CDN</td>
-<td align="center">3000+</td>
+<td align="center">-</td>
   <td align="center">无</td>
 </tr>
-
+<tr>
+<td align="center">2</td>
+<td align="center">合肥市小桂子网络科技有限公司</td>
+<td align="center">2022/10-09-长期</td>
+<td align="center">CDN</td>
+<td align="center">-</td>
+  <td align="center">无</td>
+</tr>
 </tbody>
 </table></div></div>
