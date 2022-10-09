@@ -100,7 +100,7 @@ copyright: ayao
   
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png" alt="1665327123523.png" title="1665327123523.png" />
 
-  ### 赞助列表
+  ### 赞助列表（每周更新一次）
   
 <div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
 <thead>
