@@ -91,7 +91,7 @@ copyright: ayao
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png" width="200" height="55" >
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png"></a>
-<img src="https://www.vnet.com/home/images/logo.png">
+![1665326304908.png](https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png)
 ### 感谢以下实质性加速赞助
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
