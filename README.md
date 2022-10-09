@@ -7,7 +7,7 @@
 一直到 2022-09-26 jsd.cdn.zzko.cn 新域名备案下来 Version 2.0  使用了三台香港LH加1孟买配合加速
 
 由于访问cdn.jsdelivr.net会301跳www.jsdelivr.com 同理jsd.cdn.zzko.cn也会301跳www.jsdelivr.com  我设置了访问301转200了 cdn源在用户这边不进行跳转直接进行展示 也就是伪200 
-![image](https://user-images.githubusercontent.com/86733666/194760732-5c91dd9a-70c9-4ec5-874a-c844732009c7.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653260106342dbbab13a9.png" alt="1665326012497.png" title="1665326012497.png" />
 比如说
 https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
 直接改成
@@ -21,7 +21,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 CDN 侧配置
 
-![image](https://user-images.githubusercontent.com/86733666/194452743-5af3b216-ac40-4bd5-bd56-6453814b11b6.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653260436342dbdb8abe0.png" alt="1665326043195.png" title="1665326043195.png" />
 
 不要闲着去攻击源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。后期可能加上）
 
@@ -29,21 +29,21 @@ www.itdog.cn  测试情况
 
 有缓存的情况下
 
-![image](https://user-images.githubusercontent.com/86733666/194452812-bff30e13-ac87-4d6e-8b88-fb599a28bc11.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653260606342dbec8e69e.png" alt="1665326059211.png" title="1665326059211.png" />
 
 关闭缓存的情况下
 
-![image](https://user-images.githubusercontent.com/86733666/194452840-76775bb3-e7c9-4db6-86a6-d67e98c6fa4a.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653260926342dc0ccde32.png" alt="1665326091621.png" title="1665326091621.png" />
 
 整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存
 
 官方给我展示的被攻击日志 
 
-![image](https://user-images.githubusercontent.com/86733666/194457040-e599e47d-acbf-454f-b405-e12304e762d2.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653261236342dc2b2c306.png" alt="1665326120396.png" title="1665326120396.png" />
 
 一些请求头问题介绍
 
-![image](https://user-images.githubusercontent.com/86733666/194452924-1334eb1f-f468-4b89-aa76-97bf8900fc33.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653261766342dc607dbe7.png" alt="1665326175535.png" title="1665326175535.png" />
 
 在请求头中
 
@@ -77,7 +77,7 @@ copyright: ayao
 
 维护人标示
 
-![image](https://user-images.githubusercontent.com/86733666/194453609-37f68ed7-2347-4078-b951-f9eafe7326c5.png)
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653262046342dc7c1034f.png" alt="1665326203448.png" title="1665326203448.png" />
 
 速度测试
 还是不错的
@@ -88,12 +88,12 @@ copyright: ayao
 
 ## 项目支持
 ### 我们使用的服务
-<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
-<a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194761263-fe1522ce-3933-4a8b-bc52-09e4fad482e9.png" width="230" height="50"></a>
+<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
+<a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png" width="200" height="55" >
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png"></a>
 
 ### 感谢以下实质性加速赞助
-<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
+<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
 
 
