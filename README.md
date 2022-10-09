@@ -93,7 +93,7 @@ copyright: ayao
 
 ### 感谢以下实质性加速赞助
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
-<a href="https://www.xgzwlkjltd.com/" id="Qcloud" target="_blank"><img src="https://www.xgzwlkjltd.com/wp-content/uploads/2022/05/xgzwlkjltdlogo-1-150x150.png"></a>
+<a href="https://www.xgzwlkjltd.com/" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
 
 
 ### 赞助详情情况
