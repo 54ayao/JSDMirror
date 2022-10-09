@@ -1,12 +1,13 @@
-Chinajsdelivr 项目是2021年与jsdelivr备案号掉的时候上线
+# 项目介绍
+## 前言
+#### jsdelivr 项目是2021年12月20日下午因为一些原因jsdelivr已经失去了国内的IPC备案那么导致了 网宿关闭了jsdelivr的 的国内加速 然后切换了 Fastly 在jsDelivr被吊销ICP许可证四个月后的4月28日开始被DNS污染，导致国内访问解析更加困难 和我的ayaoblog.com的一样情况 都是被污染了 ，我是被动了 我是因为yaoblog.COM被污染导致我连坐，现在jsdelivr的情况好不少，但是没有国内节点还是有点慢....
+### 项目概述
+在2021年12月21晚上上线的 jsd.eagleyao.com Version 1.0 使用了三台香港LH配合加速
 
-那时候使用了jsd.eagleyao.com 
+一直到 2022-09-26 jsd.cdn.zzko.cn 新域名备案下来 Version 2.0  使用了三台香港LH加1孟买配合加速
 
-2022-09-26 新域名备案下来
-
-现在使用了jsd.cdn.zzko.cn
-访问301转200了 cdn源进行跳转完成之后，在用户这边不进行跳转直接进行展示 也就是伪200  可能导致有一定误解
-直接替换就行了
+由于访问cdn.jsdelivr.net会301跳www.jsdelivr.com 同理jsd.cdn.zzko.cn也会301跳www.jsdelivr.com  我设置了访问301转200了 cdn源在用户这边不进行跳转直接进行展示 也就是伪200 
+![image](https://user-images.githubusercontent.com/86733666/194760732-5c91dd9a-70c9-4ec5-874a-c844732009c7.png)
 比如说
 https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
 直接改成
@@ -22,9 +23,9 @@ CDN 侧配置
 
 ![image](https://user-images.githubusercontent.com/86733666/194452743-5af3b216-ac40-4bd5-bd56-6453814b11b6.png)
 
-不要闲着去攻击源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。
+不要闲着去攻击源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。后期可能加上）
 
-itdog.cn  测试情况
+www.itdog.cn  测试情况
 
 有缓存的情况下
 
@@ -83,5 +84,27 @@ copyright: ayao
 
 
 不要去CC我 目前没有过多限制请求 每秒单ip是500Qps 我也相信不会触碰到某些人利益吧。。。公益行为 我也希望灰黑产业的大佬别搞我把静态资源随便引用到自己违法违规站点！，就相当于我为违法违规站提供服务，您搞违法的事情，就不要带上我了谢谢，大家都是中国人，中国人别为难中国人，谢谢
+
+
+## 项目支持
+### 我们使用的服务
+<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
+腾讯云提供源站和CDN加速
+<a href="https://www.azure.cn" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194761263-fe1522ce-3933-4a8b-bc52-09e4fad482e9.png" width="230" height="50"></a>
+世纪互联提供和CDN加速
+
+### 赞助
+<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
+源站
+
+<a href="https://www.xgzwlkjltd.com/" id="Qcloud" target="_blank"><img src="https://www.xgzwlkjltd.com/wp-content/uploads/2022/05/xgzwlkjltdlogo-1-150x150.png"></a>
+
+
+
+
+1| 2  | 3  |
+| ------------ | ------------ |
+|   |   |
+|   |   |
 
 
