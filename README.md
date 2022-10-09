@@ -90,11 +90,11 @@ copyright: ayao
 ### 我们使用的服务
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194761263-fe1522ce-3933-4a8b-bc52-09e4fad482e9.png" width="230" height="50"></a>
-<a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png" width="200" height="80"></a>
+<a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png"></a>
 
 ### 感谢以下实质性加速赞助
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194760853-f5e77e56-92aa-4d2f-9c1e-3a1e61c124bc.png" width="200" height="55"></a>
-<a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png" width="200" height="80"></a>
+<a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
 
 
 ### 赞助详情情况
