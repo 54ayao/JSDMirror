@@ -100,6 +100,7 @@ copyright: ayao
 ### 微信赞赏码
   
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png" alt="1665327123523.png" title="1665327123523.png" />
+  PS：为了让项目长期运行 可以选择赞助哦(((((非常感谢 
 
   ### 赞助列表（每周更新一次）
   
