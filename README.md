@@ -124,7 +124,7 @@ copyright: ayao
 <tbody>
 <tr>
 <td align="center">1</td>
-<td align="center"><a title="腾讯云" href="https://qclou.com">腾讯云</a></td>
+<td align="center"><a title="腾讯云" href="https://qcloud.com">腾讯云</a></td>
 <td align="center">2021/12-长期</td>
 <td align="center">源站和CDN</td>
 <td align="center">-</td>
