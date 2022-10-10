@@ -17,7 +17,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 
 目前使用Version 3.5加速 使用 SNI +hosts 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置，欢迎大家来使用
-2022/10/10 优化海外  平均速度 0.269秒内打开 考虑到世纪互联的CDN不支持ipv6那么只有腾讯云开ipv6 那么就会导致纯ipv6的用户无法正常访问，目前下架ipv6的访问 如果可以大佬可以爬下来ip设置好合理的线路给我 我用的DNSPod企业版的CNAME （
+2022/10/10 优化海外  平均速度 0.269秒内打开 考虑到世纪互联的CDN不支持ipv6那么只有腾讯云开ipv6 那么就会导致纯ipv6的用户无法正常访问，目前下架ipv6的访问，唯一的解决办法就是爬下所有jsd.cdn.zzko.cn.mcchcdn.com的ipv4 和腾讯云ipv6混合 如果可以大佬可以爬下来ip设置好合理的线路给我 我用的DNSPod企业版的CNAME （那么也会出现在赞助列表特别鸣谢
 
 
 
@@ -94,7 +94,7 @@ copyright: ayao
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png"></a>
   
-### 加速节点赞助
+### 特别鸣谢
   
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
