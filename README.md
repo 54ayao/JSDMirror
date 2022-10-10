@@ -124,27 +124,27 @@ copyright: ayao
 <tbody>
 <tr>
 <td align="center">1</td>
-<td align="center">腾讯云</td>
+<td align="center"><a title="腾讯云" href="https://qclou.com">腾讯云</a></td>
 <td align="center">2021/12-长期</td>
 <td align="center">源站和CDN</td>
 <td align="center">-</td>
-  <td align="center">无</td>
+  <td align="center">腾讯云 - 产业智变 云启未来</td>
 </tr>
 <tr>
 <td align="center">2</td>
-<td align="center">合肥市小桂子网络科技有限公司</td>
+<td align="center"><a title="小桂子" href="https://www.xgzwlkjltd.com/">合肥市小桂子网络科技有限公司</a></td>
 <td align="center">2022/10-09-长期</td>
 <td align="center">CDN</td>
 <td align="center">-</td>
-  <td align="center">无</td>
+  <td align="center">小桂子</td>
 </tr>
   <tr>
 <td align="center">3</td>
-<td align="center">Azure国内 世纪互联</td>
+<td align="center"><a title="世纪互联" href="https://www.azure.cn">世纪互联</a></td>
 <td align="center">2022/10-09-长期</td>
 <td align="center">CDN</td>
 <td align="center">-</td>
-  <td align="center">无</td>
+  <td align="center">Azure 云计算–安全可信的智能云服务平台</td>
 </tr>
 </tbody>
 </table></div></div>
