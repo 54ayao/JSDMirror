@@ -1,3 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <script src="https://cos.ayao.ltd/static/js/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Access Denied</title>
+  <script>
+  function $l(o){
+    return navigator.language.indexOf('zh-')==0?o[0]:o[1];
+  }
+  function $t(o){
+    document.write($l(o));
+  }
+  function $rayId(){
+    var ret='';
+    while(ret.length<16){
+      ret+=Math.floor(Math.random()*36).toString(36);
+    }
+    document.write(ret);
+  }
+
+  var langs={
+    title: [
+      ' jsdelivr镜像站 ',
+      ' Jsdelivr mirror station'
+    ],
+  };
+  </script>
+
+
+
 # 项目介绍
 ## 前言
 #### jsdelivr 项目是2021年12月20日下午因为一些原因jsdelivr已经失去了国内的IPC备案那么导致了 网宿关闭了jsdelivr的 的国内加速 然后切换了 Fastly 在jsDelivr被吊销ICP许可证四个月后的4月28日开始被DNS污染，导致国内访问解析更加困难，现在jsdelivr的情况好不少，但是没有国内节点还是有点慢....
@@ -19,10 +55,11 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 2022年09月26日使用Version 3.0加速 使用 SNI +hosts 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置，欢迎大家来使用
 2022年10月10日 使用Version 3.5加速  优化海外  平均速度 0.269秒内打开 考虑到世纪互联的CDN不支持ipv6那么只有腾讯云开ipv6 那么就会导致纯ipv6的用户无法正常访问，目前下架ipv6的访问，
 
-2022年10月17日 发现cdn.jsdelivr.net 保留了cloudflare导致无法正常回源 现已移除 筛选了 美国，巴西，日本，香港，Anycast的fastly节点 全部都是HTTP2 协议 一共30个fastly节点 速度提升了一点点，但不多，主要是为了海外的稳定性cloudflare在不支持我的这个代理方式加速，可能导致502错误，这个是缺少请求头导致的fastly不会强行验证 也就更新到 Version 4.0加速 
+2022年10月17日 发现cdn.jsdelivr.net 保留了cloudflare导致无法正常回源 现已移除 筛选了 美国，巴西，日本，香港，Anycast的fastly节点 全部都是HTTP2 协议 一共30个fastly节点 速度提升了一点点，但不多，主要是为了海外的稳定性cloudflare在不支持我的这个代理方式加速，可能导致502错误，这个是缺少请求头导致的fastly不会强行验证 也就更新到 Version 4.0加速
+自选fastly
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014139634d5bbb8287a.png" alt="1666014135652.png" title="1666014135652.png" />
 
-![Uploading image.png…]()
+CDN侧设置
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
 
 加速架构
