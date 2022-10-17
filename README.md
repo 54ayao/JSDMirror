@@ -1,42 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <script src="https://cos.ayao.ltd/static/js/jquery.min.js"></script>
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>Access Denied</title>
-  <script>
-  function $l(o){
-    return navigator.language.indexOf('zh-')==0?o[0]:o[1];
-  }
-  function $t(o){
-    document.write($l(o));
-  }
-  function $rayId(){
-    var ret='';
-    while(ret.length<16){
-      ret+=Math.floor(Math.random()*36).toString(36);
-    }
-    document.write(ret);
-  }
-
-  var langs={
-    title: [
-      ' jsdelivr镜像站 ',
-      ' Jsdelivr mirror station'
-    ],
-  };
-  </script>
-
-
 
 # 项目介绍
 ## 前言
 #### jsdelivr 项目是2021年12月20日下午因为一些原因jsdelivr已经失去了国内的IPC备案那么导致了 网宿关闭了jsdelivr的 的国内加速 然后切换了 Fastly 在jsDelivr被吊销ICP许可证四个月后的4月28日开始被DNS污染，导致国内访问解析更加困难，现在jsdelivr的情况好不少，但是没有国内节点还是有点慢....
+
+## jsdelivr国内测试
+www.itgog.cn  测试
+
+<img src="https://image.zzko.cn/images/1/2022/10/17/1666015238634d6006005c2.png" alt="1666015234788.png" title="1666015234788.png" />
+
+效果非常不理想 
+
+单ip测试
+
+<img src="https://image.zzko.cn/images/1/2022/10/17/1666015315634d6053e22f7.png" alt="1666015312225.png" title="1666015312225.png" />
+
+自选的时候测试
+
+<img src="https://image.zzko.cn/images/1/2022/10/17/1666015195634d5fdb7cfa6.png" alt="1666015193365.png" title="1666015193365.png" /> 
+
+情况也是如此
+
+我的源都在海外所以是只要他可以链接的上就可以 某一些jsdelivr节点挂了也没啥问题 我们有智能的流量调度系统会进行健康检查 会主动临时屏蔽有些ip出现的50x 错误 无法访问 等非正常状态码
+那么为什么还有优化？
+答案很简单 Fastly 节点越多，对于我的源站来说 可以用的结果也大 更加可以分段回源
+
 ### 项目概述
 在2021年12月21晚上上线的 jsd.eagleyao.com Version 1.0 使用了三台香港LH配合加速
 
