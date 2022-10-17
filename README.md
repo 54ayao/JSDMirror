@@ -22,9 +22,15 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 2022年10月17日 发现cdn.jsdelivr.net 保留了cloudflare导致无法正常回源 现已移除 筛选了 美国，巴西，日本，香港，Anycast的fastly节点 全部都是HTTP2 协议 一共30个fastly节点 速度提升了一点点，但不多，主要是为了海外的稳定性cloudflare在不支持我的这个代理方式加速，可能导致502错误，这个是缺少请求头导致的fastly不会强行验证 也就更新到 Version 4.0加速 
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014139634d5bbb8287a.png" alt="1666014135652.png" title="1666014135652.png" />
 
+![Uploading image.png…]()
+<img src="https://image.zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
 
+加速架构
+用户--CDN---我源站---Fastly
+   
+   CDN后发送的域名一律是cdn.jsdelivr.net 世纪互联的融合CDN也是这个策略配置
 
-不要闲着去攻击源 不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。后期可能加上）
+不要闲着去攻击不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 100Mpbs 以上的的 IP。。。。
 
 www.itdog.cn  测试情况
 
