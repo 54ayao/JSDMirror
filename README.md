@@ -4,7 +4,7 @@
 ### 项目概述
 在2021年12月21晚上上线的 jsd.eagleyao.com Version 1.0 使用了三台香港LH配合加速
 
-一直到 2022-09-26 jsd.cdn.zzko.cn 新域名备案下来 Version 2.0  使用了三台香港LH加1孟买配合加速
+一直到 2022-09-26新域名备案下来切换  jsd.cdn.zzko.cn  Version 2.0  使用了三台香港LH加1孟买配合加速
 
 由于访问cdn.jsdelivr.net会301跳www.jsdelivr.com 同理jsd.cdn.zzko.cn也会301跳www.jsdelivr.com  我设置了访问301转200了 cdn源在用户这边不进行跳转直接进行展示 也就是伪200 
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653260106342dbbab13a9.png" alt="1665326012497.png" title="1665326012497.png" />
@@ -16,11 +16,11 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 换域名主要是com年年涨价，也受到美元汇率影响导致注册商涨价 也想短点好
 
 
-目前使用Version 3.5加速 使用 SNI +hosts 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置，欢迎大家来使用
-2022/10/10 优化海外  平均速度 0.269秒内打开 考虑到世纪互联的CDN不支持ipv6那么只有腾讯云开ipv6 那么就会导致纯ipv6的用户无法正常访问，目前下架ipv6的访问，
+2022年09月26日使用Version 3.0加速 使用 SNI +hosts 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置，欢迎大家来使用
+2022年10月10日 使用Version 3.5加速  优化海外  平均速度 0.269秒内打开 考虑到世纪互联的CDN不支持ipv6那么只有腾讯云开ipv6 那么就会导致纯ipv6的用户无法正常访问，目前下架ipv6的访问，
 
-2022年10月17日 发现cdn.jsdelivr.net 保留了cloudflare导致无法正常回源 现已移除 筛选了 美国，巴西，日本，香港，Anycast的fastly节点 全部都是HTTP2 协议 一共30个fastly节点 速度提升了一点点，但不多，主要是为了海外的稳定性cloudflare在不支持我的这个代理方式加速，可能导致502错误，这个是缺少请求头导致的fastly不会强行验证
-
+2022年10月17日 发现cdn.jsdelivr.net 保留了cloudflare导致无法正常回源 现已移除 筛选了 美国，巴西，日本，香港，Anycast的fastly节点 全部都是HTTP2 协议 一共30个fastly节点 速度提升了一点点，但不多，主要是为了海外的稳定性cloudflare在不支持我的这个代理方式加速，可能导致502错误，这个是缺少请求头导致的fastly不会强行验证 也就更新到 Version 4.0加速 
+<img src="https://image.zzko.cn/images/1/2022/10/17/1666014139634d5bbb8287a.png" alt="1666014135652.png" title="1666014135652.png" />
 
 
 
