@@ -70,6 +70,10 @@ www.itdog.cn  测试情况
 
 就目前来说，DNS分配和用户有较远物理差距，排期优化中
 
+
+请勿攻击刷取镜像站
+我们由防火墙AI策略综合源站异常响应情况和网站历史访问数据，智能决策生成防御策略，实时拦截高频访问请求，封禁攻击源2小时 刷取可能导致您被防火墙封禁1-2小时
+
 官方给我展示的被攻击日志 
 
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653261236342dc2b2c306.png" alt="1665326120396.png" title="1665326120396.png" />
@@ -82,7 +86,7 @@ www.itdog.cn  测试情况
 
 ayao: https://www.ayao.ltd
 
-是我的个人主页 想让知道这个负责人的网站
+是我的个人主页 想让知道这个负责人的网站 
 
 china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for . It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN or (Microsoft Azure CDN)to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
 
@@ -125,13 +129,13 @@ copyright: ayao
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png"></a>
-  
+<a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg"></a>
 ### 特别鸣谢
   
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
 <a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
-<a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://www.vnet.com/home/images/logo.png"></a>
+<a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg"></a>
 
 ### 微信赞赏码
   
