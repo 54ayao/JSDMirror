@@ -29,7 +29,7 @@ www.itgog.cn  测试
 
 一直到 2022-09-26新域名备案下来切换  jsd.cdn.zzko.cn  Version 2.0  使用了三台香港LH加1孟买配合加速
 
-由于访问cdn.jsdelivr.net会301跳www.jsdelivr.com 同理jsd.cdn.zzko.cn也会301跳www.jsdelivr.com jsdelivr官方设置的啦 与我无瓜
+
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653260106342dbbab13a9.png" alt="1665326012497.png" title="1665326012497.png" />
 比如说
 https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
