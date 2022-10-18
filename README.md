@@ -59,7 +59,7 @@ CDN侧设置
 
 不要闲着去攻击不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 200Mpbs 以上的的 IP。。。。
 
-<img src="https://image.zzko.cn/images/1/2022/10/18/1666096740634e9e64dc403.png" alt="1666096738384.png" title="1666096738384.png" />
+
 测试情况
 
 www.itdog.cn  测试情况
