@@ -91,12 +91,13 @@ www.itdog.cn  测试情况
 
 DoH Dot Doq Dot:腾讯云
 
+不推荐 114
+
 ### 境外
 
-公共DNS: Google ，CloudFlare
+公共DNS: Google ，CloudFlare  ,Microsoft Amazon
 
-不建议使用
-114
+不建议使用:opendns PS:动不动拦截镜像站说欺诈
 
 境内用户使用境外DNS会被分到境外节点 可能影响使用体验 
 建议参考这里设置对您合适的DNS 获取最佳体验
@@ -223,4 +224,5 @@ copyright: ayao
 
   
   
+
 
