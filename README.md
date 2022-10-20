@@ -20,7 +20,13 @@ www.itgog.cn  测试
 
 情况也是如此
 
-我的源都在海外所以是只要他可以链接的上就可以 某一些jsdelivr节点挂了也没啥问题 我们有智能的流量调度系统会进行健康检查 会主动临时屏蔽有些ip出现的50x 错误 无法访问 等非正常状态码
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653260106342dbbab13a9.png" alt="1665326012497.png" title="1665326012497.png" />
+比如说
+https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
+直接改成
+https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
+
+我的源都在海外目前只有中国香港所以说只要他可以链接的上就可以 某一些jsdelivr节点挂了也没啥问题 我们有智能的流量调度系统会进行健康检查 会主动临时屏蔽有些ip出现的50x 错误 无法访问 等非正常状态码
 那么为什么还有优化？
 答案很简单 Fastly 节点越多，对于我的源站来说 可以用的结果也大 更加可以分段回源
 
@@ -29,15 +35,10 @@ www.itgog.cn  测试
 
 一直到 2022-09-26新域名备案下来切换  jsd.cdn.zzko.cn  Version 1.0  使用了三台香港LH加1孟买配合加速
 
-一直到 2022-09-26上午  Version 2.0  直接使用fastly回源导致http2 经过是源站拒绝连接fastly的回国相关不好
+一直到 2022-09-26上午  Version 2.0  直接使用fastly回源导致http2 经过排查是源站拒绝连接fastly的回国相关不好
 
-<img src="https://image.zzko.cn/images/1/2022/10/09/16653260106342dbbab13a9.png" alt="1665326012497.png" title="1665326012497.png" />
-比如说
-https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
-直接改成
-https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
-换域名主要是com年年涨价，也受到美元汇率影响导致注册商涨价 也想短点好
+换域名主要是com年年涨价，也受到美元汇率影响导致注册商涨价 也想短点好 甜甜圈注册局也要涨价 直接35变160.... 
 
 
 2022年09月26日下午使用Version 3.0加速 使用 SNI +hosts 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置，欢迎大家来使用
@@ -120,8 +121,8 @@ copyright: ayao
 
 不要去CC我 目前没有过多限制请求 每秒单ip是500Qps 我也相信不会触碰到某些人利益吧。。。公益行为 我也希望灰黑产业的大佬别搞我把静态资源随便引用到自己违法违规站点！，就相当于我为违法违规站提供服务，您搞违法的事情，就不要带上我了谢谢，大家都是中国人，中国人别为难中国人，谢谢
 
-
-当然可以把该项目使用blog等领域 无需友情链接哦
+最近发现了很多Blog主，使用或者是写文章 在这里感谢各个Blog主的认可与支持
+当然可以把该项目合法合规的网站， 无需友情链接哦
 
 
 ## 项目支持
@@ -162,7 +163,7 @@ copyright: ayao
 <td align="center">2021/12-长期</td>
 <td align="center">源站和CDN</td>
 <td align="center">-</td>
-  <td align="center">腾讯云 - 产业智变 云启未来</td>
+  <td align="center">-</td>
 </tr>
 <tr>
 <td align="center">2</td>
@@ -170,7 +171,7 @@ copyright: ayao
 <td align="center">2022/10-09-长期</td>
 <td align="center">CDN</td>
 <td align="center">-</td>
-  <td align="center">小桂子</td>
+  <td align="center">-</td>
 </tr>
   <tr>
 <td align="center">3</td>
@@ -178,7 +179,7 @@ copyright: ayao
 <td align="center">2022/10-09-长期</td>
 <td align="center">CDN</td>
 <td align="center">-</td>
-  <td align="center">Azure 云计算–安全可信的智能云服务平台</td>
+  <td align="center">-</td>
 </tr>
 </tbody>
 </table></div></div>
