@@ -175,7 +175,7 @@ copyright: ayao
      <td align="center">2</td>
 <td align="center">DCDN</td>
 <td align="center">2021/12-长期</td>
-<td align="center">提供JSD香港源</td>
+<td align="center">提供JSD回源线路</td>
 <td align="center">-</td>
   <td align="center">地址暂不公开</td>
 </tr>
