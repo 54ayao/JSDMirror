@@ -73,7 +73,9 @@ www.itdog.cn  测试情况
 
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653260926342dc0ccde32.png" alt="1665326091621.png" title="1665326091621.png" />
 
-整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存 还得到了极大提升 在3.5版本中 直接全绿
+整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存 还得到了极大提升 
+
+在3.5版本中 直接全绿
 ![image](https://user-images.githubusercontent.com/86733666/196892699-08ff55bb-a007-48c6-8cfc-4ccf4c6b7bc3.png)
 
 
