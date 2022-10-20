@@ -84,16 +84,19 @@ www.itdog.cn  测试情况
 ### 境内
 此外建议使用运营商的DNS可以细分到省
 
-公共DNS建议使用腾讯云，阿里云，百度云,华为云DNS
+公共DNS:腾讯云，阿里云，百度云,华为云DNS
 
-专业DNS 腾讯云
+专业DNS:腾讯云，阿里云
+
+DoH Dot Doq Dot:腾讯云
 
 ### 境外
 
-Google ，cloudflare
+公共DNS: Google ，CloudFlare
 
 境内用户使用境外DNS会被分到境外节点 可能影响使用体验 
 建议参考这里设置对您合适的DNS 获取最佳体验
+
 https://dnsdaquan.com/
 
 
