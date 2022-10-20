@@ -99,9 +99,9 @@ jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有�
 
 是项目介绍 介绍了这个项目的具体原因。
 
-contact: admin@eebbk.top
+GitHub: https://github.com/54ayao/Chinajsdelivr/
 
-是管理员邮箱 任何问题可以发邮件。
+项目地址
 
 static-resources: https://www.zzko.cn
 
