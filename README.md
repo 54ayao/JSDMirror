@@ -229,7 +229,7 @@ copyright: ayao
 
 <td align="center">2022/10/25-2023/10/25</td>
 
-<td align="center">vm虚拟机</td>
+<td align="center">虚拟机/CDN</td>
 
 <td align="center">-</td>
 
