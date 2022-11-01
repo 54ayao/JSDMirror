@@ -49,7 +49,11 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 2022年10月20日 对于世纪互联的CDN的ipv6进行了支持 百度CDN，金山CDN，腾讯云CDN 都支持ipv6 后期排期增加阿里云CDN节点 目前海外网宿CDN暂不支持IPV6
 
-
+2022年10月1日，收到腾讯cdn的调整公告。由于 HTTPS的请求因为证书握手等机制对机器产生较高的成本，为了保持CDN经营的可持续发展，持续为客户提供更优质的服务，需收取一定费用降低运营成本。
+当您的域名配置了证书且使用HTTPS请求服务，且HTTPS请求数每月超出300万次，则会产生HTTPS费用。
+所以将在2023年1月1日暂停腾讯的接入
+2023年起只保留，金山，百度，网宿，阿里 cdn
+如其他cdn产品产品缩紧的话依然会对其暂停使用
 
 CDN侧设置
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
@@ -243,4 +247,7 @@ copyright: ayao
   
   
 
+by:ayao
+home:https://www.ayao.ltd
+blog:https://blog.ayao.ltd
 
