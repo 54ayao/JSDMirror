@@ -168,7 +168,7 @@ copyright: ayao
   
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.xgzwlkjltd.com/" id="xgzwlkjltd" target="_blank"><img src="https://user-images.githubusercontent.com/86733666/194762270-887fc7e3-db41-40d7-b13c-46dde45534ec.png"></a>
-<a href="https://www.azure.cn" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
+<a href="https://www.azure.com" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
 
 ### 微信赞赏码
@@ -220,6 +220,21 @@ copyright: ayao
 <td align="center">CDN</td>
 <td align="center">-</td>
   <td align="center">-</td>
+     </tr>
+   <tr>
+
+<td align="center">5</td>
+
+<td align="center"><a title="azure" href="https://www.azure.cn">azure</a></td>
+
+<td align="center">2022/10/25-2023/10/25</td>
+
+<td align="center">vm虚拟机</td>
+
+<td align="center">-</td>
+
+  <td align="center">学生计划</td>
+
      </tr>
 
 </tbody>
