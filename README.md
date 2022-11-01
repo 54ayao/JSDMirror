@@ -79,6 +79,9 @@ www.itdog.cn  测试情况
 在4.0版本中 直接全绿
 ![image](https://user-images.githubusercontent.com/86733666/196892699-08ff55bb-a007-48c6-8cfc-4ccf4c6b7bc3.png)
 
+关于最近大量的香港地区回国产生较高延迟测 
+近期 尝试将部分流量灰度转移到azure 国际站号上的jp和日本节点
+
 我们将持续优化中国境内外访问速度
 
 ## 使用DNS的建议
