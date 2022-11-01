@@ -221,6 +221,22 @@ copyright: ayao
   <td align="center">-</td>
 </tr>
 
+  <tr>
+<td align="center">4</td>
+<td align="center"><a title="世纪互联" href="https://www.azure.cn">世纪互联</a></td>
+<td align="center">2022/10-09-长期</td>
+<td align="center">CDN</td>
+<td align="center">-</td>
+  <td align="center">-</td>
+     </tr>
+   <tr>
+<td align="center">5</td>
+<td align="center"><a title="azure" href="https://www.azure.cn">azure</a></td>
+<td align="center">2022/10/25-2023/10/25</td>
+<td align="center">虚拟机/CDN</td>
+<td align="center">-</td>
+  <td align="center">学生计划</td>
+     </tr>
 </tbody>
 </table></div></div>
 
@@ -228,6 +244,8 @@ copyright: ayao
   
 
 by:ayao
+
 home:https://www.ayao.ltd
+
 blog:https://blog.ayao.ltd
 
