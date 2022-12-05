@@ -219,8 +219,8 @@ copyright: ayao
 
 如果赞助需要满足其中条件可以开共享
 1.服务器宽带不得低于50mpbs 以最高的为准确，
-2.境内cdn需支持ipv6，且节点不低于20个 宽带要在100mpbs以上
-3.海外cdn 节点需要 包括海外主流机房，美国，香港，新加坡，日本，无需ipv6
+2.境内cdn需支持ipv6，且节点不低于20个 宽带要在100mpbs以上，需要有一定防御，并且可以关闭waf
+3.海外cdn 节点需要 包括海外主流机房，美国，香港，新加坡，日本，无需ipv6 需要有一定防御，并且可以关闭waf
 满足以上条件可以进赞助列表和特别鸣谢
 
 ## 项目支持
@@ -284,7 +284,7 @@ copyright: ayao
      </tr>
        <tr>
 <td align="center">4</td>
-<td align="center"><a title="azure" href="https://cloud.baidu.com">香港轻量</a></td>
+<td align="center"><a title="azure" href="https://cloud.baidu.com">百度云</a></td>
 <td align="center">2022/12/03-2023/02/03</td>
 <td align="center">服务器</td>
 <td align="center">-</td>
