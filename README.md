@@ -105,6 +105,8 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 2022年12月5日，腾讯云cdn v8架构官方已确认问题，正在优化调度问题，目前可能将继续使用腾讯云cdn
 
+2022年12月6日，官方已经全面优化完成
+
 CDN侧设置
 <img src="https://zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
 
@@ -178,10 +180,10 @@ ayao: https://www.ayao.ltd
 
 是我的个人主页 想让知道这个负责人的网站 
 
-china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for . It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN or Microsoft Azure CDN  or Baidu Cloud CDN  or wangsu Cloud  or jinshan Cloud CDN to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
+china-jsdelivr: The jsdelivr mirror station is a public CDN acceleration plan for . It has an effective ICP filing application permit issued by the Chinese government, use Tencent Cloud CDN to provide domestic accelerated services  I believe you can see this sentence. I hope you don't attack the website, personal website maintenance funds are limited The good Internet atmosphere is inseparable from everyones joint efforts.
 
 大体意思就是说
-jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有效的ICP申请许可，使用腾讯云全球内容分发系统 或者世纪互联全球内容分发系统或者 网宿云全球内容分发系统或者金山云全球内容分发系统   or Microsoft Azure CDN  提供国内加速服务，我相信您可以看到这句话。 我希望您不要攻击网站，个人网站维护资金有限，良好的互联网氛围与每个人的共同努力都不分开。
+jsdelivr镜像是的公共CDN加速计划。 它具有中国政府颁发的有效的ICP申请许可，使用腾讯云全球内容分发系统提供国内加速服务，我相信您可以看到这句话。 我希望您不要攻击网站，个人网站维护资金有限，良好的互联网氛围与每个人的共同努力都不分开。
 
 （google机翻）
 
@@ -219,9 +221,13 @@ copyright: ayao
 后期会把使用用户贴上去 请不要随便删除Referer请求头谢谢，嘿嘿
 
 如果赞助需要满足其中条件可以开共享
+
 1.服务器宽带不得低于50mpbs 以最高的为准确，
+
 2.境内cdn需支持ipv6，且节点不低于20个 宽带要在100mpbs以上，需要有一定防御，并且可以关闭waf
+
 3.海外cdn 节点需要 包括海外主流机房，美国，香港，新加坡，日本，无需ipv6 需要有一定防御，并且可以关闭waf
+
 满足以上条件可以进赞助列表和特别鸣谢
 
 ## 项目支持
@@ -463,6 +469,17 @@ copyright: ayao
 
 最近发现了很多Blog主，使用或者是写文章 在这里感谢各个Blog主的认可与支持
 当然可以把该项目合法合规的网站， 无需友情链接哦
+
+12月6日 
+中国电信开始墙github了，跳转到国内反炸页面
+推荐使用dnspod专业版解析的host功能 20.205.243.166指定的官方节点上
+
+中国联通 小部分解析到127.0.0.1
+建议也是使用dnspod专业版
+
+中国移动，由于移动比较特殊，我是墙了IP，那种办法都不可以
+推荐使用
+https://kgithub.com
 
 
 ## 项目支持
