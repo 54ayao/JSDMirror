@@ -291,9 +291,6 @@ https://kgithub.com
 <th align="center">序号</th>
 <th align="center">网站名/网站</th>
 <th align="center">站长</th>
-<th align="center">序号</th>
-<th align="center">网站名/网站</th>
-<th align="center">站长</th>
 </tr>
 </thead>
 <tbody>
@@ -301,10 +298,12 @@ https://kgithub.com
 <td align="center">1</td>
 <td align="center"><a title="FatDong" href="https://md7.top">学技术，永不止步</a></td>
 <td align="center">MrDeng</td>
+</tr>
+<tr>
 <td align="center">2</td>
 <td align="center"><a title="勿埋我心" href="https://www.skyqian.com/">勿埋我心</a></td>
 <td align="center">勿埋我心</td>
-
+</tr>
 
    
 </tbody>
