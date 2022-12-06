@@ -230,14 +230,14 @@ https://kgithub.com
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="200" height="48"></a>
+<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="250" height="30"></a>
 
 ### 特别鸣谢
   
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="200" height="45"></a>
+<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="250" height="30"></a>
 
 ### 微信赞赏码
   
@@ -282,14 +282,7 @@ https://kgithub.com
 <td align="center">vm/CDN</td>
 <td align="center">-</td>
   <td align="center">学生计划</td>
-     </tr> <tr>
-<td align="center">3</td>
-<td align="center"><a title="azure" href="https://www.azure.com">azure</a></td>
-<td align="center">2022/10/25-2023/10/25</td>
-<td align="center">vm/CDN</td>
-<td align="center">-</td>
-  <td align="center">学生计划</td>
-     </tr>
+     </tr> 
  <tr>
 <td align="center">4</td>
 <td align="center"><a title="百度云" href="https://cloud.baidu.com">百度智能云</a></td>
