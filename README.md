@@ -110,7 +110,7 @@ CDN侧设置
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
 
 加速架构
-用户--CDN---我源站---Fastly--cdn.jsdelivr.net 源站
+用户--CDN---我源站---Fastly--fastly.jsdelivr.net 源站
    
    CDN后发送的域名一律是fastly.jsdelivr.net 世纪互联的融合CDN也是这个策略配置
 
