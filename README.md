@@ -101,14 +101,18 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 2022年12月4日 增加100m 香港cn2 Cloudinnovation 百度云机房
 目前节点 腾讯云香港62 香港cn2 1 azure HK2 共计65源站
 
-2022年12月4日，注意到大部分节点被腾讯调度到广西正在和官方进一步沟通确认
+2022年12月4日，注意到大部分节点被腾讯调度到广西正在和官方进一步沟通确认,官方已修复
+
+2022年12月17日
+小部分用户反馈访问github某js出现了腾讯007验证，并且无法过验证
+目前已经更换为 fastly.jsdelivr.net回源方式不在使用cdn.jsdelivr.net，海外不受影响
 CDN侧设置
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
 
 加速架构
 用户--CDN---我源站---Fastly--cdn.jsdelivr.net 源站
    
-   CDN后发送的域名一律是cdn.jsdelivr.net 世纪互联的融合CDN也是这个策略配置
+   CDN后发送的域名一律是fastly.jsdelivr.net 世纪互联的融合CDN也是这个策略配置
 
 不要闲着去攻击不然我真的会栓 Q 的 还有好几个是 30Mpbs 的服务器 宽带太小没有加 这些都是在 200Mpbs 以上的的 IP。。。。
 
