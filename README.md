@@ -105,7 +105,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 2022年12月17日
 小部分用户反馈访问github某js出现了腾讯007验证，并且无法过验证
-目前已经更换为 fastly.jsdelivr.net回源方式不在使用cdn.jsdelivr.net，海外不受影响
+目前已经更换为 fastly.jsdelivr.net现阶段回源方式不在使用cdn.jsdelivr.net，海外不受影响
 CDN侧设置
 <img src="https://image.zzko.cn/images/1/2022/10/17/1666014350634d5c8ead678.png" alt="1666014348071.png" title="1666014348071.png" />
 
