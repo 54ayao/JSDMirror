@@ -246,6 +246,16 @@ https://kgithub.com
 ### 微信赞赏码
   
 <img src="https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png?wx" alt="1665327123523.png" title="1665327123523.png" />
+   
+   ###  QQpay
+   202835956
+   
+   ###PayPal 
+   还没想好用户名
+   
+   ### alipay 支付宝
+   发送到:admin@eebbk.top
+   
 
   ### 赞助列表（每周更新一次）
   
