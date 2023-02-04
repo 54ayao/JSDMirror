@@ -388,7 +388,7 @@ https://kgithub.com
 </tr>
 <tr>
 <td align="center">13</td>
-<td align="center"><a title="LX Music" href="(https://masuit.com/)">懒得勤快
+<td align="center"><a title="LX Music" href="https://masuit.com/">懒得勤快
 </a></td>
 <td align="center">懒得勤快</td>
 </tr>
