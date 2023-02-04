@@ -329,8 +329,60 @@ https://kgithub.com
 <td align="center"><a title="勿埋我心" href="https://www.skyqian.com/">勿埋我心</a></td>
 <td align="center">勿埋我心</td>
 </tr>
+<tr>
+<td align="center">3</td>
+<td align="center"><a title="舒夏博客" href="https://blog.sxbai.com/">舒夏博客
+</a></td>
+<td align="center">舒夏</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"><a title="LX Music" href="https://docs.lxmusic.folltoshe.com/">LX Music
+</a></td>
+<td align="center">LX Music</td>
+</tr>
+   <tr>
+<td align="center">5</td>
+<td align="center"><a title="LX Music" href="https://www.gzza.com/">正安在线
+</a></td>
+<td align="center">正安在线</td>
+</tr>
+   <tr>
+<td align="center">6</td>
+<td align="center"><a title="LX Music" href="https://xaoxuu.com/">xaoxuu
+</a></td>
+<td align="center">xaoxuu</td>
+</tr>
+   <tr>
+<td align="center">7</td>
+<td align="center"><a title="LX Music" href="https://picx.xpoet.cn/#/upload">picx
+</a></td>
+<td align="center">xpoet</td>
+</tr>
+   <tr>
+<td align="center">8</td>
+<td align="center"><a title="LX Music" href="https://biuling.top/">鸟酱的咖啡馆
+</a></td>
+<td align="center">Ling Chen</td>
+</tr>
+<td align="center">9</td>
+<td align="center"><a title="LX Music" href="https://www.rmoe.top/">柳铃
+</a></td>
+<td align="center">柳铃</td>
+</tr>
+</tr>
+<td align="center">10</td>
+<td align="center"><a title="LX Music" href="https://blog.mocn.top/">莫莫
+</a></td>
+<td align="center">莫莫</td>
+</tr>
+<td align="center">11</td>
+<td align="center"><a title="LX Music" href="https://blog.itleaf.xyz/">fl0w1nd‘s blog
+</a></td>
+<td align="center">fl0w1nd‘s</td>
+</tr>
 
-   
+
 </tbody>
 </table></div></div>
 
