@@ -63,45 +63,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 那么为什么还有优化？
 答案很简单 Fastly 节点越多，对于我的源站来说 可以用的结果也大 更加可以分段回源
 
-### 项目概述
-在2021年12月21晚上上线的 jsd.eagleyao.com Version 1.0 使用了三台香港LH配合加速
 
-一直到 2022-09-26新域名备案下来切换  jsd.cdn.zzko.cn  Version 1.0  使用了三台香港LH加1孟买配合加速
-一直到 2022-09-26上午  Version 2.0  直接使用fastly回源导致http2 经过排查是源站拒绝连接fastly的回国相关不好
-换域名主要是com年年涨价，也受到美元汇率影响导致注册商涨价 也想短点好 甜甜圈注册局也要涨价 直接35变160.... 
-即便是我续费了十年 但是 从长远目的来看，还是使用cn 
-
-# 维护日志
-2022年09月26日下午使用Version 3.0加速 使用 SNI +hosts 方式加速 (已实现) 2022 年 10 月 6 日 目前全面升级完成 哈哈 使用了腾讯云香港 32 个 ip 以后会更多的 所有域名都所有了这个配置，欢迎大家来使用
-
-2022年10月10日下午 使用Version 3.5加速  优化海外  平均速度 0.269秒内打开 考虑到世纪互联的CDN不支持ipv6那么只有腾讯云开ipv6 那么就会导致纯ipv6的用户无法正常访问，目前下架ipv6的访问，
-
-2022年10月17日 发现cdn.jsdelivr.net 保留了cloudflare导致无法正常回源 现已移除 筛选了 美国，巴西，日本，香港，Anycast的fastly节点 全部都是HTTP2 协议 一共30个fastly节点 速度提升了一点点，但不多，主要是为了海外的稳定性cloudflare在不支持我的这个代理方式加速，可能导致502错误，这个是缺少请求头导致的fastly不会强行验证 也就更新到 Version 4.0加速
-
-2022年10月20日 对于世纪互联的CDN的ipv6进行了支持 百度CDN，金山CDN，腾讯云CDN 都支持ipv6 后期排期增加阿里云CDN节点 目前海外网宿CDN暂不支持IPV6
-
-2022年10月30日 百度智能云对该网站进行优化，已修复504报错，其原因强新验证ssl改为忽略
-
-2022年11月1日，收到腾讯cdn的调整公告。由于 HTTPS的请求因为证书握手等机制对机器产生较高的成本，为了保持CDN经营的可持续发展，持续为客户提供更优质的服务，需收取一定费用降低运营成本。
-当您的域名配置了证书且使用HTTPS请求服务，且HTTPS请求数每月超出300万次，则会产生HTTPS费用。
-所以将在2023年1月1日暂停腾讯的接入
-
-2022年11月2日 尝试增加白山云cdn，维护期间业务有30分钟不可用，我们进一步缩小影响结果
-检测会同步，为避免进一步造成影响 utc+8 的凌晨是维护时间。
-
-2022年11月3日 增加azure 俩香港IP， 来减少其他运营商的网络波动导致的不可用。
-
-2023年起可能只保留，金山，百度，网宿，白山 cdn
-如其他cdn产品产品缩紧的话依然会对其暂停使用 除非腾讯愿意改回去，不过不太可能
-
-2022年11月15日 感谢部分用户的反馈，海外证书显示错误，经过排查，系统没同步过去现已修复，已经修复海外证书错误问题，azure HongKong地区 结束灰度测试，已经上线，并且增加了28个香港腾讯云 当前源站G口拥有62个 其中腾讯云61个 azure 2个 
-
-2022年11月31日 目前只保留腾讯云cdn 海外由azure加速
-
-2022年12月4日 增加100m 香港cn2 Cloudinnovation 百度云机房
-目前节点 腾讯云香港62 香港cn2 1 azure HK2 共计65源站
-
-2022年12月4日，注意到大部分节点被腾讯调度到广西正在和官方进一步沟通确认,官方已修复
 
 2022年12月17日
 小部分用户反馈访问github某js出现了腾讯007验证，并且无法过验证
@@ -216,16 +178,11 @@ copyright: ayao
 最近发现了很多Blog主，使用或者是写文章 在这里感谢各个Blog主的认可与支持
 当然可以把该项目合法合规的网站， 无需友情链接哦
 
-12月6日 
-中国电信开始墙github了，跳转到国内反炸页面
-推荐使用dnspod专业版解析的host功能 20.205.243.166指定的官方节点上
 
-中国联通 小部分解析到127.0.0.1
-建议也是使用dnspod专业版
+访问github 推荐使用
+https://kgithub.com tan90哥的
 
-中国移动，由于移动比较特殊，我是墙了IP，那种办法都不可以
-推荐使用
-https://kgithub.com
+
 
 
 ## 项目支持
@@ -234,14 +191,12 @@ https://kgithub.com
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="150" height="70"></a>
 
 ### 特别鸣谢
   
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="150" height="70"></a>
 
 ### 微信赞赏码
   
@@ -402,6 +357,7 @@ https://kgithub.com
 <td align="center">懒得勤快</td>
 </tr>
    
+
 <tr>
 <td align="center">14</td>
 <td align="center"><a title="14" href="https://klpbbs.com/">苦力怕MC论坛
@@ -436,7 +392,39 @@ https://kgithub.com
 </a></td>
 <td align="center">blmcpia</td>
 </tr>
+     <tr>
+<td align="center">19</td>
+<td align="center"><a title="Liynw" href="https://blog.liynw.top/">Liynwの 博客儿
+</a></td>
+<td align="center">liynw</td>
+</tr>
    
+   <tr>
+<td align="center">20</td>
+<td align="center"><a title="akilar" href="https://akilar.top/">akilarの 博客
+</a></td>
+<td align="center">akilar</td>
+</tr>
+   
+      <tr>
+<td align="center">21</td>
+<td align="center"><a title="akilar" href="https://trackerslist.com/#/zh">XIU2/TrackersListCollection
+</a></td>
+<td align="center">TrackersListCollection</td>
+</tr>
+        
+   <tr>
+<td align="center">22</td>
+<td align="center"><a title="akilar" href="https://cqlkc.top/">cqlkc的博客
+</a></td>
+<td align="center">cqlkC</td>
+</tr>  
+   
+   <tr>
+<td align="center">23</td>
+<td align="center"><a title="akilar" href="https://www.j8.market/">J8.Market
+</a></td>
+<td align="center">Mr.Deng</td>
  
   </tr> 
 </tbody>
@@ -446,8 +434,12 @@ https://kgithub.com
 
 只是为了预留个位置。
 涉嫌灰黑产的话请发mail，不受理大流量下载。长时间占用下载等等这些没事。我的政策已经够宽了。只求不要违规，我也在这里面强调了很多次。否则到头来和github还有jsdelivr下场一样
+
+
  我在强调一遍 禁止违规！！！
- 机场！！！我他妈说的就是你 别逼我我告诉你啊 好几个机场你用nm的国内加速 看不懂中文？ 还是说你不是中国人看不明白？ 你要是说自己不是中国人 麻烦交250退出一下中国国籍 你加入哪里我不管你，但是中国人看不懂中文我就要骂你了哈  第一次在2023-02-01 要求整改完毕 但是没在github更新 我希望在2023-02-10日完成整改
+ 
+ 
+ 机场！！！我他妈说的就是你 别逼我我告诉你啊 好几个机场你用nm的国内加速,你是不是没m 看不懂中文？ 还是说你不是中国人看不明白？ 你要是说自己不是中国人 麻烦交250退出一下中国国籍 你加入哪里我不管你，但是你现在是中国人看不懂中文我就要骂你了哈  我第一次在2023-02-01 要求整改完毕 但是没在github更新就算了 我希望在2023-02-10日完成整改，
  
 主题:jsd镜像站举报 
 收件人:202835956@qq.com
