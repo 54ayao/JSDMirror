@@ -96,10 +96,7 @@ https://dnsdaquan.com/
 > server: ayao</br>
 copyright: ayao
 
-维护人标示
-[速度测试](https://image.zzko.cn/images/1/2022/10/09/16653262046342dc7c1034f.png" alt="1665326203448.png)
-
-速度测试，还是不错的
+维护人标识
 
 不要去CC我 目前没有过多限制请求 （每秒单ip是500Qps  一分钟 1000QPS 单ip）超过1000拉黑呗，什么网站可以让用户每分钟超过1000Qps每分钟的请求？ 这个简单粗暴，但已缓存的资源不影响你，只是被系统暂时停止获取新的资源了，我也相信不会触碰到某些人利益吧。。。公益行为，本来就艰难... 我也希望灰黑产业的大佬别搞我把静态资源随便引用到自己违法违规站点！就相当于我为违法违规站提供服务，您搞违法的事情，就不要带上我了谢谢，大家都是中国人，中国人别为难中国人，谢谢，我不想成为下一个jsDelivr！！！！CDN侧会保存访问日志，但源站不保留任何人的访问日志！
 
@@ -134,20 +131,14 @@ copyright: ayao
 <a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="150" height="70"></a>
 
 ### 微信赞赏码
-![微信赞赏码](https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png)
-   
+<img src="https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png?wx" alt="1665327123523.png" title="1665327123523.png" />
 ### QQpay
 202835956
-
 ### PayPal 
 还没想好用户名
-
 ### AliPay 支付宝
 发送到:admin@eebbk.top
-   
-
-  ### 赞助列表（每周更新一次）
-  
+### 赞助列表（每周更新一次）
 <div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
 <thead>
 <tr>
