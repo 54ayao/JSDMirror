@@ -134,7 +134,7 @@ copyright: ayao
 <a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="150" height="70"></a>
 
 ### 微信赞赏码
-!(微信赞赏码)[https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png]
+![微信赞赏码](https://image.zzko.cn/images/1/2022/10/09/16653271146342e00ac2a46.png)
    
 ### QQpay
 202835956
