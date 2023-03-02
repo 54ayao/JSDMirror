@@ -123,11 +123,11 @@ https://dnsdaquan.com/
 
 ### 我们使用的服务
 
-<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
-<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
+<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
+<a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="Azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="Azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://wangsu.com" id="ws" target="_blank"><img src="https://static-wcs.wangsu.com/portalnav/2x-logo/console_ws_134x22.svg" width="80" height="50"></a>
+<a href="https://wangsu.com" id="ws" target="_blank"><img src="https://static-wcs.wangsu.com/portalnav/2x-logo/console_ws_134x22.svg"></a>
 
 ### 特别鸣谢
 
