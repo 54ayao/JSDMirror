@@ -127,7 +127,7 @@ https://dnsdaquan.com/
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="Azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="Azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://wangsu.com" id="ws" target="_blank"><img src="https://static-wcs.wangsu.com/portalnav/2x-logo/console_ws_134x22.svg"></a>
+<a href="https://www.wangsu.com" id="ws" target="_blank"><img src="https://static-wcs.wangsu.com/portalnav/2x-logo/console_ws_134x22.svg"></a>
 
 ### 特别鸣谢
 
@@ -195,9 +195,9 @@ https://dnsdaquan.com/
 
 <tr>
 <td align="center">4</td>
-<td align="center"><a title="百度云" href="https://cloud.baidu.com">百度智能云</a></td>
-<td align="center">2022/12/04-2023/04/04</td>
-<td align="center">香港轻量</td>
+<td align="center"><a title="网宿" href="https://www.wangsu.com">网宿</a></td>
+<td align="center">-</td>
+<td align="center">cdn</td>
 <td align="center">-</td>
 <td align="center">-</td>
 </tr>
