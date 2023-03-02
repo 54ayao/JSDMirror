@@ -57,11 +57,11 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 在 4.0 版本中 直接全绿
 ![4.0版本全绿](https://user-images.githubusercontent.com/86733666/196892699-08ff55bb-a007-48c6-8cfc-4ccf4c6b7bc3.png)
 
-最近大量香港流量回国，产生较高延迟，近期尝试将部分流量灰度转移至 Azure 国际站的日本节点。
+最近大量香港流量回国，产生较高延迟，近期尝试将增加Azure 国际站的香港节点。
 
 我们将持续优化中国境内外访问速度。
 
-目前只使用了腾讯云。
+目前只使用了腾讯云和网宿cdn。
 
 在此声明，良好的运营环境离不开大家的共同努力，不做要求是为了让大家更好的体验，也不存在需要授权许可这一说法，想的是为了你们能更快的上线业务，只希望大家合理使用，遵守相关法律法规。
 
@@ -127,8 +127,7 @@ https://dnsdaquan.com/
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653275066342e1929d4fb.png" width="200" height="55"></a>
 <a href="https://www.azure.com" id="Azure" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653263096342dce5c65e8.png">
 <a href="https://www1.hi.cn" id="Azure" target="_blank"><img src="https://www1.hi.cn/img/logo.svg" width="80" height="50"></a>
-<a href="https://cloud.baidu.com" id="baiduyun" target="_blank"><img src="https://img0.baidu.com/it/u=1257923269,2743772747&fm=253&fmt=auto&app=138&f=JPEG" width="150" height="70"></a>
-
+<a href="https://www.wangsu.com" target="_blank" class="ccas_logo" style="width: 134px;"><span style="background-image: url(&quot;https://static-wcs.wangsu.com/portalnav/2x-logo/console_ws_134x22.svg&quot;);"></span></a>
 ### 特别鸣谢
 
 <a href="https://cloud.tencent.com" id="Qcloud" target="_blank"><img src="https://image.zzko.cn/images/1/2022/10/09/16653262306342dc96dd067.png" width="200" height="55"></a>
