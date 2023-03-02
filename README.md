@@ -2,8 +2,7 @@
 关于访问https://jsd.cdn.zzko.cn/ 被重定向到了 也只是为了让大家更好的了解项目 不会去劫持用户托管的
 ![1677794457200](https://user-images.githubusercontent.com/86733666/222568451-c08a305c-03eb-424e-a17c-0973d888e1fb.png)
 本身原理 就是 https://cdn.jsdelivr.net/ 会30x到 https://www.jsdelivr.com/ 
-但是腾讯云的实在不会30x跳转 无语了
-
+说白了就是让浏览器首页跳转到这里 
 ## 前言
 
 #### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
