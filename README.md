@@ -2,6 +2,13 @@
 关于访问https://jsd.cdn.zzko.cn/ 被重定向到了 也只是为了让大家更好的了解项目 不会去劫持用户托管的
 ![1677794457200](https://user-images.githubusercontent.com/86733666/222568451-c08a305c-03eb-424e-a17c-0973d888e1fb.png)
 本身原理 就是 https://cdn.jsdelivr.net/ 会30x到 https://www.jsdelivr.com/ 
+
+不过鉴于 gayhub 在境内打开概率
+
+
+可能重定向到  https://ochobtxuip.cloudpages.cn
+
+
 说白了就是让浏览器首页跳转到这里 
 ## 前言
 
