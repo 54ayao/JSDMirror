@@ -1,3 +1,10 @@
+温馨提示；目前是特殊期间
+为了防止对其使用gayhub传播 不当言论造成危害 可能会临时下架境内节点 重定向到
+https://cdn.jsdelivr.ren/ 进行加速 
+3月中旬恢复
+
+
+
 # 项目介绍
 关于访问https://jsd.cdn.zzko.cn/ 被重定向到了 也只是为了让大家更好的了解项目 不会去劫持用户托管的
 ![1677794457200](https://user-images.githubusercontent.com/86733666/222568451-c08a305c-03eb-424e-a17c-0973d888e1fb.png)
