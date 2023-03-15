@@ -1,22 +1,12 @@
-温馨提示；目前是特殊期间
+温馨提示；
+主力节点 https://jsd.cdn.zzko.cn/     （2023年3月15日之前黑名单用户已经全部解封，新一次的涉及多个融合加速，封禁可能不太及时）
+备用节点 https://cdn.jsdelivr.ren/   （考虑备案排期  cdn.jsdelivr.ren如果备案可能会加大监管力度 依然不会做出任何限制）
 
-为了防止对其使用gayhub传播 不当言行为 照成危害 可能会临时下架境内节点 重定向到
-https://cdn.jsdelivr.ren/ 进行加速 3月中旬恢复
 
 
 
 # 项目介绍
-关于访问https://jsd.cdn.zzko.cn/ 被重定向到了 也只是为了让大家更好的了解项目 不会去劫持用户托管的
-![1677794457200](https://user-images.githubusercontent.com/86733666/222568451-c08a305c-03eb-424e-a17c-0973d888e1fb.png)
-本身原理 就是 https://cdn.jsdelivr.net/ 会30x到 https://www.jsdelivr.com/ 
 
-不过鉴于 gayhub 在境内打开概率
-
-
-可能重定向到  https://ochobtxuip.cloudpages.cn
-
-
-说白了就是让浏览器首页跳转到这里 
 ## 前言
 
 #### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
