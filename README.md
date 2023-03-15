@@ -1,4 +1,4 @@
-温馨提示；
+## 温馨提示；
 主力节点 https://jsd.cdn.zzko.cn/     （2023年3月15日之前黑名单用户已经全部解封，希望大家遵守法律法规，谢谢）
 
 备用节点 https://cdn.jsdelivr.ren/ 
@@ -8,6 +8,17 @@
 
 [字数过多，请点击查看。](SLA.md)
 抄的腾讯和百度作业 有问题反馈
+
+## Tips;
+Main node https://jsd.cdn.zzko.cn/ (All blacklisted users have been unblocked before March 15, 2023, I hope you will abide by laws and regulations, thank you)
+
+Standby node https://cdn.jsdelivr.ren/ 
+
+To be honest, I've thought more than once that /gh redirects to official or third-party sites because I don't restrict any behavior, and then 90 percent of the CDN referer heads are -- maybe some sites other than illegal sites see hope
+In the sent domain name There is an airport There is an H station What strange people have, the devil who does not send knows what, opened the referer mirror site page will also 403 Also chatted with a small number of users Suggestions from others Give /gh Jump to a non-filing domain name, but /gh There are still some excellent sites, how to say it, I also expressed more surprise, and these Chinese who can't understand Chinese are speechless, can't understand Chinese I also plan to go to Chinese and English, Everyone actually knows that jsdelivr officially canceled the filing for what reason is not some people on GayHub, to be honest, you illegal site, can you not come to ex third-party public welfare site Do you think the CDN background can't see? Do you think we don't receive official warnings about illegal resources? I just don't have the time and energy to manage, everyone is an adult, there are direct things, not that I have to stare at him every day, how to say, I plan to communicate with the official later, can I come up with a content identification for the CDN level, increase the intensity of cracking down on violations, and ensure normal operation, so I plan to add an SLA 
+
+[Too many words, click to view.] ](SLA-en.md)
+Copy Tencent and Baidu homework There is problem feedback
 
 # 项目介绍
 
@@ -75,3 +86,74 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 目前只使用了腾讯云和网宿cdn还有天翼云
 
 更多信息见 https://cp.zzko.cn
+
+
+
+
+
+# Project Introduction
+
+## Preface
+
+#### On the afternoon of December 20, 2021, jsDelivr lost its domestic ICP filing for some reasons, which caused Netsu to shut down its domestic acceleration, and then jsDelivr switched CDN to Fastly.
+
+#### jsDelivr began to be contaminated with DNS four months after the ICP was revoked (April 28), making domestic resolution access more difficult.
+
+#### Now the situation of jsDelivr is much better, but it is still a bit slow without domestic nodes.
+
+## How to use
+
+Modify the original domain name to "jsd.cdn.zzko.cn", as follows:
+
+Original link:
+
+https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
+
+After modification:
+
+https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
+
+## Project overview
+
+The project went live on December 21, 2021
+
+## Maintain logs
+
+[Too many words, click to view.] ](LOG.md)
+
+## Speed measurement situation
+
+### [ITDOG] (https://itdog.cn/) Speed measurement situation
+
+#### Naked jsDelivr
+
+Open directly
+! [Naked] (https://zzko.cn/images/1/2022/10/17/1666015238634d6006005c2.png)
+Single IP test
+! [Naked Single IP1] (https://zzko.cn/images/1/2022/10/17/1666015315634d6053e22f7.png)
+! [Naked Single IP2] (https://zzko.cn/images/1/2022/10/17/1666015195634d5fdb7cfa6.png)
+The opening effect is very unsatisfactory.
+
+#### ChinajsDelivr
+
+Use ChinajsDelivr
+! [Using ChinajsDelivr] (https://zzko.cn/images/1/2022/10/09/16653260106342dbbab13a9.png)
+In case there is a cache
+
+! [In case of cache] (https://image.zzko.cn/images/1/2022/10/09/16653260606342dbec8e69e.png)
+
+With caching turned off
+! [With caching turned off] (https://image.zzko.cn/images/1/2022/10/09/16653260926342dc0ccde32.png)
+
+Overall, there is no difference in performance, but considering that under normal circumstances, a certain amount of cache has been added, and it has been greatly improved
+
+In version 4.0 Direct All Green
+! [Version 4.0 Full Green] (https://user-images.githubusercontent.com/86733666/196892699-08ff55bb-a007-48c6-8cfc-4ccf4c6b7bc3.png)
+
+Recently, a large amount of Hong Kong traffic has returned to China, resulting in high latency, and recent attempts will increase the number of Hong Kong nodes of the Azure international site.
+
+We will continue to optimize the speed of access inside and outside China.
+
+At present, only Tencent Cloud and Netsu CDN and Tianyi Cloud are used
+
+See https://cp.zzko.cn for more information
