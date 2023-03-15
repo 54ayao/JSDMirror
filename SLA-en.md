@@ -155,7 +155,7 @@ Welcome to use this service! In order to use the services of the mirror server, 
  
 ## VI. [Others] 
 
-6.1 If you have comments or suggestions about this Agreement or the Services, you can contact our customer service department (kefu@eebbk.top) and we will give you necessary help. (End of text) 
+6.1 If you have comments or suggestions about this Agreement or the Services, you can contact our customer service department (ayao@eebbk.top) and we will give you necessary help. (End of text) 
 
 ## Feedback on the problem of copying the assignment
 
