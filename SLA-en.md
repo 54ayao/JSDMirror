@@ -6,7 +6,7 @@ Welcome to use this service! In order to use the services of the mirror server, 
 
 1.1 This Agreement is an agreement between the User and us regarding its use of the relevant services. "We" refers to the units or individuals that may operate related to its related services. "User" means the user of our Services, more commonly referred to as "you" in this Agreement.
  
-1.2 This service refers to the jsdelivr mirror site provided to users, including but not limited to jsd.eagleyao.com, jsd.cdn.zzko.cn, cdn.jsdelivr.reb and other domain names for services, the specific services are subject to the actual provision of the official website (hereinafter referred to as "this service"). Other than that, we don't own the domain name! If a domain name change occurs, please check the announcement on the official website in time to replace the new link
+1.2 This service refers to the jsdelivr mirror site provided to users, including but not limited to jsd.eagleyao.com, jsd.cdn.zzko.cn, cdn.jsdelivr.ren and other domain names for services, the specific services are subject to the actual provision of the official website (hereinafter referred to as "this service"). Other than that, we don't own the domain name! If a domain name change occurs, please check the announcement on the official website in time to replace the new link
  
 1.3 We are a neutral JSDELIVR mirror station service provider and provide you with various technical products and services according to the contract; Your website, application, software, platform and other products, services and related content shall be operated by yourself and bear all responsibilities.
  
