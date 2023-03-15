@@ -18,6 +18,7 @@ To be honest, I've thought more than once that /gh redirects to official or thir
 In the sent domain name There is an airport There is an H station What strange people have, the devil who does not send knows what, opened the referer mirror site page will also 403 Also chatted with a small number of users Suggestions from others Give /gh Jump to a non-filing domain name, but /gh There are still some excellent sites, how to say it, I also expressed more surprise, and these Chinese who can't understand Chinese are speechless, can't understand Chinese I also plan to go to Chinese and English, Everyone actually knows that jsdelivr officially canceled the filing for what reason is not some people on GayHub, to be honest, you illegal site, can you not come to ex third-party public welfare site Do you think the CDN background can't see? Do you think we don't receive official warnings about illegal resources? I just don't have the time and energy to manage, everyone is an adult, there are direct things, not that I have to stare at him every day, how to say, I plan to communicate with the official later, can I come up with a content identification for the CDN level, increase the intensity of cracking down on violations, and ensure normal operation, so I plan to add an SLA 
 
 [Too many words, click to view.] (SLA-en.md)
+
 Copy Tencent and Baidu homework There is problem feedback
 
 # 项目介绍
