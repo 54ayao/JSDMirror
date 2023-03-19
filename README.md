@@ -84,8 +84,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 目前只使用了腾讯云和网宿cdn还有天翼云
 
-更多信息见 https://cp.zzko.cn
-
+更多信息见 https://www.jsdelivr.ren/home
 
 
 
