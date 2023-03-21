@@ -1,8 +1,17 @@
-## 温馨提示；
+## 温馨提示
 主力节点 https://jsd.cdn.zzko.cn/     （2023年3月15日之前黑名单用户已经全部解封，希望大家遵守法律法规，谢谢）
 
 备用节点 https://cdn.jsdelivr.ren/ 
 
+
+## 反馈须知
+
+
+![image](https://user-images.githubusercontent.com/86733666/226504907-dbd006b5-c0b3-4cd6-9489-db767368ce2b.png)
+![image](https://user-images.githubusercontent.com/86733666/226505009-3830743a-8cb5-4358-84a9-61f456760743.png)
+
+其中CDN：xxxxx 代表你目前的cdn
+需要提供这些参数给我排除
 
 
 [SLA 字数过多，请点击查看。](SLA.md)
