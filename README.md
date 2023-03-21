@@ -4,8 +4,11 @@
 ![image](https://user-images.githubusercontent.com/86733666/226504907-dbd006b5-c0b3-4cd6-9489-db767368ce2b.png)
 ![image](https://user-images.githubusercontent.com/86733666/226505009-3830743a-8cb5-4358-84a9-61f456760743.png)
 
+
 其中CDN：xxxxx 代表你目前的cdn
-需要提供这些参数给我排查最近准备买流量啦
+后面id不同供应商不一样的 一实际为主 基本上都是xxxID
+需要提供这些参数给我排查
+官网也和上架通道，但是没有提示貌似
 
 ## 温馨提示
 主力节点 https://jsd.cdn.zzko.cn/     （2023年3月15日之前黑名单用户已经全部解封，希望大家遵守法律法规，谢谢）
