@@ -17,18 +17,11 @@
 
 
 [SLA 字数过多，请点击查看。](SLA.md)
-抄的腾讯和百度作业 有问题反馈
-
-## Tips;
-Main node https://jsd.cdn.zzko.cn/ (All blacklisted users have been unblocked before March 15, 2023, I hope you will abide by laws and regulations, thank you)
-
-Standby node https://cdn.jsdelivr.ren/ 
-
-
 
 [SLA Too many words, click to view](SLA-en.md)
+抄的腾讯和百度作业 有问题反馈
 
-Copy Tencent and Baidu homework There is problem feedback
+
 
 # 项目介绍
 
@@ -93,9 +86,9 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 
 我们将持续优化中国境内外访问速度。
 
-目前只使用了腾讯云和网宿cdn海外自建有ipv6
+目前只使用了腾讯云和网宿cdn  海外自建有ipv6
 
 
-更多信息见 https://www.jsdelivr.ren/home
+
 
 
