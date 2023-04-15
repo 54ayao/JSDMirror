@@ -67,7 +67,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 #### 裸连 jsDelivr
 
 直接打开
-![裸连](https://zzko.cn/images/1/2022/10/17/1666015238634d6006005c2.png)
+![裸连](
 单 IP 测试
 ![裸连单IP1](https://zzko.cn/images/1/2022/10/17/1666015315634d6053e22f7.png)
 ![裸连单IP2](https://zzko.cn/images/1/2022/10/17/1666015195634d5fdb7cfa6.png)
