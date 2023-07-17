@@ -11,15 +11,11 @@
 官网也和上架通道，但是没有提示貌似
 
 ## 温馨提示
-主力节点 https://jsd.cdn.zzko.cn/     （2023年3月15日之前黑名单用户已经全部解封，希望大家遵守法律法规，谢谢）
+主力节点 https://jsd.cdn.zzko.cn/     （2023年7月15日之前黑名单用户已经全部解封，希望大家遵守法律法规，谢谢）
 
-备用节点 https://cdn.jsdelivr.ren/ 
+备用节点 https://cdn.jsdelivr.us/  
 
 
-[SLA 字数过多，请点击查看。](SLA.md)
-
-[SLA Too many words, click to view](SLA-en.md)
-抄的腾讯和百度作业 有问题反馈
 
 
 
@@ -38,7 +34,7 @@
 
 ## 如何使用
 
-参考  
+参考下列首页   
 
 境内站 https://jsd.cdn.zzko.cn/  （全球加速海外Anycast/cloudflare.com和Anycast/腾讯云）默认显示中午 使用VPN或者是海外IP 或者是海外DNS 可能调度海外 显示英语
 
@@ -48,7 +44,6 @@
 
  其中 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国） 无限制
 
- 其中 https://cdn.jsdelivr.ren/  （海外加速海外Anycast/腾讯云 优化回国） 排期
  
 ## 项目概述
 
@@ -103,7 +98,7 @@ V5 目前只使用了腾讯云，计划
 
 5.github 项目不做任何屏蔽的目的是为了更好的用户体验，麻烦你们不要把我搞得像jsd一样被污染一段时间 
 
-6.如果触发防火墙，代表你IP一分钟已经超过800次，被防火墙的屏蔽被两个三小时之后再试，家庭用户可尝试重启路由器来获取新的IP。或者是保持正常访问。
+6.如果触发防火墙，代表你IP一分钟已经超过2000次，被防火墙的屏蔽被两个三小时之后再试，家庭用户可尝试重启路由器来获取新的IP。或者是保持正常访问。
 
 7.未经允许严禁使用回源其包括但不限于香港，新加坡，台湾，东南亚，孟买，美国，等 jsd.cdn.zzko.cn 以及cdn.jsdelivr.us 还有cdn.jsdelivr.ren 源站集群，
 
