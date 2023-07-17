@@ -1,8 +1,8 @@
 ## 反馈须知
 
 
-![image](https://user-images.githubusercontent.com/86733666/226504907-dbd006b5-c0b3-4cd6-9489-db767368ce2b.png)
-![image](https://user-images.githubusercontent.com/86733666/226505009-3830743a-8cb5-4358-84a9-61f456760743.png)
+![image](http://user-images.githubusercontent.com/86733666/226504907-dbd006b5-c0b3-4cd6-9489-db767368ce2b.png)
+![image](http://user-images.githubusercontent.com/86733666/226505009-3830743a-8cb5-4358-84a9-61f456760743.png)
 
 
 其中CDN：xxxxx 代表你目前的cdn
@@ -38,16 +38,18 @@
 
 ## 如何使用
 
-将原域名修改为“jsd.cdn.zzko.cn”，如下：
+参考  
 
-原链接：
+境内站 https://jsd.cdn.zzko.cn/  （全球加速海外Anycast/cloudflare.com和Anycast/腾讯云）默认显示中午 使用VPN或者是海外IP 或者是海外DNS 可能调度海外 显示英语
 
-https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/
+国际站 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国）默认显示英语 （机翻）
 
-修改后：
+其中 https://jsd.cdn.zzko.cn/  有使用限制 需要合法合规  我们会收到CDN供应商的反馈来封禁
 
-https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
+ 其中 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国） 无限制
 
+ 其中 https://cdn.jsdelivr.ren/  （海外加速海外Anycast/腾讯云 优化回国） 排期
+ 
 ## 项目概述
 
 本项目于 2021 年 12 月 21 上线
@@ -80,7 +82,7 @@ https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/
 整体来说性能无差异，但是考虑到正常情况下还是增加了一定缓存 还得到了极大提升
 
 在 4.0 版本中 直接全绿
-![4.0版本全绿](https://user-images.githubusercontent.com/86733666/196892699-08ff55bb-a007-48c6-8cfc-4ccf4c6b7bc3.png)
+![4.0版本全绿](http://user-images.githubusercontent.com/86733666/196892699-08ff55bb-a007-48c6-8cfc-4ccf4c6b7bc3.png)
 
 
 
@@ -91,17 +93,17 @@ V5 目前只使用了腾讯云，计划
 
 # 温馨提示
 
-1.不能有违规
+1.不能有违规 国际站除外
 
-2.不得应用到违规网站，尤其是灰黑产业，不符合工信部或者国家规定的项目
+2.不得应用到违规网站，尤其是灰黑产业，不符合工信部或者国家规定的项目 国际站除外
 
-3.项目支持下载，但不能下载违反国家法律法规，你要用就悄咪咪的用，别通过这个链接分享，不该我真的栓Q，
+3.项目支持下载，但不能下载违反国家法律法规，你要用就悄咪咪的用，别通过这个链接分享，不该我真的栓Q， 国际站除外
 
-4.未经许可不得再次反向代理该网站 或者反向代理我源站进行二次分发，使用 cos，oss进行回源回去文件的除外
+4.未经许可不得再次反向代理该网站 或者反向代理我源站进行二次分发，使用 cos，oss进行回源回去文件的除外 
 
-5.github 项目不做任何屏蔽的目的是为了更好的用户体验，麻烦你们不要把我搞得像jsd一样被污染一段时间
+5.github 项目不做任何屏蔽的目的是为了更好的用户体验，麻烦你们不要把我搞得像jsd一样被污染一段时间 
 
 6.如果触发防火墙，代表你IP一分钟已经超过800次，被防火墙的屏蔽被两个三小时之后再试，家庭用户可尝试重启路由器来获取新的IP。或者是保持正常访问。
 
-7.未经允许严禁使用回源其包括但不限于香港，新加坡，台湾，东南亚，孟买，美国，等 jsd.cdn.zzko.cn 源站集群，
+7.未经允许严禁使用回源其包括但不限于香港，新加坡，台湾，东南亚，孟买，美国，等 jsd.cdn.zzko.cn 以及cdn.jsdelivr.us 还有cdn.jsdelivr.ren 源站集群，
 
