@@ -13,7 +13,11 @@
 ## 温馨提示
 主力节点 https://jsd.cdn.zzko.cn/     （2023年7月15日之前黑名单用户已经全部解封，希望大家遵守法律法规，谢谢）
 
+
+
 备用节点 https://cdn.jsdelivr.us/  
+
+
 
 
 
@@ -36,13 +40,13 @@
 
 参考下列首页   
 
-境内站 https://jsd.cdn.zzko.cn/  （全球加速海外Anycast/cloudflare.com和Anycast/腾讯云）默认显示中文 使用VPN或者是海外IP 或者是海外DNS 可能调度海外 显示英语
+境内站 https://jsd.cdn.zzko.cn/  （全球加速 海外Anycast/cloudflare.com和Anycast/腾讯云）默认显示中文 使用VPN或者是海外IP 或者是海外DNS 可能调度海外 显示英语
 
 国际站 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国）默认显示英语 （机翻）
 
 其中 https://jsd.cdn.zzko.cn/  有使用限制 需要合法合规  我们会收到CDN供应商的反馈来封禁
 
- 其中 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国） 无限制
+其中 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国） 无限制
 
 ＃＃使用方法
 只需要把 
@@ -72,11 +76,17 @@ https://cdn.jsdelivr.us
 
 #### ChinajsDelivr
 
-使用 ChinajsDelivr
-![使用ChinajsDelivr](https://img.cuteapi.com/images/1/2022/10/09/16653260106342dbbab13a9.png)
-有缓存的情况下
 
-![有缓存的情况下](https://img.cuteapi.com/images/1/2022/10/09/16653260606342dbec8e69e.png)
+使用 ChinajsDelivr
+
+主力节点 https://jsd.cdn.zzko.cn/   
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/0fe4449d-a32a-48ec-90f9-15c92ce83d98)
+
+备用节点 https://cdn.jsdelivr.us/  
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/874479d2-5134-41c7-9692-3622ad91c924)
+
 
 关闭缓存的情况下
 ![关闭缓存的情况下](https://img.cuteapi.com/images/1/2022/10/09/16653260926342dc0ccde32.png)
@@ -113,7 +123,7 @@ V5 目前只使用了腾讯云，计划
 ＃＃商务与赞助
 1.我们基于合规性每个月不定期都会从cdn平台抽取日志进行抽查
 
-2.平台月流量境内侧目前500GB+
+2.平台月流量境内侧目前500GB+ 赞助节点参考3
 
 3.平台管理员联系方式
 
