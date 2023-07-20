@@ -36,7 +36,7 @@
 
 参考下列首页   
 
-境内站 https://jsd.cdn.zzko.cn/  （全球加速海外Anycast/cloudflare.com和Anycast/腾讯云）默认显示中午 使用VPN或者是海外IP 或者是海外DNS 可能调度海外 显示英语
+境内站 https://jsd.cdn.zzko.cn/  （全球加速海外Anycast/cloudflare.com和Anycast/腾讯云）默认显示中文 使用VPN或者是海外IP 或者是海外DNS 可能调度海外 显示英语
 
 国际站 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国）默认显示英语 （机翻）
 
@@ -44,6 +44,13 @@
 
  其中 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国） 无限制
 
+＃＃使用方法
+只需要把 
+https://cdn.jsDelivr.net
+全局替换成
+https://jsd.cdn.zzko.cn
+可以再加一个判断，如果上方不可达的话
+https://cdn.jsdelivr.us
  
 ## 项目概述
 
@@ -102,3 +109,20 @@ V5 目前只使用了腾讯云，计划
 
 7.未经允许严禁使用回源其包括但不限于香港，新加坡，台湾，东南亚，孟买，美国，等 jsd.cdn.zzko.cn 以及cdn.jsdelivr.us 还有cdn.jsdelivr.ren 源站集群，
 
+
+＃＃商务与赞助
+1.我们基于合规性每个月不定期都会从cdn平台抽取日志进行抽查
+
+2.平台月流量境内侧目前500GB+
+
+3.平台管理员联系方式
+
+QQ:202835956
+
+weixin:hanbiayao
+
+workweixin:
+
+https://work.weixin.qq.com/u/vcfbf65d01f6c6d793?v=4.1.7.23550
+
+微信打开有bug，显示隐藏问题 可能是 QR 识别问题
