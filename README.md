@@ -46,7 +46,7 @@
 
 其中 https://jsd.cdn.zzko.cn/  有使用限制 需要合法合规  我们会收到CDN供应商的反馈来封禁
 
-其中 https://cdn.jsdelivr.us/  （海外加速海外Anycast/cloudflare.com 优化回国） 无限制
+其中 https://cdn.jsdelivr.us/  （海量 Anycast 优化回国） 依然受到机房监管 问了一下还是不能违规 但是这个不能比上面的过分
 
 ＃＃使用方法
 只需要把 
@@ -98,8 +98,7 @@ https://cdn.jsdelivr.us
 
 
 
-目前无法有效解决解决盗刷问题
-V5 目前只使用了腾讯云，计划
+
 
 
 
