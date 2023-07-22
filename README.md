@@ -145,7 +145,7 @@ QQ：202835956
 
 工作微信：
 
-bilibili:鹰瑶呐
+bilibili:  [鹰瑶呐](https://space.bilibili.com/293201568)
 
 ## 问题反馈 
 
@@ -157,7 +157,7 @@ bilibili:鹰瑶呐
 
 渠道4：微信（时间 00:00-8:00）
 
-渠道5: bilibili 随缘
+渠道5: bilibili 看情况吧不怎么玩B
 
 首先确认报错
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/698eecd4-92a7-4fa8-a5e6-04ec72271599)
