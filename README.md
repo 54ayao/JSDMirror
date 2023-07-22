@@ -73,27 +73,106 @@ https://cdn.jsdelivr.us/npm/jquery/ （海外融合Anycast/CDN 优化回国）
 来对比一下 都是第二次测试结果
 
 https://cdn.jsdelivr.net/npm/jquery/
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/203f4fa9-1f1f-4876-b4dc-69dbdc93b7fd)
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/f078947c-82e7-4874-a167-adea549012c9)
-可以看到速度还可以，但是访问失败的太多了，ping的平均延迟在180+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/fe308bba-735b-4c6a-b4de-c5e8a1b2d64d)
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1576971a-75ba-4957-b529-9831b6a48e76)
+
+可以看到速度emmmm，访问失败的太多了，打开页面1.12s，ping的平均延迟在172+
 
 https://Fastly.jsdelivr.net/npm/jquery/
 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/37ceb5a3-9aaa-4f3f-af60-877201a70e65)
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3f5411ec-75a9-4d92-9511-0257c7e5ae1e)
+
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/aeeb82dc-8440-48ca-8112-4479828e4eac)
 
 
-可以看到速度好不少，但是ip少了 ，ping的平均延迟在100+
+可以看到速度好不少，但是ip少了，打开延迟平均在0.9s左右 ，ping的平均延迟在116ms+
 
 
 https://jsd.cdn.zzko.cn/npm/jquery/
 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/13d11896-40ab-41c2-9418-3e677c7cc6ed)
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/322a37ff-be6f-48c8-83ec-bc0d6e30ae52)
-可以看到速度起飞 境内延迟平均20ms+最高52ms 海外低至1ms
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/c31a5495-4f67-4c28-89db-d8b945df1b44)
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3f086819-8ea2-49b0-9e24-a8817c2b7a08)
+
+可以看到速度起飞，打开平均0.3s 境内延迟平均15ms+ 海外低至1ms
 
 https://cdn.jsdelivr.us/npm/jquery/ 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/577d0023-72a5-4088-9714-dcd583f04023)
-可以看到速度起飞 境内延迟平均73ms 海外低至1ms
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/773696ab-3982-4beb-b563-7c7504f2ef25)
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/d2b85d4a-5c91-456f-acaa-a6215485712d)
+
+可以看到速度起飞，打开平均0.5s 境内延迟平均73ms 海外低至1ms
+
+
+# 使用规定
+1.不能有违规 国际站除外
+
+2.不得应用到违规网站，尤其是灰黑产业，不符合工信部或者国家规定的项目 国际站除外
+
+3.项目支持下载，但不能下载违反国家法律法规，你要用就悄咪咪的用，别通过这个链接分享，不该我真的栓Q， 国际站除外
+
+4.未经许可不得再次反向代理该网站 或者反向代理我源站进行二次分发，使用 cos，oss进行回源回去文件的除外
+
+5.github 项目不做任何屏蔽的目的是为了更好的用户体验，麻烦你们不要把我搞得像jsd一样被污染一段时间
+
+6.如果触发防火墙，代表你IP一分钟已经超过2000次，被防火墙的屏蔽被两个三小时之后再试，家庭用户可尝试重启路由器来获取新的IP。或者是保持正常访问。
+
+7.未经允许严禁使用回源其包括但不限于香港，新加坡，台湾，东南亚，孟买，美国，等 jsd.cdn.zzko.cn 以及 cdn.jsdelivr.us 还有cdn.jsdelivr.ren 源站集群，
+
+8.您需要理解我们基于合规性每个月不定期都会从cdn平台抽取日志进行抽查，因为大部分流量都不发送请求域名，我们参考加速项目URL地址来判断
+
+
+## 平台管理员联系方式
+
+QQ：202835956
+
+微信：hanbiayao
+
+工作微信：
+
+bilibili:鹰瑶呐
+
+## 问题反馈 
+
+渠道1：https://github.com/54ayao/Chinajsdelivr/issues (8:00-12:00) 推荐 有提示的 （
+
+渠道2：QQ： (12:00-14:00)     
+
+渠道3：工作微信 (14:00-00:00) 
+
+渠道4：微信（时间 00:00-8:00）
+
+渠道5: bilibili 随缘
+
+首先确认报错
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/698eecd4-92a7-4fa8-a5e6-04ec72271599)
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3806b7e2-a5d9-486b-8311-080db57f3f1b)
+
+以及官方CDN下是否正常使用或者是出现报错 一般情形是我们转发官方头部 如果官方站也是这样需要自行去jsdelivr官方立issues 但是请替换成jsdelivr官方域名反馈 
+
+范文
+域名：google.com
+节点IP:1.1.1.1
+用户省份：中国香港特别行政区
+CDN: cloudflare
+CDN访问参数：abcd1234
+是否测试 jsdelivr官方源站：
+是/jsdelivr官方源站无该报错
+使用影响：
+无法加载字体 显示xxx
+
+## 赞助
+
+微信：
+
+QQ：
+
+支付宝:
+
+PayPal:
+
+USTD：
 
 
