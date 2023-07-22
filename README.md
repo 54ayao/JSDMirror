@@ -38,10 +38,15 @@ Chinajsdelivr  是一个免费依托于国内CDN（内容交付网络）。以�
 
 ## 使用方法
 只需要把 
+
 https://cdn.jsDelivr.net
+
 全局替换成
+
 https://jsd.cdn.zzko.cn 或者是 https://cdn.jsdelivr.us
+
 可以再加一个判断，如果上方不可达的话
+
 https://cdn.jsdelivr.us
 
  
@@ -60,7 +65,7 @@ https://cdn.jsdelivr.us
 
 ### 我们在 [ITDOG](https://itdog.cn/)进行测试
 
-以
+
 
 https://cdn.jsdelivr.net/npm/jquery/
 
@@ -79,6 +84,9 @@ https://cdn.jsdelivr.net/npm/jquery/
 
 可以看到速度emmmm，访问失败的太多了，打开页面1.12s，ping的平均延迟在172+
 
+
+
+
 https://Fastly.jsdelivr.net/npm/jquery/
 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3f5411ec-75a9-4d92-9511-0257c7e5ae1e)
@@ -89,6 +97,9 @@ https://Fastly.jsdelivr.net/npm/jquery/
 可以看到速度好不少，但是ip少了，打开延迟平均在0.9s左右 ，ping的平均延迟在116ms+
 
 
+
+
+
 https://jsd.cdn.zzko.cn/npm/jquery/
 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/c31a5495-4f67-4c28-89db-d8b945df1b44)
@@ -97,12 +108,15 @@ https://jsd.cdn.zzko.cn/npm/jquery/
 
 可以看到速度起飞，打开平均0.3s 境内延迟平均15ms+ 海外低至1ms
 
+
+
 https://cdn.jsdelivr.us/npm/jquery/ 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/773696ab-3982-4beb-b563-7c7504f2ef25)
 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/d2b85d4a-5c91-456f-acaa-a6215485712d)
 
 可以看到速度起飞，打开平均0.5s 境内延迟平均73ms 海外低至1ms
+
 
 
 # 使用规定
