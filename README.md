@@ -53,11 +53,13 @@ xwsl 对对对你说的都对  花的不是你的钱干嘛你会心疼 ，你怎
 
 看看这数据量其他用户说什么了吗
 
-关于我为什么可以承担得起CDN 看看 都不是一个量级的 
+![1690137422644](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1a33ba1e-11f1-4382-9f96-953460fa031a)
 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3af34a09-02ef-4ac6-adc5-a43242681ca6)
+是完全支持的
 
-Chinajsdelivr其实也是有计划搞广告的 
+
+
+Chinajsdelivr其实也是有计划搞广告的  在其项目首页就可以看到了 
 
 
 基本的HTML就可以反向代理在云函数本地保存一份 不涉及登录处理用户数据 所以说插入比较方便 且jsd静态化就可以跑起来可以大量减轻负担，不像是gayhub需要转发大量数据
