@@ -19,14 +19,18 @@ Chinajsdelivr也即是 jsdelivr mirror site 也就是jsdelivr 镜像站
 ## 声明
 当我看到有人在质疑我朋友的Kgithub是假冒网站，钓鱼网站
 
-我来说一下 首先Kgithub的流量比我大 且是为了方便用户编辑Kgithub的站长才优化了登录问题
+我来说一下 首先Kgithub的流量大 且是为了方便用户编辑Kgithub的站长才优化了登录问题
+服务器其实不保存用户账号密码以及Cookice 不要被某些人带了节奏
+
 ![24d7c3f08144904dd70b51e9039e400](https://github.com/54ayao/Chinajsdelivr/assets/86733666/7dfc3aa1-2978-4ad1-9a5e-43328b90d1d8)
 
 <img width="580" alt="4a7a0856d5cceaa9cfa6eb595366db1" src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/9951f27e-18ec-4ba5-b2c1-5c51b2fff214">
+
 “好不容易开始挣点钱。然后这个时候就有一帮人做类似这种镜像网站”
 
 我跟你们说一下 Kgithub的站长是使用了不少腾讯云轻量应用服务器反向代理起步9台 就算是一个服务器32 一年3500左右 还有cos在更新资源 什么的你以为隔壁的Kgithub站长
-是为了赚钱 他也想搞广告？输入入不敷出的这么保证正常运营 CDN的费用也不少不清楚 CF的连接性懂得懂得 在说一说
+是为了赚钱 他也想搞广告？基本上入不敷出的这么保证正常运营 使用CDN的费用也会不少了
+
 “不经过你的允许下用你网站的名气，内容，功能，系统资源，通过大量的广告来牟利。到时候你的想肯定会有所转变。” 如果gayhub符合中国大陆法律法规 会被污染？
 没有那一群xx上传违法违规的内容会被墙，是没有经过许可又怎么了 主要还不是想服务好我们 让我们访问github不至于那么困难？
 
@@ -35,12 +39,28 @@ Chinajsdelivr也即是 jsdelivr mirror site 也就是jsdelivr 镜像站
 
 
 
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1cc3ef9e-31d8-4992-8645-436f6d0a8e7d)
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/22f82d30-7a0f-4a32-a818-97e22edd1f94)
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/64b7eb47-ef81-40d3-9f47-3570f6a69501)
 
-Chinajsdelivr其实也是有计划搞广告的 但是不会
+
+看看这数据量其他用户说什么了吗
+
+关于我为什么可以承担得起CDN 看看 都不是一个量级的 
+
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3af34a09-02ef-4ac6-adc5-a43242681ca6)
+
+Chinajsdelivr其实也是有计划搞广告的 
+
+
+基本的HTML就可以反向代理在云函数本地保存一份 不涉及登录处理用户数据 所以说插入比较方便 且jsd静态化就可以跑起来可以大量减轻负担，不像是gayhub需要转发大量数据
+我当初搞pixiv.work镜像站 也没有人说假冒网站 钓鱼网站 不要见风就是风 见雨就是雨 人也要学会换位以及独立思考
 
 
 
-爱发电走得远么 看看数据在说话吧 镜像站的盈利绝不是靠光大网友赞助就可以解决的大部分情况下和广告密不可分的，
+
+
+所以说爱发电走得远么 看看数据在说话吧 镜像站的盈利绝不是靠光大网友赞助就可以解决的大部分情况下和广告密不可分的，不要被某些人带了节奏
 
 # 简介
 
