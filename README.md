@@ -80,6 +80,7 @@ Chinajsdelivr  是一个免费依托于国内CDN（内容交付网络）。以�
 我们的主要费用包括就是CDN流量以及HTTPS请求费，如果有能力的用户可以选择赞助CDN以及Money 当然更好了，我们会在子页面公式内容以及去向 可以参考最下面的赞助（
 当然也有不同的声音说是觉得个人备案不靠谱.....  emmmm 换企业...再看吧
 
+https://github.com/jsdelivr/jsdelivr 具体可以参考参考他们家 都是一样的的处理方式
 
 ## 温馨提示
 <div class="info custom-block"><p class="custom-block-title">你正在阅读的是 Chinajsdelivr 3  的文档！</p>
@@ -250,10 +251,10 @@ CDN访问参数：abcd1234
 
 QQ：
 
-支付宝:
+支付宝: 
 
-PayPal:
+PayPal: 
 
-USTD：
+USTD：无
 
 
