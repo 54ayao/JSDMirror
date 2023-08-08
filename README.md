@@ -1,3 +1,10 @@
+# 系统监控到 /gh/fznb1234 在23:00 左右
+在全面刷资源 宽带峰值2.2GB 系统在00:10目前已经切到国际站了 但是境内节点依然被攻击 被下线 我们在处理中
+![image3857cb1443c67300.png](https://img.cuteapi.com/2023/08/09/image3857cb1443c67300.png)
+![image.png](https://img.cuteapi.com/2023/08/09/image.png)
+![image3869e12dbf39af0e.png](https://img.cuteapi.com/2023/08/09/image3869e12dbf39af0e.png)
+后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的）
+
 # 项目介绍 
 
 # 计划维护通知
@@ -6,7 +13,7 @@
 
 1.js css TXT word PDF php html Excel 等等节点遵守官方缓存规定 浏览器侧3天
 
-2.图片类缓存 修改为cdn 10 浏览器 14
+2.图片类缓存 修改为cdn 10 浏览器 14dd
 
 3.音视频文件 修改cdn 14 浏览器30
 
@@ -16,7 +23,7 @@
 
 #### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
 
-#### jsDelivr 在 ICP 被吊销的四个月后（4 月 28 日）开始被 DNS 污染，导致国内解析访问更加困难。
+#### jsDelivr 在 ICP 被吊销的四个月后（4 月 28 日）开始被 DNS 污染，导致国内解析访问更加困难。s
 
 #### 过两个月 jsDelivr 的情况好不少，但没有国内节点还是有点慢。
 
