@@ -3,7 +3,7 @@
 ![image3857cb1443c67300.png](https://img.cuteapi.com/2023/08/09/image3857cb1443c67300.png)
 ![image.png](https://img.cuteapi.com/2023/08/09/image.png)
 
-后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的 myqcloud.com 还有aliyuncs.com）
+后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的 myqcloud.com和 tencentcos.cn 还有aliyuncs.com）
 
 
 
