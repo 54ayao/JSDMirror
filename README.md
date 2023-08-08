@@ -1,50 +1,10 @@
 # 系统监控到 /gh/在23:00 左右
 在全面刷资源 宽带峰值2.2GB 系统在00:10目前已经切到国际站了 但是境内节点依然被攻击 被下线 我们在处理中
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/9e9c3835-68be-453d-ae7a-72c1b2f8934a)
-违规GH
-/gh/anzuoanzuo
-
- /gh/906662225
- 
-/gh/nanjingup
-
- /gh/wyxw688
- 
- /gh/fznb1234
- 
- /gh/wenmou258
- 
- /gh/cannian666999
- 
- /gh/qucomic
- 
-/gh/niunai88
-
-/gh/wode-1u
-
- /gh/nansheng-521zx
- 
-  /gh/oka159
-  
-  /gh/niuzai12345
-  
-  等等
-
-  腾讯云账号实名了吧 别逼我啊
-   https://bs-1301012268.cos.ap-hongkong.myqcloud.com
- https://anz123456-1300998445.cos.ap-shanghai.myqcloud.com
-  https://aliyuny-1307914778.cos.ap-nanjing.myqcloud.com
-https://s-k-t-1317208484.cos.ap-nanjing.myqcloud.com
-https://a-1315763122.cos.ap-beijing.myqcloud.com
-
-等等
-
 ![image3857cb1443c67300.png](https://img.cuteapi.com/2023/08/09/image3857cb1443c67300.png)
 ![image.png](https://img.cuteapi.com/2023/08/09/image.png)
 ![image3869e12dbf39af0e.png](https://img.cuteapi.com/2023/08/09/image3869e12dbf39af0e.png)
-后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的）
-短期计划移除CDN 但是请不要攻击
-真的累 影响你什么了 你说说 刷nmd鸭子 刷nm流量
+后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的 myqcloud.com 还有aliyuncs.com）
+
 
 
 # 项目介绍 
