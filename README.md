@@ -3,26 +3,42 @@
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/9e9c3835-68be-453d-ae7a-72c1b2f8934a)
 违规GH
 /gh/anzuoanzuo
+
  /gh/906662225
+ 
 /gh/nanjingup
+
  /gh/wyxw688
+ 
  /gh/fznb1234
+ 
  /gh/wenmou258
+ 
  /gh/cannian666999
+ 
  /gh/qucomic
+ 
 /gh/niunai88
+
 /gh/wode-1u
+
  /gh/nansheng-521zx
+ 
   /gh/oka159
-  /gh/niuzai12345/
-  .....
+  
+  /gh/niuzai12345
+  
+  等等
+
   腾讯云账号实名了吧 别逼我啊
    https://bs-1301012268.cos.ap-hongkong.myqcloud.com
  https://anz123456-1300998445.cos.ap-shanghai.myqcloud.com
   https://aliyuny-1307914778.cos.ap-nanjing.myqcloud.com
 https://s-k-t-1317208484.cos.ap-nanjing.myqcloud.com
 https://a-1315763122.cos.ap-beijing.myqcloud.com
-。。。。。
+
+等等
+
 ![image3857cb1443c67300.png](https://img.cuteapi.com/2023/08/09/image3857cb1443c67300.png)
 ![image.png](https://img.cuteapi.com/2023/08/09/image.png)
 ![image3869e12dbf39af0e.png](https://img.cuteapi.com/2023/08/09/image3869e12dbf39af0e.png)
