@@ -4,6 +4,7 @@
 ![image.png](https://img.cuteapi.com/2023/08/09/image.png)
 ![image3869e12dbf39af0e.png](https://img.cuteapi.com/2023/08/09/image3869e12dbf39af0e.png)
 后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的）
+短期计划移除CDN 但是请不要攻击{
 
 # 项目介绍 
 
