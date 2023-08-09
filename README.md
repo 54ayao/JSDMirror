@@ -225,8 +225,7 @@ QQ：202835956
 
 微信：
 
-![b5c2867a046f80544c281622123730e](https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b){: width="200px" height="200px"}
-
+<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b" alt="微信" width="500" height="313" align="bottom" />
 
 企业微信：
 ![e79daedf4f592ff8dcec531c074e6cc](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c)
