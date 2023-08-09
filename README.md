@@ -1,9 +1,28 @@
 # 系统监控到 /gh/在23:00 左右
-在全面刷资源 宽带峰值2.2GB 系统在00:10目前已经切到国际站了 但是境内节点依然被攻击 被下线 我们在处理中
+在全面刷资源 宽带峰值2.2GB 系统在00:10目前已经自动切到国际站了 部分地方缓存在04点基本上完成了
 ![image3857cb1443c67300.png](https://img.cuteapi.com/2023/08/09/image3857cb1443c67300.png)
 ![image.png](https://img.cuteapi.com/2023/08/09/image.png)
 
-后续我们将限制宽带速率 并且开启强制验证 referer（目前不限制 但限制在来源为github.io的 myqcloud.com和 tencentcos.cn 还有aliyuncs.com）
+后续我们包括但不限于限制宽带速率 
+/gh/ 不超过30mpbs 
+/npm/ 不超过50mpbs 
+并且开启强制验证 referer
+/gh/  加白政策
+等等
+当初不限制 也是为了大家方便 但是越来越过分了 机场都来了
+（目前不限制 但限制在来源为github.io的 myqcloud.com和 tencentcos.cn 还有aliyuncs.com等等公共域名）
+
+昨天8号晚 被迫切到国际站流量还是大 所以说....
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/918b42b6-9790-4671-bb43-eabf2cc1f2ad)
+
+别看是国际站但是也是优化回国了
+
+后续将大概率增加自动化认证系统
+referer: （写顶级就可以了）or gh:（写用户名+项目地址） 二选一
+截图：首页
+第三方信息 QQ 微信 邮箱 手机号 选一个就可以了 如果有关部门要求预留手机号在说手机号的事情
+等等
+
 
 
 
