@@ -3,6 +3,7 @@
 ![image3857cb1443c67300.png](https://img.cuteapi.com/2023/08/09/image3857cb1443c67300.png)
 ![image.png](https://img.cuteapi.com/2023/08/09/image.png)
 
+今我方排查 遇到了GIF切片 传播 擦边视频，暴力视频，色情视频等，已上报云厂对对方进行处，上游及时进行了封禁，对方部分链接被封禁，
 后续我们包括但不限于限制宽带速率 
 /gh/ 不超过30mpbs 
 /npm/ 不超过50mpbs 
