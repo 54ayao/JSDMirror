@@ -215,27 +215,27 @@ https://cdn.jsdelivr.us/npm/jquery/
 8.您需要理解我们基于合规性每个月不定期都会从cdn平台抽取日志进行抽查，因为大部分流量都不发送请求域名，我们参考加速项目URL地址来判断
 
 
-## 平台管理员联系方式
+## 平台管理员联系方式与问题反馈 
+
+
+渠道1：https://github.com/54ayao/Chinajsdelivr/issues 
+
 
 QQ：202835956
 
-微信：hanbiayao
+微信：
+![b5c2867a046f80544c281622123730e](https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b)
 
-工作微信：
+
+企业微信：
+![e79daedf4f592ff8dcec531c074e6cc](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c)
+
 
 bilibili:  [鹰瑶呐](https://space.bilibili.com/293201568)
 
-## 问题反馈 
 
-渠道1：https://github.com/54ayao/Chinajsdelivr/issues (8:00-12:00) 推荐 有提示的 （
+渠道1：https://github.com/54ayao/Chinajsdelivr/issues 
 
-渠道2：QQ： (12:00-14:00)     
-
-渠道3：工作微信 (14:00-00:00) 
-
-渠道4：微信（时间 00:00-8:00）
-
-渠道5: bilibili 看情况吧不怎么玩B
 
 首先确认报错
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/698eecd4-92a7-4fa8-a5e6-04ec72271599)
