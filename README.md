@@ -224,11 +224,12 @@ https://cdn.jsdelivr.us/npm/jquery/
 QQ：202835956
 
 微信：
-![b5c2867a046f80544c281622123730e](https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b =400x300)
+
+![b5c2867a046f80544c281622123730e](https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b){: width="200px" height="200px"}
 
 
 企业微信：
-![e79daedf4f592ff8dcec531c074e6cc](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c =400x300)
+![e79daedf4f592ff8dcec531c074e6cc](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c)
 
 
 bilibili:  [鹰瑶呐](https://space.bilibili.com/293201568)
