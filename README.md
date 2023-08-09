@@ -357,3 +357,4 @@ USTD：无
 |oka159.github.io|传播违规视频|/gh/oka159|2023-08-10---9999-12-31|全球|
 |nansheng-521zx.github.io|传播违规视频|/gh/nansheng-521zx|2023-08-10---9999-12-31|全球|
 |jackson0829.github.io|传播违规视频|/gh/jackson0829|2023-08-10---9999-12-31|全球|
+|suxing12312.github.io|传播违规视频|/gh/suxing12312|2023-08-10---9999-12-31|全球|
