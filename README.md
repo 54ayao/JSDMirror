@@ -219,18 +219,13 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 ## 平台管理员联系方式与问题反馈 
 
-
+|QQ|微信|企业微信|封禁时间|区域|
+|-------|----------|------------------------|----------|------|
+|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/9d14380d-6f7b-4879-b6df-a949b23a6ca2" alt="微信" width="128" height="128" align="bottom" />|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/debf1385-d263-4ac0-96d1-22d64f4dd33e" alt="微信" width="128" height="128" align="bottom" />|----------|------|
 渠道1：https://github.com/54ayao/Chinajsdelivr/issues 
 
-
-QQ：202835956
-
-微信：
-
-<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b" alt="微信" width="475" height="648" align="bottom" />
-
 企业微信：
-<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c" alt="微信" width="540" height="1126" align="bottom" />
+
 
 
 
