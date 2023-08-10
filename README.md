@@ -221,7 +221,7 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 |QQ|微信|企业微信|gayhub|bilibili|邮箱|
 |-------|----------|------------------------|----------|------|------|
-|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/7a66b1bc-a2e9-4629-9c5e-75252e612e53" alt="微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/e5ad5134-d2f7-4114-b41c-7229ad0670ba" alt="企业微信">|[https://github.com/54ayao/Chinajsdelivr/issues](https://github.com/54ayao/Chinajsdelivr/issues) |[https://space.bilibili.com/293201568](https://space.bilibili.com/293201568)|ayao@cola.email|
+|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/7a66b1bc-a2e9-4629-9c5e-75252e612e53" alt="微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/e5ad5134-d2f7-4114-b41c-7229ad0670ba" alt="企业微信">|[点这里](https://github.com/54ayao/Chinajsdelivr/issues) |[https://space.bilibili.com/293201568](https://space.bilibili.com/293201568)|ayao@cola.email|
 
 
 
