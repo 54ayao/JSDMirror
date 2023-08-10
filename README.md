@@ -227,10 +227,10 @@ QQ：202835956
 
 微信：
 
-<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b" alt="微信" width="550" height="350" align="bottom" />
+<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/8efa5654-3c12-43a1-a49e-5e48e1df1c6b" alt="微信" width="500" height="400" align="bottom" />
 
 企业微信：
-<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c" alt="企业微信" width="500" height="450" align="bottom" />
+<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/1631db91-fe24-4d84-8d95-23f5564eb93c" alt="企业微信" width="500" height="500" align="bottom" />
 
 
 bilibili:  [鹰瑶呐](https://space.bilibili.com/293201568)
