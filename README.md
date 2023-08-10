@@ -219,9 +219,10 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 ## 平台管理员联系方式与问题反馈 
 
-|QQ|微信|企业微信|gayhub|bilibili|
-|-------|----------|------------------------|----------|------|
-|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/9d14380d-6f7b-4879-b6df-a949b23a6ca2" alt="微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/d1bf0141-fe9b-43ba-8b43-4bd543311129" alt="企业微信">|[https://github.com/54ayao/Chinajsdelivr/issues](https://github.com/54ayao/Chinajsdelivr/issues) |[https://space.bilibili.com/293201568](https://space.bilibili.com/293201568)|
+|QQ|微信|企业微信|gayhub|bilibili|邮箱|
+|-------|----------|------------------------|----------|------|------|
+|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/7a66b1bc-a2e9-4629-9c5e-75252e612e53" alt="微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/e5ad5134-d2f7-4114-b41c-7229ad0670ba" alt="企业微信">|[https://github.com/54ayao/Chinajsdelivr/issues](https://github.com/54ayao/Chinajsdelivr/issues) |[https://space.bilibili.com/293201568](https://space.bilibili.com/293201568)|ayao@cola.email|
+
 
 
 
