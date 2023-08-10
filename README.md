@@ -221,8 +221,7 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 |QQ|微信|企业微信|gayhub|区域|
 |-------|----------|------------------------|----------|------|
-|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/9d14380d-6f7b-4879-b6df-a949b23a6ca2" alt="微信" width="128" height="128" align="bottom" />|![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/d1bf0141-fe9b-43ba-8b43-4bd543311129)
-|渠道1：https://github.com/54ayao/Chinajsdelivr/issues |------|
+|202835956|![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/9d14380d-6f7b-4879-b6df-a949b23a6ca2)|![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/d1bf0141-fe9b-43ba-8b43-4bd543311129)|https://github.com/54ayao/Chinajsdelivr/issues |------|
 
 
 企业微信：
