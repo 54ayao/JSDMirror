@@ -100,6 +100,7 @@ Chinajsdelivr  是一个免费依托于国内CDN（内容交付网络）。以�
 
 我们境内使用了 阿里，腾讯，百度，华为，网宿，金山，白山，海外使用了cloudflare和gcore还有腾讯云 进行分发
 
+
 https://github.com/jsdelivr/jsdelivr 具体可以参考参考他们家 都是一样的的处理方式
 
 ## 温馨提示
@@ -114,7 +115,10 @@ https://github.com/jsdelivr/jsdelivr 具体可以参考参考他们家 都是一
 
 境内站 https://jsd.cdn.zzko.cn/   (目前经费紧张，如果发现被301到国际站上可能是CDN流量耗尽，临时切换线路)
 
-国际站 https://cdn.jsdelivr.us/  
+国际站 https://cdn.jsdelivr.us/  cloudflare 节点
+
+国际站 https://cdn.jsdelivr.ren/   gcore节点
+
 
 
 ## 使用方法
