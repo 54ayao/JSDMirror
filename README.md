@@ -1,5 +1,5 @@
-![jsdelivr.png](https://img.cuteapi.com/2023/08/26/jsdelivr.png)
-项目logo （图标是授权的。。）
+
+
 ## 原因
 
 #### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
