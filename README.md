@@ -1,10 +1,17 @@
-考虑到github速度越来越不行了
-项目一同步到
+考虑到github速度越来越不行了 gitee也不让发
+
+项目同步到
 https://jsd.cdn.zzko.cn/
+![1693425805165](https://github.com/54ayao/Chinajsdelivr/assets/86733666/37a2ee1b-9a26-4fa6-8821-d4ed10c65374)
+
+
 
 issues也可以在这里
 
 https://jsd.cdn.zzko.cn/forum/58.html
+
+![1693425920665](https://github.com/54ayao/Chinajsdelivr/assets/86733666/f91b898b-b68b-4cd5-87a6-4242b6cc3e7c)
+
 
 ## 原因
 
