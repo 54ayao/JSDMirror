@@ -1,4 +1,10 @@
+考虑到github速度越来越不行了
+项目一同步到
+https://jsd.cdn.zzko.cn/
 
+issues也可以在这里
+
+https://jsd.cdn.zzko.cn/forum/58.html
 
 ## 原因
 
