@@ -59,7 +59,7 @@ https://github.com/jsdelivr/jsdelivr 具体可以参考参考他们家 都是一
 
 境内站 https://jsd.cdn.zzko.cn/   (目前经费紧张，如果发现被301到国际站上可能是CDN流量耗尽，临时切换线路)
 
-国际站 https://cdn.jsdelivr.us/  cloudflare 节点
+国际站 https://cdn.jsdelivr.us/  网宿海外节点
 
 国际站 https://cdn.jsdelivr.ren/   gcore节点
 
