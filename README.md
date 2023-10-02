@@ -1,6 +1,6 @@
 
+平台计划10月15号到30日进行重新备案 届时或者临时302到jsd.gitkf.com 
 
-考虑到github速度越来越不行了 gitee也不让发
 
 项目同步到
 https://jsd.cdn.zzko.cn/
@@ -17,13 +17,13 @@ https://jsd.cdn.zzko.cn/forum/58.html
 
 ## 原因
 
-#### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
+### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
 
-#### jsDelivr 在 ICP 被吊销的四个月后（4 月 28 日）开始被 DNS 污染，导致国内解析访问更加困难。s
+### jsDelivr 在 ICP 被吊销的四个月后（4 月 28 日）开始被 DNS 污染，导致国内解析访问更加困难。s
 
-#### 过两个月 jsDelivr 的情况好不少，但没有国内节点还是有点慢。
+### 过两个月 jsDelivr 的情况好不少，但没有国内节点还是有点慢。
 
-#### 2023年开始 jsDelivr 的情况越来越差，有时候国内可能打不开了。
+### 2023年开始 jsDelivr 的情况越来越差，有时候国内可能打不开了。
 
 ## 什么是  Chinajsdelivr？
 Chinajsdelivr也即是 jsdelivr mirror site 也就是jsdelivr 镜像站
@@ -32,10 +32,7 @@ Chinajsdelivr也即是 jsdelivr mirror site 也就是jsdelivr 镜像站
 当然你“认为”我们镜像jsDelivr是为了窃取jsDelivr官方流量那没有使用的必要的哈 出发点都是错误了 你所有的请求都是毫无保留且不增加任何修改转发给jsDelivr 即使修改了首页 增加了广告其实也是对您使用不会产生本质上的影响，还是不明白的话，那么你可以选择自建或者是使用COS或者是OSS回源jsDelivr来进行加速
 温馨建议大家还是发送referer,以便后续能够正常的对资源可用性监控，能够及时复盘，以及预警，为了产生不必要的麻烦，也为了减轻站长查看cdn日志，来针对什么类型的网站进行加速优化，后续极有可能会交给系统化运营，在jsdelivr侧清理缓存后5分钟在控制面板提交即可完成更新，并且有可能会开放一些经过脱敏的数据
 
-为了细分化运营我们计划将启用全新域名..... 灰度中
-cdnjs库
-jsd库
-google库
+
 
 # 简介
 
