@@ -9,6 +9,9 @@
 
 好自为之
 
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/e9d11bbf-0e20-4736-93f1-cce942ed51ee)
+公开日志 不确定 不保证一定正确
+
 平台监测的到有个test-cdn-ip这个项目在恶意消耗流量
 在五个小时消耗了将近600G流量，项目中还明确标明可以用于cc攻击，出于平台安全风险考虑，暂不考虑解封，已被平台禁止加速
 
