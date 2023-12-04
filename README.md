@@ -3,14 +3,18 @@
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/f8921bdc-433a-4b4b-a94e-ad761d696d4c)
 
 
-上升到法轮功的地步了 ？？？ 太6了
+上升到传播邪教的地步了 ？？？ 太6了 
 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/afac6b07-8303-42d5-ab1a-7aafd5258e87)
-
-好自为之
+看看危害吧：https://www.chinafxj.cn/n161/c126108/content.html
 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/e9d11bbf-0e20-4736-93f1-cce942ed51ee)
 公开日志 不确定 不保证一定正确
+
+
+依照《中华人民共和国刑法》第三百条第一款、第二十二条、第五十二条、第五十三条、第六十四条、《最高人民法院、最高人民检察院关于办理组织、利用邪教组织破坏法律实施等刑事案件适用法律若干问题的解释》第二条、第四条、第五条
+好自为之吧
+
+
 
 平台监测的到有个test-cdn-ip这个项目在恶意消耗流量
 在五个小时消耗了将近600G流量，项目中还明确标明可以用于cc攻击，出于平台安全风险考虑，暂不考虑解封，已被平台禁止加速
@@ -226,6 +230,8 @@ https://cdn.jsdelivr.us/npm/jquery/
 7.未经允许严禁使用回源其包括但不限于香港，新加坡，台湾，东南亚，孟买，美国，等 jsd.cdn.zzko.cn 以及 cdn.jsdelivr.us 还有cdn.jsdelivr.ren 源站集群，
 
 8.您需要理解我们基于合规性每个月不定期都会从cdn平台抽取日志进行抽查，因为大部分流量都不发送请求域名，我们参考加速项目URL地址来判断
+
+9. 拥护党和政府的决策，不传播不实信息或者说未经证实的消息 ，禁止进行传播邪教，组织邪教等行为
 
 
 ## 平台管理员联系方式与问题反馈 
