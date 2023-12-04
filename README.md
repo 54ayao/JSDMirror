@@ -10,11 +10,7 @@
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/e9d11bbf-0e20-4736-93f1-cce942ed51ee)
 公开日志 不确定 不保证一定正确
 
-
-![Uploading a796424130de78e85a294d6bed9bb001_259573.jpg…]()
-
-
-
+![image](https://www.chinafxj.cn/n162/c899635/part/259573.jpg))
 
 
 
