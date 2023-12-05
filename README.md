@@ -1,14 +1,15 @@
 2023年12月5日
 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/f8921bdc-433a-4b4b-a94e-ad761d696d4c)
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/45c3e369-8290-4855-98ed-6f49210baf65)
 
 
 上升到传播邪教的地步了 ？？？ 太6了 
 
-看看危害吧：https://www.chinafxj.cn/n161/c126108/content.html
-
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/e9d11bbf-0e20-4736-93f1-cce942ed51ee)
 公开日志 不确定 不保证一定正确
+
+
 
 ![image](https://www.chinafxj.cn/n162/c899635/part/259573.jpg))
 
