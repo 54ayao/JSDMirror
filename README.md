@@ -1,8 +1,8 @@
 平台将对图片进行审核,会对相应的图片做出处理,如果被误封了联系管理员处理，项目已开发完成，正在对接微信公众号传递快照确认是否违规 违规就不解除 不违规就解除
 
-不知道怎么搞的 一天天的让我给运营商背书 违规擦边舍不得用国际站? 你 是我承认国际站稳定性不太行正常情况下 国际站我是白嫖的cdn，90天是免费50刀的额度 e但是跟我说了我看到都会处理的 我现在尽可能从美国时间作息换成北京时间作息 这样的话可以直接找到我的
+不知道怎么搞的某些MJJ舍不得用US站?  是我承认US站稳定性不太行正常情况下 US站我是白嫖的cdn，90天是免费50刀的额度 ，没有长期并且国内稳定的CDN供应商 但是跟我说了我看到都会处理的 我现在尽可能从美国时间作息换成北京时间作息 这样的话可以直接找到我的
 
-## 什么是  EdgeJSedSpeed ？
+## 什么是  EdgeJSedSpeed ？（基于某些考虑改名了）
 EdgeJSedSpeed
 本项目于 2021 年 12 月 21 上线 在此期间我们也在不断的测试和迭代 从最开始的直接镜像到服务器再到使用云函数等更新来提高成功率和速度 
 最开始我们开始直接在CDN反向代理jsDelivr官方但是动不动链接失败 ，后来查询一下日志是被污染了 CDN在切换源站上浪费了时间，后来我们使用了腾讯云香港LH反向代理，但是，受限于30MBbs的宽带导致速度平平无奇，在后来尝试使用云函数加速，也问了一下jsDelivr没有完全被国内禁止使用 云函数镜像jsDelivr 不属于跨境访问
@@ -26,75 +26,12 @@ EdgeJSedSpeed  是一个免费依托于国内CDN（内容交付网络）。以�
 参考下列首页   
 
 境内站 https://jsd.cdn.zzko.cn/  
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/41a36d00-0584-4d9e-9896-758d4b9c937f)
+![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/41a36d00-0584-4d9e-9896-758d4b9c937f)
 
 
 国际站 https://cdn.jsdelivr.us/  
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/0d3ceee8-94b3-4415-97ca-fb9511e9a7d2)
+![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/0d3ceee8-94b3-4415-97ca-fb9511e9a7d2)
 
-
-
-
- 
-## 测速情况
-
-我们分别使用
-
-https://cdn.jsdelivr.net （官方默认加速）
-
-https://Fastly.jsdelivr.net （官方默认加速）
-
-
-https://jsd.cdn.zzko.cn
-
-https://cdn.jsdelivr.us
-
-### 我们在 [ITDOG](https://itdog.cn/)进行测试
-
-https://cdn.jsdelivr.net/npm/jquery/
-
-https://Fastly.jsdelivr.net/npm/jquery/
-
-https://jsd.cdn.zzko.cn/npm/jquery/  （全球加速 海外Anycast/cloudflare.com和Anycast/腾讯云）
-
-https://cdn.jsdelivr.us/npm/jquery/ （CDN 优化回国）
-
-来对比一下 都是第二次测试结果
-
-https://cdn.jsdelivr.net/npm/jquery/
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/fe308bba-735b-4c6a-b4de-c5e8a1b2d64d)
-
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1576971a-75ba-4957-b529-9831b6a48e76)
-
-可以看到速度emmmm，访问失败的太多了，打开页面1.12s，ping的平均延迟在172+
-
-
-https://Fastly.jsdelivr.net/npm/jquery/
-
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3f5411ec-75a9-4d92-9511-0257c7e5ae1e)
-
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/aeeb82dc-8440-48ca-8112-4479828e4eac)
-
-
-可以看到速度好不少，但是ip少了，打开延迟平均在0.9s左右 ，ping的平均延迟在116ms+
-
-
-
-https://jsd.cdn.zzko.cn/npm/jquery/
-
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/c31a5495-4f67-4c28-89db-d8b945df1b44)
-
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3f086819-8ea2-49b0-9e24-a8817c2b7a08)
-
-可以看到速度起飞，打开平均0.3s 境内延迟平均15ms+ 海外低至1ms
-
-
-https://cdn.jsdelivr.us/npm/jquery/ 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/773696ab-3982-4beb-b563-7c7504f2ef25)
-
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/d2b85d4a-5c91-456f-acaa-a6215485712d)
-
-可以看到速度起飞，打开平均0.5s 境内延迟平均73ms 海外低至1ms
 
 
 
@@ -122,14 +59,14 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 |QQ|企业微信|微信|github|邮箱|
 |-------|----------|------------------------|----------|------|
-|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/2086a990-bc94-42dc-9c9e-7791f63b2fa0" alt="微信">|[点这里](https://github.com/54ayao/Chinajsdelivr/issues) |ayao@cola.email|
+|202835956|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信" >|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/2086a990-bc94-42dc-9c9e-7791f63b2fa0" alt="微信">|[点这里](https://github.com/54ayao/EdgeJSedSpeed/issues) |ayao@cola.email|
 
 
 
 首先确认报错
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/698eecd4-92a7-4fa8-a5e6-04ec72271599)
+![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/698eecd4-92a7-4fa8-a5e6-04ec72271599)
 
-![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3806b7e2-a5d9-486b-8311-080db57f3f1b)
+![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/3806b7e2-a5d9-486b-8311-080db57f3f1b)
 
 以及官方CDN下是否正常使用或者是出现报错 一般情形是我们转发官方头部 如果官方站也是这样需要自行去jsdelivr官方立issues 但是请替换成jsdelivr官方域名反馈 
 
@@ -157,4 +94,4 @@ https://www.zzko.cn/sponsor
 
 ## 小黑屋
 CN站 https://jsd.cdn.zzko.cn/4.html
-US站 https://cdn.jserlivr.us/ban.html
+US站 https://cdn.jsdelivr.us/ban.html
