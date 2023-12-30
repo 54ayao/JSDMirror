@@ -1,61 +1,22 @@
-平台将对图片进行审核,会对相应的图片做出处理,如果被误封了联系管理员处理，项目已开发完成，正在对接系统完成封禁，预计12月20上线，本来也不用写的，某些人真是没事找事，
-平台秉承的先加速后审核，保证正常情况下的访问，如果异常情况下会封禁图片URL，下线并且第一时间通过内部系统上报给管理员进行复审，管理员复审完成之后，在决定是否加白或者是拉黑该用户。判断方式快照和目录下的其他资源
-平台将重点监控
-
-色情内容	性器官裸露/性行为	性用品相关	OCR色情文本审核性感内容	性暗示/低俗行为 
-
-政治内容	OCR政治文本审核	负面人物	违规图库	负面旗帜&标识	
-
-暴恐内容	违禁品	OCR曼恐文本审核	血腥场景	违法违规内容	非主流文化:枪支等热武器	暴力恐怖行为特殊着装
-
-系统可能会被封禁，被禁止加速的话可以联系管理员处理，具体判断由腾讯万象ci处理，正常站点也用不到这些，前两天出了那一个事不搞点什么策略，不好交代了。
-
-好了，下面是正文。
-项目同步到
-https://jsd.cdn.zzko.cn/
-![1693425805165](https://github.com/54ayao/Chinajsdelivr/assets/86733666/37a2ee1b-9a26-4fa6-8821-d4ed10c65374)
-
-
-
-issues也可以在这里
-
-https://jsd.cdn.zzko.cn/forum/58.html
-
-![1693425920665](https://github.com/54ayao/Chinajsdelivr/assets/86733666/f91b898b-b68b-4cd5-87a6-4242b6cc3e7c)
-
-
-## 原因
-
-### 2021 年 12 月 20 日下午，jsDelivr 因为一些原因失去了国内的 ICP 备案，这导致网宿关闭了它的国内加速，随后 jsDelivr 切换 CDN 为 Fastly。
-
-### jsDelivr 在 ICP 被吊销的四个月后（4 月 28 日）开始被 DNS 污染，导致国内解析访问更加困难。s
-
-### 过两个月 jsDelivr 的情况好不少，但没有国内节点还是有点慢。
-
-### 2023年开始 jsDelivr 的情况越来越差，有时候国内可能打不开了。
+平台将对图片进行审核,会对相应的图片做出处理,如果被误封了联系管理员处理，项目已开发完成，正在对接微信公众号传递快照确认是否违规 违规就不解除 不违规就解除
+不知道怎么搞的 一天天的让我给运营商背书 违规擦边舍不得用国际站 是我承认国际站稳定性不太行正常情况下 国际站我是白嫖的cdn，90天是免费50刀的额度 e但是跟我说了我看到都会处理的 我现在尽可能从美国时间作息换成北京时间作息 这样的话可以直接找到我的
 
 ## 什么是  Chinajsdelivr？
 Chinajsdelivr也即是 jsdelivr mirror site 也就是jsdelivr 镜像站
 本项目于 2021 年 12 月 21 上线 在此期间我们也在不断的测试和迭代 从最开始的直接镜像到服务器再到使用云函数等更新来提高成功率和速度 
-最开始我们开始直接在CDN反向代理jsDelivr官方但是动不动链接失败 ，后来查询一下日志是被污染了 CDN在切换源站上浪费了时间，后来我们使用了腾讯云香港LH反向代理，但是，受限于30MBps的宽带导致速度平平无奇，在后来尝试使用云函数加速，也问了一下jsDelivr没有完全被国内禁止使用 云函数镜像jsDelivr 不属于跨境访问
+最开始我们开始直接在CDN反向代理jsDelivr官方但是动不动链接失败 ，后来查询一下日志是被污染了 CDN在切换源站上浪费了时间，后来我们使用了腾讯云香港LH反向代理，但是，受限于30MBbs的宽带导致速度平平无奇，在后来尝试使用云函数加速，也问了一下jsDelivr没有完全被国内禁止使用 云函数镜像jsDelivr 不属于跨境访问
 当然你“认为”我们镜像jsDelivr是为了窃取jsDelivr官方流量那没有使用的必要的哈 出发点都是错误了 你所有的请求都是毫无保留且不增加任何修改转发给jsDelivr 即使修改了首页 增加了广告其实也是对您使用不会产生本质上的影响，还是不明白的话，那么你可以选择自建或者是使用COS或者是OSS回源jsDelivr来进行加速
-温馨建议大家还是发送referer,以便后续能够正常的对资源可用性监控，能够及时复盘，以及预警，为了产生不必要的麻烦，也为了减轻站长查看cdn日志，来针对什么类型的网站进行加速优化，后续极有可能会交给系统化运营，在jsdelivr侧清理缓存后5分钟在控制面板提交即可完成更新，并且有可能会开放一些经过脱敏的数据
+温馨建议大家还是发送referer,以便后续能够正常的对资源可用性监控，能够及时复盘，以及预警，为了产生不必要的麻烦，也为了减轻站长查看cdn日志，来针对什么类型的网站进行加速优化，后续极有可能会交给系统化运营，在jsdelivr侧清理缓存后5分钟在控制面板提交即可完成更新，并且有可能会开放一些经过脱敏的数据，如果您是相关部门可以使用协查函来申请查看日志和下载日志的管理员和账号密码，
 
 
 
 # 简介
 
-Chinajsdelivr  是一个免费依托于国内CDN（内容交付网络）。以及云函数等产品对上游jsdelivr官方的资源进行更新及转发，我们与jsdelivr官方的Github和NPM还有WP都可以甚至是combine 紧密集成，也是希望大家可以给自己的网站能够自动静态文件/音视频文件获得一定的加速，当然我们使用的初衷是让所有开源项目提供可靠的CDN服务，但是也可以用于私有化场景，博客，论坛，等等，当然依托于国内大厂提供稳定的 CDN，可用于具有大量流量的流行网站上的生产。没有带宽限制或高级功能，任何人都可以完全免费使用，但是这个对于我们来说Chinajsdelivr在流量方面也是要做好预估的，但是Chinajsdelivr是一个不好说的一个项目，这里的突发流量还是比较多的，我们目前在云厂流量是600GB-700GB 一个月左右，为了产生不必要的回源请求，降低源的流量流出，我们会比jsdelivr官方缓存可能高达1倍左右。我们以后在这里也会开放出api来让用户来清理缓存,虽然说由于Chinajsdelivr不像jsDelivr是一个依托于jsDelivr赞助商支持的免费的CDN项目相反Chinajsdelivr我们所有流量都是我们来承担。，之前考虑过使用多家CDN进行拉平处理来平均进行流量调度以获得更好的性能，但它也使我们能够避免单个 CDN 过载。但是多家CDN可能面临一些问题 比如说 账单分散 缓存过多 对于云函数服务器压力过大，反而会产生更多的费用，
+Chinajsdelivr  是一个免费依托于国内CDN（内容交付网络）。以及云函数等产品对上游jsdelivr官方的资源进行更新及转发，我们与jsdelivr官方的Github和NPM还有WP都可以甚至是combine 紧密集成，也是希望大家可以给自己的网站能够自动静态文件/音视频文件获得一定的加速，当然我们使用的初衷是让所有开源项目提供可靠的CDN服务，但是也可以用于私有化场景，博客，论坛，等等，当然依托于国内大厂提供稳定的 CDN，可用于具有大量流量的流行网站上的生产。没有带宽限制或高级功能，任何人都可以完全免费使用，但是这个对于我们来说Chinajsdelivr在流量方面也是要做好预估的，但是Chinajsdelivr是一个不好说的一个项目，这里的突发流量还是比较多的，我们目前在云厂流量是600GB-700GB 一个月左右，为了产生不必要的回源请求，降低源的流量流出，我们会比jsdelivr官方缓存可能高达1倍左右。我们以后在这里也会开放出api来让用户来清理缓存,虽然说由于Chinajsdelivr不像jsDelivr是一个依托于jsDelivr赞助商支持的免费的CDN项目相反Chinajsdelivr我们所有流量都是我们来承担。，之前考虑过使用多家CDN进行拉平处理来平均进行流量调度以获得更好的性能，但它也使我们能够避免单个 CDN 过载。但是多家CDN可能面临一些问题 比如说 账单分散 缓存过多 对于云函数服务器压力过大，反而会产生更多的费用，或者说某个CDN欠费导致局部故障，这些我们都在想办法解决，
 我们的主要费用包括就是CDN流量以及HTTPS请求费，如果有能力的用户可以选择赞助CDN以及Money 当然更好了，我们会在子页面公式内容以及去向 可以参考最下面的赞助（
 
 我们境内使用了 阿里，腾讯，百度，华为，网宿，金山，白山，海外使用了cloudflare和gcore还有腾讯云 进行分发
 
-
-https://github.com/jsdelivr/jsdelivr 具体可以参考参考他们家 都是一样的的处理方式
-
-## 温馨提示
-<div class="info custom-block"><p class="custom-block-title">你正在阅读的是 Chinajsdelivr 3  的文档！</p>
-<ul><li>Chinajsdelivr 2 于 2022 年 4 月 1 日停止维护。</li><li>Chinajsdelivr 2 的域名是 <a href="https://jsd.eagleyao.com" target="_blank" rel="noreferrer">https://jsd.eagleyao.com</a>。</li><li>想从Chinajsdelivr 2 升级？别担心我们已经301到Chinajsdelivr 3 了</a></li></ul></div>
 
 
 
@@ -63,27 +24,14 @@ https://github.com/jsdelivr/jsdelivr 具体可以参考参考他们家 都是一
 ## 使用教程
 参考下列首页   
 
-境内站 https://jsd.cdn.zzko.cn/   (目前经费紧张，如果发现被301到国际站上可能是CDN流量耗尽，临时切换线路)
+境内站 https://jsd.cdn.zzko.cn/  
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/e6e85806-d268-4ddf-8608-125587b20b48)
 
-国际站 https://cdn.jsdelivr.us/  网宿海外节点后续在更换其他运营商 
-
-国际站 https://cdn.jsdelivr.ren/   gcore节点
-gcore严重被q 暂时耽搁了。
-
+国际站 https://cdn.jsdelivr.us/  
+![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/0d3ceee8-94b3-4415-97ca-fb9511e9a7d2)
 
 
-## 使用方法
-只需要把 
 
-https://cdn.jsDelivr.net
-
-全局替换成
-
-https://jsd.cdn.zzko.cn 或者是 https://cdn.jsdelivr.us
-
-可以再加一个判断，如果上方不可达的话
-
-https://cdn.jsdelivr.us
 
  
 ## 测速情况
@@ -101,15 +49,13 @@ https://cdn.jsdelivr.us
 
 ### 我们在 [ITDOG](https://itdog.cn/)进行测试
 
-
-
 https://cdn.jsdelivr.net/npm/jquery/
 
 https://Fastly.jsdelivr.net/npm/jquery/
 
 https://jsd.cdn.zzko.cn/npm/jquery/  （全球加速 海外Anycast/cloudflare.com和Anycast/腾讯云）
 
-https://cdn.jsdelivr.us/npm/jquery/ （海外融合Anycast/CDN 优化回国）
+https://cdn.jsdelivr.us/npm/jquery/ （CDN 优化回国）
 
 来对比一下 都是第二次测试结果
 
@@ -119,8 +65,6 @@ https://cdn.jsdelivr.net/npm/jquery/
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/1576971a-75ba-4957-b529-9831b6a48e76)
 
 可以看到速度emmmm，访问失败的太多了，打开页面1.12s，ping的平均延迟在172+
-
-
 
 
 https://Fastly.jsdelivr.net/npm/jquery/
@@ -134,8 +78,6 @@ https://Fastly.jsdelivr.net/npm/jquery/
 
 
 
-
-
 https://jsd.cdn.zzko.cn/npm/jquery/
 
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/c31a5495-4f67-4c28-89db-d8b945df1b44)
@@ -143,7 +85,6 @@ https://jsd.cdn.zzko.cn/npm/jquery/
 ![image](https://github.com/54ayao/Chinajsdelivr/assets/86733666/3f086819-8ea2-49b0-9e24-a8817c2b7a08)
 
 可以看到速度起飞，打开平均0.3s 境内延迟平均15ms+ 海外低至1ms
-
 
 
 https://cdn.jsdelivr.us/npm/jquery/ 
@@ -156,15 +97,15 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 
 # 使用规定
-1.不能有违规 (国际站除外 特殊时期，护网除外)
+1.不能有违规 (国际站除外）
 
-2.不得应用到违规网站，尤其是灰黑产业，不符合工信部或者国家规定的项目  (国际站除外 特殊时期，护网除外)
+2.不得应用到违规网站，尤其是灰黑产业，不符合工信部或者国家规定的项目
 
 3.项目支持下载，但不能下载违反国家法律法规，你要用就悄咪咪的用，别通过这个链接分享，不该我真的栓Q， 国际站除外
 
 4.未经许可不得再次反向代理该网站 或者反向代理我源站进行二次分发
 
-5.github 项目不做任何屏蔽的目的是为了更好的用户体验，麻烦你们不要把我搞得像jsd一样被污染一段时间
+5.github 项目在不违规的不做任何屏蔽的目的是为了更好的用户体验，麻烦你们不要把我搞得像jsd一样被污染一段时间
 
 6.如果触发防火墙，代表你IP一分钟已经超过2000次，被防火墙的屏蔽被两个三小时之后再试，家庭用户可尝试重启路由器来获取新的IP。或者是保持正常访问。
 
@@ -177,11 +118,9 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 ## 平台管理员联系方式与问题反馈 
 
-|QQ|企业微信|微信|gayhub|bilibili|邮箱|
-|-------|----------|------------------------|----------|------|------|
-|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/2086a990-bc94-42dc-9c9e-7791f63b2fa0" alt="微信">|[点这里](https://github.com/54ayao/Chinajsdelivr/issues) |[前往B站](https://space.bilibili.com/293201568)|ayao@cola.email|
-
-
+|QQ|企业微信|微信|github|邮箱|
+|-------|----------|------------------------|----------|------|
+|202835956|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信" >|<img src="https://github.com/54ayao/Chinajsdelivr/assets/86733666/2086a990-bc94-42dc-9c9e-7791f63b2fa0" alt="微信">|[点这里](https://github.com/54ayao/Chinajsdelivr/issues) |ayao@cola.email|
 
 
 
@@ -203,7 +142,7 @@ https://cdn.jsdelivr.us/npm/jquery/
 
 CDN: cloudflare
 
-CDN访问参数：abcd1234
+CDN访问参数（UUID）：abcd1234
 
 是否测试 jsdelivr官方源站：是/jsdelivr官方源站无该报错
 
@@ -214,57 +153,6 @@ CDN访问参数：abcd1234
 
 https://www.zzko.cn/sponsor
 
-以下封禁针对整个域名  和用户
-|违规域名|	违规原因|	违规URL|	封禁时间	|区域	|状态|
-|-------|----------|------------------------|----------|------|
- |---|
-|gkdy***.xyz|疑似科学上网|历史数据|2023-07-26—9999-12-31|中国境内|不可申诉|
-|gkd****.top|疑似科学上网|历史数据|2023-07-26—9999-12-31|中国境内|不可申诉|
-|gkdcl***.org|疑似科学上网|历史数据|2023-07-26—9999-12-31|中国境内|不可申诉|
-|c**8.club|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-|***88.org|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-|cd8**8.cc|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-cd8**.de|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-cd8**8.vip|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-cd8***.de|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-cd8***.org|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-cd8***.cc|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-***8.club|疑似科学上网|/gh/mt-theme|2023-07-26—9999-12-31|中国境内|不可申诉|
-e****un.cloud|疑似科学上网|历史数据|2023-07-26—9999-12-31|中国境内|不可申诉|
-jin***f.icu|涩情|/gh/qucomic|2023-07-26—9999-12-31|中国境内|不可申诉|
-j**u.cc|涩情|/gh/qucomic|2023-07-26—9999-12-31|中国境内|不可申诉|
-myqcloud.com|被恶意利用|无|2023-08-10—9999-12-31|中国境内|可申诉|
-aliyuncs.com|被恶意利用|无|2023-08-10—9999-12-31|中国境内|可申诉|
-github.io|被恶意利用|无|2023-08-10—9999-12-31|中国境内|可申诉|
-tencentcos.cn|被恶意利用|无|2023-08-10—9999-12-31|中国境内|可申诉|
-suxing***.github.io|传播违规视频|/gh/flush98|2023-08-10—9999-12-31|中国境内|不可申诉|
-an****zuo.github.io|传播违规视频|/gh/anzuoanzuo|2023-08-10—9999-12-31|中国境内|不可申诉|
-90****25.github.io|传播违规视频|/gh/906662225|2023-08-10—9999-12-31|中国境内|不可申诉|
-nan****up.github.io|传播违规视频|/gh/nanjingup|2023-08-10—9999-12-31|中国境内|不可申诉|
-fznb***34.github.io|传播违规视频|/gh/fznb1234|2023-08-10—9999-12-31|中国境内|不可申诉|
-niu****8.github.io|传播违规视频|/gh/niunai88|2023-08-10—9999-12-31|中国境内|不可申诉|
-****u258.github.io|传播违规视频|/gh/wenmou258|2023-08-10—9999-12-31|中国境内|不可申诉|
-can***6999.github.io|传播违规视频|/gh/cannian666999|2023-08-10—9999-12-31|中国境内|不可申诉|
-wo****u.github.io|传播违规视频|/gh/wode-1u|2023-08-10—9999-12-31|中国境内|不可申诉|
-wos***138.github.io|传播违规视频|/gh/woshishei138|2023-08-10—9999-12-31|中国境内|不可申诉|
-niuz***45.github.io|传播违规视频|/gh/niuzai12345|2023-08-10—9999-12-31|中国境内|不可申诉|
-03***98.github.io|传播违规视频|/gh/03298|2023-08-10—9999-12-31|中国境内|不可申诉|
-ok***9.github.io|传播违规视频|/gh/oka159|2023-08-10—9999-12-31|中国境内|不可申诉|
-nan***g-521zx.github.io|传播违规视频|/gh/nansheng-521zx|2023-08-10—9999-12-31|中国境内|不可申诉|
-jac***n0829.github.io|传播违规视频|/gh/jackson0829|2023-08-10—9999-12-31|中国境内|不可申诉|
-sux***g2312.github.io|传播违规视频|/gh/suxing12312|2023-08-10—9999-12-31|中国境内|不可申诉|
-imo****ve.me|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-so****lus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-no***s.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-le**plus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-no***lus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-ww**g-plus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-www***t-plus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-spr**plus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-blu***us.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-sum***lus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-s**plus.org|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-w**lus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-x**et.cn|被通报上传入口|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|可申诉|
-s***lus.net|运营商通报涩情|/gh/bodaxsd/gal|2023-10-14—9999-12-31|中国境内|不可申诉|
-—–|破坏国家宗教政策，宣扬邪教和封建迷信|/gh/qxqx11/|2023-10-14—9999-12-31|全站|不可申诉|
+## 小黑屋
+CN站 https://jsd.cdn.zzko.cn/4.html
+US站 https://cdn.jserlivr.us/ban.html
