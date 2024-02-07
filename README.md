@@ -71,9 +71,9 @@ EdgeJSedSpeed  是一个免费依托于国内CDN（内容交付网络）。以�
 
 ## 平台管理员联系方式与问题反馈 
 
-|QQ|企业微信|微信|github|邮箱|
-|-------|----------|------------------------|----------|------|
-|202835956|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信" >|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/2086a990-bc94-42dc-9c9e-7791f63b2fa0" alt="微信">|[点这里](https://github.com/54ayao/EdgeJSedSpeed/issues) |ayao@cola.email|
+|QQ|企业微信|微信|github|TG|邮箱|
+|-------|----------|------------------------|----------|------|------|
+|202835956|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信" >|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/2086a990-bc94-42dc-9c9e-7791f63b2fa0" alt="微信">|[点这里](https://github.com/54ayao/EdgeJSedSpeed/issues) |t.me/cnzzko |ayao@cola.email|
 
 
 
