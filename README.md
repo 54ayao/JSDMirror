@@ -1,6 +1,7 @@
 平台审核自动化已经上线了 图片内第一次会302重定向到www.jsdelivr.ren（CDN供应商Cloudflare）完成审核后302状态码变成200
-审核系统由于没有模型使用的腾讯云的平台常见模型可能出现误封，这次不会在出问题了 除非审核上次服务器被打（
+审核系统由于没有模型使用的腾讯云的平台常见模型可能出现误封，这次不会在出问题了 除非审核服务器被打（
 
+可能出现解封的机会
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/d80c0729-8d4c-4107-96fa-0ef8332bc99b)
 如果出现这个情况请联系管理员进行处理
 
@@ -8,7 +9,8 @@
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/54c1303f-a229-498f-9774-3f7879a0c134)
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/3c61c25d-bc02-4dbe-a319-193ad2591501)
 
-修复了使用多个//绕过封禁系统的BUG（CDN侧面修复的）
+此外平台发现部分人使用多个//绕过封禁系统，达到继续使用的目的 ，在这里我们联系CDN供应商特殊配置修复了使用多个//绕过封禁系统的BUG
+
 
 可以解封情况
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/dab0af03-2670-4c23-8a57-eb384ddc3c29)
