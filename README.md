@@ -100,5 +100,5 @@ CDN访问参数（UUID）：abcd1234
 https://www.zzko.cn/sponsor
 
 ## 小黑屋
-CN站 https://jsd.cdn.zzko.cn/4.html
+CN站 https://jsd.cdn.zzko.cn/4.html ，https://jsd.cdn.zzko.cn/17.html
 US站 https://cdn.jsdelivr.us/ban.html
