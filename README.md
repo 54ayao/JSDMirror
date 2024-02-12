@@ -31,7 +31,8 @@ JSDelivr 镜像站 分发工作原理
 业务源站域名为 jsd.cdn.zzko.cn，域名接入 CDN 加速服务后，当您发起 HTTP 请求时，会先发起DNS解析请求获取最优的访问IP，之后再向获取的访问IP发起内容请求，实际请求完整过程如下：
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/01d6eaba-4957-4d94-be88-498455e30ef6)
 
-JSDelivr 镜像站 分发工作原理-jsdelivr镜像站
+## JSDelivr 镜像站 分发工作原理
+
 1.用户在网站或APP请求 jsd.cdn.zzko.cn 下的某资源（如/gh/54ayao/EdgeJSedSpeed@blob/main/static/8dd0ee58-44cd-4bce-b470-3d581129e30f.png，index.php，/gh/54ayao/EdgeJSedSpeed@edit/main/README.md )，会先向本地DNS发起域名解析请求。
 
 2.本地DNS检查缓存中是否有jsd.cdn.zzko.cn的IP地址记录：如果有缓存则直接返回给终端用户，若没有缓存则向授权DNS查询jsd.cdn.zzko.cn解析。
@@ -48,7 +49,7 @@ JSDelivr 镜像站 分发工作原理-jsdelivr镜像站
 
 8.如果该边缘节点IP服务器已有缓存该资源，节点将数据直接返回给用户（如12），若无缓存则向白山中间源请求内容。
 
-9.若中间源服务器已有缓存该资源，节点将数据直接返回给边缘节点（如11），若无缓存则向客户源服务器请求内容。
+9.若中间源服务器已有缓存该资源，节点将数据直接返回给边缘节点（如11），若无缓存由CDN判断文件路径/后缀 选择对应负责的源服务器去请求上游内容。
 
 9.1 当用户访问非jsdelivr加速项目的时候CDN系统回源腾讯云轻量应用服务器加载镜像站前端，并且缓存部分资源
 
