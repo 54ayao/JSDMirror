@@ -1,8 +1,6 @@
 平台审核自动化已经上线了 图片内会302重定向到www.jsdelivr.ren（CDN供应商Cloudflare）完成审核后302状态码，系统会尝试再复审一次然后变成200
 审核系统由于没有模型使用的腾讯云的平台常见模型可能出现误封，这次不会在出问题了 
 
-2024-02-14 7:00
-平台侧注意到 审核过的图片 可能出现 content-type: application/xml 单独访问是 content-type: image/jpg ，然后又可以正常引用 类似的导致图片无法加载，源和审核系统都是正常记录的image/jpg,清除缓存又变成了application/xml，只有审核不通过的图片文件才会去返回application/xml   但是清理缓存也不行就搞不懂了 有问题联系我 我服了   目前大概率是cdn的问题正在联系cdn侧定位问题( 
 
 
 
