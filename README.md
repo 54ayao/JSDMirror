@@ -115,7 +115,7 @@ EdgeJSedSpeed  是一个免费依托于国内CDN（内容交付网络）。以�
 
 |QQ|企业微信|github|TG|邮箱|
 |-------|---------------|----------|------|------|
-|202835956|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信">|[点这里](https://github.com/54ayao/EdgeJSedSpeed/issues) |[点这里](https://t.me/jsdmirror)|ayao@cola.email|
+|202835956|<img src="https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信">|[点这里](https://github.com/54ayao/EdgeJSedSpeed/issues) |[点这里](https://t.me/boost/jsdmirror)|ayao@cola.email|
 
 
 
