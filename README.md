@@ -17,19 +17,21 @@
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/54c1303f-a229-498f-9774-3f7879a0c134)
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/3c61c25d-bc02-4dbe-a319-193ad2591501)
 
+
+
+可以解封情况
+![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/dab0af03-2670-4c23-8a57-eb384ddc3c29)
+
 说明：
 
 1.平台发现部分人使用多个//绕过封禁系统，达到继续使用的目的 ，在这里我们联系CDN供应商特殊配置修复了使用多个//绕过封禁系统的BUG（目录侧输入大于等于俩个/ 系统按一个计算）
 
 2.可以申请不审核 但是仅限于ACG、正常图片、无明显露点、博客标记、日常生活 等等 都可以向管理员提出申请 管理员审核通过之后对于桶设置加白 免审核 
 
-3.CuteCloud 联盟用户免审核 拥有一个独立的COS桶可以自己上传图片 但是 需要告知服务器IP （服务器IP只给写入删除权限） 然后CDN那边负责展示 
+3.CuteCloud 联盟用户免审核 拥有一个独立的COS桶可以自己上传图片 但是 需要告知服务器IP （服务器IP只给写入删除权限） 然后CDN那边负责展示 是因为我有5-10台的LH 流量用不完（ 大概一个月30tb吧 不用就浪费了） 
 
-其中CuteCloud 联盟用户指 用户使用的COS可以减少一定费用 使用自定义域名需要使用国内外第三方CDN，不支持Cloudflare和腾讯云CDN、TEO 因为底层是腾讯云COS，使用腾讯CDN 会导致额外计费，不支持Cloudflare是因为 腾讯云对于这个审核有一定的要求和体谅 只要支付储存费用基本上随便用。我这里大概是不到100/tb吧 其中 自带域名 免流量费 只需要支付储存费用 CDN费用无需支付，月流量限制20GB， 不管是否使用单用户限速100MB/S但是这个项目是不对外的 管理员只会给认识的人，后续等搞了ICP EDI再说吧 (
+其中CuteCloud 联盟用户指 用户使用的COS可以减少一定费用 使用自定义域名需要使用国内外第三方CDN，不支持Cloudflare和腾讯云CDN、TEO 因为底层是腾讯云COS，使用腾讯CDN 会导致额外计费，不支持Cloudflare是因为 腾讯云对于这个审核有一定的要求和体量， cute联盟用户只要支付储存费用基本上随便用。我这里大概是不到100/tb吧 其中 自带域名 免流量费 只需要支付储存费用 CDN费用无需支付，月流量限制20GB， 不管是否使用单用户限速50MB/S但是这个项目是不对外的 管理员只会给认识的人，后续等搞了ICP EDI再说吧 (
 域名大概是 xxxxx.cos.cutecloud.cn （特别少 只有俩三个）
-可以解封情况
-![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/dab0af03-2670-4c23-8a57-eb384ddc3c29)
-
 
 ## 什么是  EdgeJSedSpeed ？（基于某些考虑改名了）
 EdgeJSedSpeed
