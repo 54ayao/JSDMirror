@@ -1,20 +1,17 @@
-### 产品策略调整情况说明
-
-1. 新架构域名正在备案中
-
-2. 重庆地区已于 4/9日 17:50设置解封 18:00 完成解封 速度还是挺快的
 
 反馈渠道
-微信>QQ>企业微信>企业微信邮件>tg>bilibili
+微信>>企业微信>企业微信邮件>tg>QQ>bilibili
 
 可能出现解封的机会
+
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/d80c0729-8d4c-4107-96fa-0ef8332bc99b)
+
 如果出现这个情况请联系管理员进行处理
 
-不可解封情况如下
+
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/54c1303f-a229-498f-9774-3f7879a0c134)
 ![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/3c61c25d-bc02-4dbe-a319-193ad2591501)
-
+如果出现这个情况请联系管理员进行询问是什么违规
 
 
 可以解封情况
@@ -214,10 +211,3 @@ CDN访问参数（UUID）：abcd1234
 使用影响：
 无法加载字体 显示cors跨越
 
-## 赞助
-
-https://www.zzko.cn/sponsor
-
-## 小黑屋
-CN站 https://jsd.cdn.zzko.cn/4.html ，https://jsd.cdn.zzko.cn/17.html
-US站 https://cdn.jsdelivr.us/ban.html
