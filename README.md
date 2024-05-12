@@ -1,3 +1,7 @@
+平台在5月12号晚上10:00~11:00。测试了容灾系统
+A cdn挂了，自动切b cdn  B cdn挂了切c cdn 目前经过测试，已经完美上线了
+
+
 
 反馈渠道
 微信>>企业微信>企业微信邮件>tg>QQ>bilibili
@@ -41,9 +45,9 @@ JSDelivr 镜像站 分发工作原理
 
 2.本地DNS检查缓存中是否有jsd.cdn.zzko.cn的IP地址记录：如果有缓存则直接返回给终端用户，若没有缓存则向授权DNS查询jsd.cdn.zzko.cn解析。
 
-3.授权DNS服务器解析jsd.cdn.zzko.cn，假如发现域名已经解析到了CNAME：jsd.cdn.zzko.cn.bscloud.fusioncdn.cn，并响应给本地服务器。
+3.授权DNS服务器解析jsd.cdn.zzko.cn，假如发现域名已经解析到了CNAME：jsd.cdn.zzko.cn.cdn.fusioncdn.cn，并响应给本地服务器。
 
-4.本地服务器发起jsd.cdn.zzko.cn.bscloud.fusioncdn.cn解析请求，当前镜像站请求被指向白山CDN全球智能调度系统。
+4.本地服务器发起jsd.cdn.zzko.cn.cdn.fusioncdn.cn解析请求，并直接返回a记录不再返回多余的cname,当前镜像站请求被指向白山CDN全球智能调度系统。
 
 5.CDN智能调度系统对域名进行智能解析，将离用户最近的响应速度最快的CDN节点IP地址返回给本地DNS。
 
