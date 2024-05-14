@@ -1,5 +1,5 @@
-平台在5月12号晚上10:00~11:00。测试了容灾系统
-A cdn挂了，自动切b cdn  B cdn挂了切c cdn 目前经过测试，已经完美上线了
+这样真的有意思么
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/47cc4ba6-bc87-4b59-8582-6c0c64e1ddb7)
 
 
 
