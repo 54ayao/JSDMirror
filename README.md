@@ -1,5 +1,6 @@
-这样真的有意思么
-![image](https://github.com/54ayao/JSDMirror/assets/86733666/47cc4ba6-bc87-4b59-8582-6c0c64e1ddb7)
+清理缓存接口上线了参考 目前是Test 阶段 后续需要扣除你在站点签到或者是活动的积分
+https://www.cuteapi.com/?CuteAPI=doc&id=15
+https://www.cuteapi.cn/?CuteAPI=doc&id=15
 
 
 
