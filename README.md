@@ -2,6 +2,13 @@
 https://www.cuteapi.com/?CuteAPI=doc&id=15
 https://www.cuteapi.cn/?CuteAPI=doc&id=15
 
+图片不支持的！！！
+
+
+ACG请先像管理员申请加白在加速！！！！
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/be71ccff-b570-4fd4-b50d-581db10a34aa)
+怎么玩受不了啊！！！
+
 
 
 反馈渠道
