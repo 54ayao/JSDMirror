@@ -1,11 +1,10 @@
-清理缓存接口上线了参考 目前是Test 阶段 后续需要扣除你在站点签到或者是活动的积分
+清理缓存接口上线了参考 
 
-https://www.cuteapi.com/?CuteAPI=doc&id=15
+https://jsd.cdn.zzko.cn/cache
 
-https://www.cuteapi.cn/?CuteAPI=doc&id=15
+图片不支持清理的，清理目录也不会生效的！！！
 
-图片不支持清理的！！！
-
+请使用中国IP和DNS访问 海外IP和DNS可能无法清理!!!
 
 ACG请先像管理员申请加白在加速！！！！
 
