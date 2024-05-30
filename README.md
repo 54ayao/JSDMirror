@@ -32,7 +32,8 @@ ACG请先像管理员申请加白在加速！！！！
 
 
 可以解封情况
-![image](https://github.com/54ayao/EdgeJSedSpeed/assets/86733666/dab0af03-2670-4c23-8a57-eb384ddc3c29)
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/6b283f22-de90-473c-9378-5912c914f94b)
+
 
 说明：
 
