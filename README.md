@@ -1,7 +1,7 @@
 cdn.jsdmirror.com 和 cdn.jsdmirror.cn 即将上线 后续301过去
 
 cdn.jsdmirror.com（全球加速含中国境内加速）
- cdn.jsdmirror.cn （只中国境内加速）
+ cdn.jsdmirror.cn （全球加速含中国境内加速）
 
 清理缓存接口上线了参考 
 
