@@ -3,13 +3,8 @@
 本项目自2021年12月21日上线以来，原由54ayao（Eagle Yao）运营和维护。经过数轮版本迭代，现已交由大连市泽瑶网络科技有限公司负责运营。JSDMirror致力于为广大开发者提供免费的CDN加速服务，通过优化网站加速、应用程序优化等多种场景，提升用户体验。
 
 
-1. 稳定可靠：JSDMirror具备高可用性和容错能力，确保在任何情况下都能为用户提供持续稳定的服务。
-
-2. 安全保障：平台采用严格的安全措施，包括数据加密、访问控制等，保护用户数据和隐私安全。
-
-3. 简单易用：用户只需通过简单的配置，即可轻松切换JSDMirror的镜像服务，无需复杂的操作和维护。
-
 ## 核心功能
+
 1.高速镜像站
 
 我们现采用腾讯云中国香港TEK作为源站，根据网站流量来自动提升服务器，日常运行约40台服务器全千兆节点，国内延迟最低2ms不超过90ms
@@ -24,6 +19,8 @@
 
 海外
 cloudflare、CDNetWorks、Tencent Cloud、bunny、 Vercel  
+
+欢迎cdn厂商联系我们
 
 3.免费性
 
@@ -145,6 +142,9 @@ cloudflare、CDNetWorks、Tencent Cloud、bunny、 Vercel
 
 ## 平台管理员联系方式与问题反馈 
 
+反馈渠道
+微信>>企业微信>企业微信邮件>tg>QQ>bilibili
+
 |QQ|企业微信|github|TG|邮箱|
 |-------|---------------|----------|------|------|
 |202835956|<img src="https://github.com/54ayao/JSDMirror/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信">|[点这里](https://github.com/54ayao/JSDMirror/issues) |[点这里](https://t.me/jsdmirror)|ayao@cola.email|
@@ -157,3 +157,21 @@ cloudflare、CDNetWorks、Tencent Cloud、bunny、 Vercel
 
 
 
+可能出现解封的机会
+
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/d80c0729-8d4c-4107-96fa-0ef8332bc99b)
+
+如果出现这个情况请联系管理员进行处理
+
+
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/54c1303f-a229-498f-9774-3f7879a0c134)
+
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/6b283f22-de90-473c-9378-5912c914f94b)
+如果出现这个情况请联系管理员进行询问是什么违规
+
+说明：
+
+1.平台发现部分人使用多个//绕过封禁系统，达到继续使用的目的 ，在这里我们联系CDN供应商特殊配置修复了使用多个//绕过封禁系统的BUG（目录侧输入大于等于俩个/ 系统按一个计算）
+
+
+(被审核系统处理了一定要跟我说 我第一时间处理！！！不要哑不吭声的，到头来日志被覆盖了，很麻烦的)
