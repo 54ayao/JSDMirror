@@ -21,7 +21,7 @@
 海外
 cloudflare、CDNetWorks、Tencent Cloud、bunny、 Vercel  
 
-欢迎cdn厂商联系我们
+平台根据运营情况自动决定cdn供应商
 
 3. **免费性**
 
