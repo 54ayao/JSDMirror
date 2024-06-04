@@ -177,12 +177,6 @@ jsdmirror注重用户数据安全，采用了多重加密技术和严格的安�
 |202835956|<img src="https://github.com/54ayao/JSDMirror/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信">|[点这里](https://github.com/54ayao/JSDMirror/issues) |[点这里](https://t.me/jsdmirror)|ayao@cola.email|
 
 
-## 审核范围
-
-平台现阶段只审核图片，免审策略需要有一定的信用值， Acg视频请先加白后。再加速，否则被审核系统封禁将不处理了
-
-
-
 
 可能出现解封的机会
 
