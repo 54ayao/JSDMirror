@@ -194,7 +194,7 @@ jsdmirror注重用户数据安全，采用了多重加密技术和严格的安�
 
 |QQ|企业微信|github|TG|邮箱|
 |-------|---------------|----------|------|------|
-|202835956|<img src="https://github.com/54ayao/JSDMirror/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信">|[点这里](https://github.com/54ayao/JSDMirror/issues) |[点这里](https://t.me/jsdmirror)|ayao@cola.email|
+|202835956|<img src="https://github.com/54ayao/JSDMirror/assets/86733666/aa633562-1b3b-438e-868b-15c0b5a445bd" alt="企业微信">|[点这里](https://github.com/54ayao/JSDMirror/issues) |[点这里](https://t.me/jsdmirrorChannel)|ayao@cola.email|
 
 
 
