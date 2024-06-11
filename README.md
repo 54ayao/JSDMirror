@@ -7,10 +7,13 @@
 公告2
 免审核的jsdmirror上线了
 *.cdn.xzzo.cn
-
+一，
 去console.xzzo.cn，完成注册并搞基础实名认证后。即可向管理员申请
 对应网站需要悬挂
-	<a href="https://www.jsdmirror.com">页面资源由jsdmirror提供</a>
+	<a href="https://www.jsdmirror.com">页面资源由jsdmirror提供</a>具体看你使用什么，在你的网站下悬挂。
+
+二，
+这个是自定义页面 在我们提供的域名下悬挂
 
 1.允许自定义域名前缀
 
