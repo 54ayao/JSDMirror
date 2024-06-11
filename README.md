@@ -15,7 +15,7 @@
 1.允许自定义域名前缀
 
 2.允许自定义静态页面
-需要在底部悬挂。</p><div class="footer-muted em09"><div>Copyright © 2020-2024 · <a href="https://www.zeyao.net">泽瑶网络</a> All rights reserved.</div>
+需要在底部悬挂。<a href="https://www.zeyao.net">泽瑶网络</a> All rights reserved.
 授权
 <a href="https://你网站">你网站名字 </a>使用
 <a>&copy; 2023-2024 你网名 All Rights Reserved.</a>
