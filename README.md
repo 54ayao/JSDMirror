@@ -26,7 +26,7 @@
 本系统有：
 <a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://blog.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
 
-  <a href="https://beian.miit.gov.cn" id="miit"  target="_blank">辽ICP备2023005487号-9</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?recordcode=2102810200xxxx" id="miit"  target="_blank">辽公网安备2102810200xxxx号</a> (后续会通知你更新的)| 
+  <a href="https://beian.miit.gov.cn" id="miit"  target="_blank">辽ICP备2023005487号-10</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?recordcode=2102810200xxxx" id="miit"  target="_blank">辽公网安备2102810200xxxx号</a> (后续会通知你更新的)| 
 <a href="https://icp.gov.moe/?keyword=2024xxxx" target="_blank">萌ICP备2022xxx号</a>(需要自行申请)
   
 <p>本站不提供任何视听上传存储服务，所有内容均来自Jsdelivr站点提供的公开引用资源。进行分发服务<br>如存在版权或非法内容，欢迎举报，我们将尽快予以屏蔽<br>举报邮箱: kefu@cola.email 我们将于1-3个工作日受理举报您的举报<p>网上有害信息举报专区：<i class="sprite bg3"></i><a href="https://www.12377.cn/" target="_blank">中国互联网违法和不良信息举报中心</a><br>
