@@ -4,7 +4,36 @@
 
 从2024/6/5号开始如果宣传了JSDMirror可以带上你的博客和截图,在网站联系uid为1或者是发送邮件kefu@cola.email 根据内容换取500-5000积分+1年平台会员大概可以清理1000次缓存缓存，活动结束日期2025年6月30号，每一个网站，每一个主体备案号只能参加一次，发过一次的话可以重新发的哦
 
+公告2
+免审核的jsdmirror上线了
+*.cdn.xzzo.cn
+
+去console.xzzo.cn，完成注册并搞基础实名认证后。即可向管理员申请
+对应网站需要悬挂
+	<a href="https://www.jsdmirror.com">页面资源由jsdmirror提供</a>
+
+1.允许自定义域名前缀
+
+2.允许自定义静态页面
+需要在底部悬挂。</p><div class="footer-muted em09"><div>Copyright © 2020-2024 · <a href="https://www.zeyao.net">泽瑶网络</a> All rights reserved.</div>
+授权
+<a href="https://你网站">你网站名字 </a>使用
+<a>&copy; 2023-2024 你网名 All Rights Reserved.</a>
+<div>
+本系统有：
+<a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://blog.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
+
+  <a href="https://beian.miit.gov.cn" id="miit"  target="_blank">辽ICP备2023005487号-9</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?recordcode=2102810200xxxx" id="miit"  target="_blank">辽公网安备2102810200xxxx号</a> | 
+<a href="https://icp.gov.moe/?keyword=2024xxxx" target="_blank">萌ICP备2022xxx号</a>(需要自行申请)
+  
+<p>本站不提供任何视听上传存储服务，所有内容均来自Jsdelivr站点提供的公开引用资源。进行分发服务<br>如存在版权或非法内容，欢迎举报，我们将尽快予以屏蔽<br>举报邮箱: kefu@cola.email 我们将于1-3个工作日受理举报您的举报<p>网上有害信息举报专区：<i class="sprite bg3"></i><a href="https://www.12377.cn/" target="_blank">中国互联网违法和不良信息举报中心</a><br>
+网络犯罪举报专区：<i class="sprite bg3"></i><a href="http://cyberpolice.mps.gov.cn/wfjb/" target="_blank">网络犯罪举报中心</a></p>
+
+
+主要悬挂这几个 每行顺序不限， 需要同时满足
+
 ## 项目介绍
+
 
 本项目自2021年12月21日上线以来，原由54ayao（Eagle Yao）运营和维护。经过数轮版本迭代，现已交由大连市泽瑶网络科技有限公司负责运营。JSDMirror致力于为广大开发者提供免费的CDN加速服务，通过优化网站加速、应用程序优化等多种场景，提升用户体验。
 我们已启用全新架构 cdn.JSDMirror.com为你提供服务
