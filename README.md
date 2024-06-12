@@ -17,11 +17,12 @@
 
 1.允许自定义域名前缀
 
-2.允许自定义静态页面
+2.允许自定义静态页面,包含php,代码禁止混淆,加密,要求代码能够正常阅读理解 php8语法，如有报错则审核不通过。禁止连接任何形式的数据库和数据库
+
 需要在底部悬挂。<a href="https://www.zeyao.net">泽瑶网络</a>
 授权
 <a href="https://你网站">你网站名字 </a>使用
-<a>&copy; 2023-2024 你网名 All Rights Reserved.</a>
+&copy; 2023-2024 你网名 All Rights Reserved.
 <div>
 本系统有：
 <a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://blog.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
@@ -32,6 +33,7 @@
 <p>本站不提供任何视听上传存储服务，所有内容均来自Jsdelivr站点提供的公开引用资源。进行分发服务<br>如存在版权或非法内容，欢迎举报，我们将尽快予以屏蔽<br>举报邮箱: kefu@cola.email 我们将于1-3个工作日受理举报您的举报<p>网上有害信息举报专区：<i class="sprite bg3"></i><a href="https://www.12377.cn/" target="_blank">中国互联网违法和不良信息举报中心</a><br>
 网络犯罪举报专区：<i class="sprite bg3"></i><a href="http://cyberpolice.mps.gov.cn/wfjb/" target="_blank">网络犯罪举报中心</a></p>
 
+内容是这样的但是格式不限制。
 
 主要悬挂这几个 每行顺序不限， 需要同时满足
 
