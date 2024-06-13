@@ -25,7 +25,7 @@
 &copy; 2023-2024 你网名 All Rights Reserved.
 <div>
 本系统有：
-<a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://blog.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
+<a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://www.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
 
   <a href="https://beian.miit.gov.cn" id="miit"  target="_blank">辽ICP备2023005487号-8</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?recordcode=2102810200xxxx" id="miit"  target="_blank">辽公网安备2102810200xxxx号</a> (后续会通知你更新的)| 
 <a href="https://icp.gov.moe/?keyword=2024xxxx" target="_blank">萌ICP备2022xxx号</a>(需要自行申请)
