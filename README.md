@@ -22,7 +22,7 @@
 需要在底部悬挂。<a href="https://www.zeyao.net">泽瑶网络</a>
 授权
 <a href="https://你网站">你网站名字 </a>使用
-&copy; 2023-2024 你网名 All Rights Reserved.
+&copy; 202x-202x <a href="https://你网站">你网站名字 </a>  All Rights Reserved.
 <div>
 本系统有：
 <a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://www.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
