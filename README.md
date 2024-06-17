@@ -1,45 +1,6 @@
 ## 置顶公告
 
-公告
-
-从2024/6/5号开始如果宣传了JSDMirror可以带上你的博客和截图,在网站联系uid为1或者是发送邮件kefu@cola.email 根据内容换取500-5000积分+1年平台会员大概可以清理1000次缓存缓存，活动结束日期2025年6月30号，每一个网站，每一个主体备案号只能参加一次，发过一次的话可以重新发的哦
-
-公告2
-免审核的jsdmirror上线了
-*.cdn.xzzo.cn
-一，
-去console.xzzo.cn，完成注册并搞基础实名认证后。即可向管理员申请
-对应网站需要悬挂
-	<a href="https://www.jsdmirror.com">页面资源由jsdmirror提供</a>具体看你使用什么，在你的网站下悬挂。
-
-二，
-这个是自定义页面 在我们提供的域名下悬挂
-
-1.允许自定义域名前缀
-
-2.允许自定义静态页面,包含php,代码禁止混淆,加密,要求代码能够正常阅读理解 php8语法，如有报错则审核不通过。禁止连接任何形式的数据库和数据库
-
-需要在底部悬挂。<a href="https://www.zeyao.net">泽瑶网络</a>
-授权
-<a href="https://你网站">你网站名字 </a>使用
-&copy; 202x-202x <a href="https://你网站">你网站名字 </a>  All Rights Reserved.
-<div>
-本系统有：
-<a href="https://www.zzko.cn">泽瑶静态资源站</a> · <a href="https://www.ayao.ltd">阿瑶の Blog</a> · <a href="https://www.jsdmirror.com">jsdelivr镜像站</a>提供</div>
-
-  <a href="https://beian.miit.gov.cn" id="miit"  target="_blank">辽ICP备2023005487号-8</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?recordcode=2102810200xxxx" id="miit"  target="_blank">辽公网安备2102810200xxxx号</a> (后续会通知你更新的)| 
-<a href="https://icp.gov.moe/?keyword=2024xxxx" target="_blank">萌ICP备2022xxx号</a>(需要自行申请)
-  
-<p>本站不提供任何视听上传存储服务，所有内容均来自Jsdelivr站点提供的公开引用资源。进行分发服务<br>如存在版权或非法内容，欢迎举报，我们将尽快予以屏蔽<br>举报邮箱: kefu@cola.email 我们将于1-3个工作日受理举报您的举报<p>网上有害信息举报专区：<i class="sprite bg3"></i><a href="https://www.12377.cn/" target="_blank">中国互联网违法和不良信息举报中心</a><br>
-网络犯罪举报专区：<i class="sprite bg3"></i><a href="http://cyberpolice.mps.gov.cn/wfjb/" target="_blank">网络犯罪举报中心</a></p>
-
-内容是这样的但是格式不限制。
-
-主要悬挂这几个 每行顺序不限， 需要同时满足
-
-公告3
-平台近期发现大量ts切片视频，占用的流量比较多，触发了cdn防御机制导致业务下线，后续经反馈人工查询日志审核，大量切片视频，人工溯源后，指向了某一个二次元动漫网站，视频内容存在不良广告，违法菠菜广告是违反了我们的tos，大量的切片视频也是违反tos，经评估研究决定 ts m3u8将禁止在中国大陆节点存在。 触发则默认301导 cdn.jsdelivr.us  
-
+2024年6月18日开始清理 自称"我们立足于美利坚合众国，为全球华人服务，受北美法律保护、未经授权禁止建立镜像"!根据属地管辖原则规定你使用了我方服务/面向中国大陆服务也要遵守中国大陆法律法规，其次你的内容首先要屏蔽中国大陆，请尽快完成更换
 
 
 ## 项目介绍
