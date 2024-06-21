@@ -1,8 +1,12 @@
 ## 置顶公告
 
-1.自称"我们立足于美利坚合众国，为全球华人服务，受北美法律保护、未经授权禁止建立镜像"!根据属地管辖原则规定你使用了我方服务/面向中国大陆服务也要遵守中国大陆法律法规，我们已完成重定向到国际站这样才符合现行法律法规
 
-2.TS 和M3U8 滥用严重已重定向到国际站处理
+2.TS 和M3U8 已重定向到国际站处理 滥用严重的我们将上报到jsdelivr ban掉用户 
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/86bd1857-d7c9-404c-bbcd-25d1818b0680)
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/aa3c5f9a-e812-4951-9876-6ce62e89c780)
+这样的页面是官方的封禁的，别的第三方JsDelivr镜像站也别想使用 滥用举报 d@jsdelivr.com 使用英语填写 比如请求ban xxxx用户
+项目地址：cdn.jsdelivr.net/gh/xxxx/xxxx/xxxx 其中xxx文件比较多 比如m3u8 ts 等 违反了jsdelivr的tos 
+核实之后他们会封禁的 
 
 3.如果对上述行为有异议受不了就换呗 https://www.ayao.ltd/10.html  或者自己建cloudflare优选又不是不能用，要么就使用独享地址 完成实名认证+25/tb 流量费用
 
