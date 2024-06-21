@@ -1,5 +1,8 @@
 ## 置顶公告
 
+1.应有关部门要求，我们近期会对上传的地图审核，使用的旗帜进行审核，如果不满足相关规定，则会被系统封禁。 如果有疑问，可以联系管理员查看处理。
+
+https://mp.weixin.qq.com/s/LmEaIMZXYwsHsQfJbabbUQ
 
 2.TS 和M3U8 已重定向到国际站处理 滥用严重的我们将上报到jsdelivr ban掉用户 
 ![image](https://github.com/54ayao/JSDMirror/assets/86733666/86bd1857-d7c9-404c-bbcd-25d1818b0680)
