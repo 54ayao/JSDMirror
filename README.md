@@ -1,8 +1,11 @@
 ## 置顶公告
 
-1.应有关部门要求，我们近期会对上传的地图审核，使用的旗帜进行审核，如果不满足相关规定，则会被系统封禁。 如果有疑问，可以联系管理员查看处理。
+可以加群 
+QQ:339433973
 
-https://mp.weixin.qq.com/s/LmEaIMZXYwsHsQfJbabbUQ
+微信群: 没交保护费
+
+tg: @jsdmirror
 
 2.TS 和M3U8 已重定向到国际站处理 滥用严重的我们将上报到jsdelivr ban掉用户 
 ![image](https://github.com/54ayao/JSDMirror/assets/86733666/86bd1857-d7c9-404c-bbcd-25d1818b0680)
@@ -12,11 +15,9 @@ https://mp.weixin.qq.com/s/LmEaIMZXYwsHsQfJbabbUQ
 项目地址：cdn.jsdelivr.net/gh/xxxx/xxxx/xxxx 其中xxx文件比较多 比如m3u8 ts 等 违反了jsdelivr的tos 
 核实之后他们会封禁的 
 
-3.如果对上述行为有异议受不了就换呗 https://www.ayao.ltd/10.html  或者自己建cloudflare优选又不是不能用，要么就使用独享地址 完成实名认证+25/tb 流量费用
+
 
-4.如果你不满足上述行为被封了就申诉 请在有效期30天内申诉，特殊情况最高可宽限到180天
-
-5.上次说的宣传
+3.上次说的宣传
 2024/6/1  2525/6/2 这一年内宣传都有效 JSDMIRROR 可再发一次，派发积分，和会员 500-3000积分 +清理缓存会员
 
 ## 项目介绍
