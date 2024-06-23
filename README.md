@@ -182,7 +182,7 @@ jsdmirror注重用户数据安全，采用了多重加密技术和严格的安�
 
 6.如果触发防火墙，代表你IP一分钟已经超过2000次，被防火墙的屏蔽被两个三小时之后再试，家庭用户可尝试重启路由器来获取新的IP。或者是保持正常访问。
 
-7.未经允许严禁使用回源其包括但不限于中国香港，新加坡，中国台湾，泰国，孟买，美国，日本，韩国，中国广州，中国成都，中国宿迁，中国杭州，等  cdn.jsdmirror.com和cdn.jsdmirror.cn jsd.cdn.zzko.cn 以及 cdn.jsdelivr.us www.jsdelivr.ren 和*.cdn.xzzo.cn 以及jsd.cdn.zzko.cn源站集群，
+7.未经允许严禁回源其包括但不限于中国香港，新加坡，中国台湾，美国，日本，中国境内节点，等  cdn.jsdmirror.com，cdn.jsdmirror.cn jsd.cdn.zzko.cn 以及 cdn.jsdelivr.us www.jsdelivr.ren 和*.cdn.xzzo.cn 源站集群
 
 8.您需要理解我们基于合规性每个月不定期都会从cdn平台抽取日志进行抽查，因为大部分流量都不发送请求域名，我们参考加速项目URL地址来
 
