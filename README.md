@@ -40,13 +40,13 @@ https://mp.weixin.qq.com/s/o9giQ3efqvNG9FQe0LM35A
 
 2. **多融合cdn**
 
-我们使用的cdn供应商有
+我们使用的cdn/服务器 供应商有
 
 境内
-白山CDN，腾讯云CDN, 腾讯云EO,百度CDN,阿里DCDN,华为CDN,天翼边缘加速，网宿CDNPro, 
+白山CDN，腾讯云CDN, 腾讯云EO,百度CDN,阿里DCDN,华为CDN,天翼边缘加速，网宿CDNPro, 火毅盾，自建
 
 海外
-cloudflare、CDNetWorks、Tencent Cloud、bunny、 Vercel  
+cloudflare、CDNetWorks、Tencent Cloud、bunny、 Vercel， RanCloud
 
 平台根据运营情况自动决定cdn供应商
 
