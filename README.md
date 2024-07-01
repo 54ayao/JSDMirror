@@ -1,27 +1,9 @@
+
+
+
 ## 置顶公告
 
-可以加群 
-QQ:339433973
-
-微信群: 没交保护费
-
-tg: @jsdmirror
-
-2.TS 和M3U8 已重定向到国际站处理 滥用严重的我们将上报到jsdelivr ban掉用户 
-![image](https://github.com/54ayao/JSDMirror/assets/86733666/86bd1857-d7c9-404c-bbcd-25d1818b0680)
-![image](https://github.com/54ayao/JSDMirror/assets/86733666/aa3c5f9a-e812-4951-9876-6ce62e89c780)
-
-这样的页面是官方的封禁的，官方核实无误的，别的第三方JsDelivr镜像站也别想使用 滥用举报 d@jsdelivr.com 使用英语填写 比如请求ban xxxx用户
-项目地址：cdn.jsdelivr.net/gh/xxxx/xxxx/xxxx 其中xxx文件比较多 比如m3u8 ts 等 违反了jsdelivr的tos 
-核实之后他们会封禁的 
-
-
-
-3.上次说的宣传
-2024/6/1  2025/6/2 这一年内宣传都有效 JSDMIRROR 可再发一次，派发积分，和会员 500-3000积分 +清理缓存会员
-
-
-4.@ 被系统转义%40问题 后期如果平台修复了，我们也会跟着一起修复，后续的话再用%40可能将不在支持使用了，历史性的不影响
+1，神经病啊打你妈的JSDMirror基础数据中心，有问题跟我说，欺负服务器干嘛，欺负云厂搞什么，有病么，直接下线了一大把服务器
 ## 项目介绍
 
 
