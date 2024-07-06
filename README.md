@@ -2,10 +2,7 @@
 
 
 ## 置顶公告
-独享JSDmirror资源站正式上线！
-![image](https://github.com/54ayao/JSDMirror/assets/86733666/3f1d822e-7241-4dca-93a6-a91f0caa7795)
-![image](https://github.com/54ayao/JSDMirror/assets/86733666/b668bc2b-d433-452c-9350-f8fab6476538)
-支持双证书！
+这两天一直有攻击，我们现已决定向当地公安机关报案，造成的网站停服和经济损失，奉劝某些人好自为之吧，还使用家庭宽带
 
 ## 项目介绍
 
