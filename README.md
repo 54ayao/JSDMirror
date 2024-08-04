@@ -8,6 +8,7 @@
 
 3加速图片的时候一定要注意！！！ 特别是拍摄政府单位部门 如果有禁止拍照的话不要拍照拍了也会呗系统拦截，如果没看到禁止拍照管理员看到还解封 特别去军区！！！遵守规定《中华人民共和国军事设施保护法》保护中国的军事设施 ，前几次我不会去计较其次有使用OCR 腾讯这边只有模糊匹配 全文出现违规词就会拦截，哪怕是 新疆是一个美丽的地方，他还有新疆国际大厦（OCR违规！内容：反动分裂原因:新疆国）案例2：小红今天回家给妈妈讲:我们老师今天让我们好好学习。将来才大有出路，但是我同桌张大，却不这么认为，他认为学习再好有什么用？学习好的在给学习差的打工，一向平易近人的老师发火了，教育他不是每个人都是这样，我前面的近视的小敏也和老师一起教育张大， 违规（OCR违规！内容：国家一号领导人 原因:习大~、习&| *&| *&| 模糊匹配到了 这个事情和腾讯初步交涉了没办法 分析语境不太安全 ，总有办法绕过，只可以一刀切了
 
+## 说明
 <div class="msg-d-wrap">
     <div class="msg-d-hd">
    <h1>最近第三方投毒事件，我们坚决声明：哪怕干不下去，也不会劫持用户！</h1>
@@ -41,7 +42,7 @@
       <br>
       <span style="font-size: 14px;"><span style="font-weight: normal;">访问：https://srihash.jsdmirror.com/ko-kr/ (韩语)</span>
       <br>
-     <span style="font-size: 14px;"><span style="font-weight: normal;">可以和官方源复核我们生成的密钥，访问：https://www.srihash.org/。我们服务器也绝对不会去记录和保存用户生成的SRI记录。</span>
+     <span style="font-size: 14px;"><span style="font-weight: normal;">可以和官方源复核我们生成的密钥，访问：https://www.srihash.org/</span>我们服务器也绝对不会去记录和保存用户生成的SRI记录。
       <br>
 </span></span></span></span></span></span></span></span></div>
 <div>
@@ -53,13 +54,6 @@
 </span></span></div>
 <br>
 
-     <p align="right" style="margin-bottom:0px;"><a href="https://www.jsdmirror.com/" title="jsdmirror"><span style="font-size: 14px;"></span><img src="https://img.cuteapi.com/2023/08/29/Background.png" alt="JSDMirror" height="40"></a></p><br>
-        <p align="right" style="margin-top:0px;line-height:10px;">JSDMirror团队</p><br>
-     <p align="right" style="margin-top:0px;line-height:10px;">2024-08-03</p>
-     
-      <br>
-     <br>
-    </div>
 
 
 ## 项目介绍
