@@ -42,6 +42,9 @@
       <br>
       <span style="font-size: 14px;"><span style="font-weight: normal;">访问：https://srihash.jsdmirror.com/ko-kr/ (韩语)</span>
       <br>
+            <br>
+      <span style="font-size: 14px;"><span style="font-weight: normal;">访问：https://srihash.jsdmirror.com/ru-ru/ (俄语)</span>
+      <br>
      <span style="font-size: 14px;"><span style="font-weight: normal;">可以和官方源复核我们生成的密钥，访问：https://www.srihash.org/</span>我们服务器也绝对不会去记录和保存用户生成的SRI记录。
       <br>
 </span></span></span></span></span></span></span></span></div>
