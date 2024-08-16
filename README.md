@@ -22,11 +22,15 @@ mirror.js.cn
 
 比如
 cdnjs.mirror.js.cn cdnjs
-Google.mirror.js.cn 谷歌公共库。
+
+Google.mirror.js.cn 谷歌公共库 谷歌字体库
+
 gravatar.mirror.js.cn 图片加速
+
 Docekr.mirror.js.cn 容器下载加速
+
 unpkg.mirror.js.cn unpkg
-fonts.mirror.js.cn  谷歌字体库
+
 等等,再走相应的流程
 ## 核心功能
 
