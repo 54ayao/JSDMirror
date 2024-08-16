@@ -13,6 +13,21 @@
 
 本项目自2021年12月21日上线以来，原由54ayao（Eagle Yao）运营和维护。经过数轮版本迭代，现已交由大连市泽瑶网络科技有限公司负责运营，实际上还是一个人，只不过运营主体变更了。JSDMirror致力于为广大开发者提供免费的CDN加速服务，通过优化网站加速、应用程序优化等多种场景，提升用户体验。
 我们已启用全新架构 cdn.JSDMirror.com为你提供服务
+我们后续会有其它的镜像站 大家可以期待一波哦
+
+mirror.js.cn  
+
+镜像加速 这个域名不会迭代我们已经有的业务
+也有可能
+
+比如
+cdnjs.mirror.js.cn cdnjs
+Google.mirror.js.cn 谷歌公共库。
+gravatar.mirror.js.cn 图片加速
+Docekr.mirror.js.cn 容器下载加速
+unpkg.mirror.js.cn unpkg
+fonts.mirror.js.cn  谷歌字体库
+等等,再走相应的流程
 ## 核心功能
 
 1. **高速镜像站**
