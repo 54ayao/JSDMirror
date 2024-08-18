@@ -6,7 +6,8 @@
 
 2.如果需要利用接口清理缓存的，缓存不生效，可以联系ayao@cola.email 对你的路径做一个特殊设置
 
-
+3.暂时不要添加企微渠道的![image](https://github.com/user-attachments/assets/c9913149-07ea-442b-af23-94256067e4cc)
+我企业微信目前被限制了
 
 ## 项目介绍
 
