@@ -3,8 +3,8 @@
 ### JSDMirror的发展离不开以下供应商赞助的云产品 
 |赞助商|类型|时间|备注|
 |-------|------|---------------|--------------|
-|<a href="https://Cloud.Tencent.com/?jsdmirror"><img src="https://cdn.jsdmirror.com/static/img/serve/tencent-cloud.svg" alt="腾讯云" style="max-height:20px;border:none;cursor:pointer"></a>|域名<br>域名<br>境外服务器|2024-04-17到2027-04-17<br>2024-04-17到2025-04-17<br>2024-06-20到2025-02-20|jsdmirror.com<br>jsdmirror.cn<br>轻量应用服务器*3|
-|<a href="https://www.cloudflare.com/?jsdmirror"><img src="https://cdn.jsdmirror.com//static/img/serve/cloudflare.png" alt="cf" style="max-height:20px;border:none;cursor:pointer"></a>|CDN|-|境外CDN|
+|<a href="https://Cloud.Tencent.com/?jsdmirror"><img src="https://cdn.jsdmirror.com/static/img/serve/tencent-cloud.svg" alt="腾讯云" style="height: 30px;"></a>|域名<br>域名<br>境外服务器|2024-04-17到2027-04-17<br>2024-04-17到2025-04-17<br>2024-06-20到2025-02-20|jsdmirror.com<br>jsdmirror.cn<br>轻量应用服务器*3|
+|<a href="https://www.cloudflare.com/?jsdmirror"><img src="https://cdn.jsdmirror.com//static/img/serve/cloudflare.png" alt="cf" style="height: 30px;"></a>|CDN|-|境外CDN|
 
 
 ## 置顶公告
