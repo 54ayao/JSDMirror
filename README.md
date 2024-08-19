@@ -1,4 +1,12 @@
 
+## 赞助商ADS
+### JSDMirror的发展离不开以下供应商赞助的云产品 
+|赞助商|类型|时间|备注|
+|-------|------|---------------|--------------|
+|<a href="https://Cloud.Tencent.com/?jsdmirror"><img src="https://cdn.jsdmirror.com//static/img/serve/tencent-cloud.svg" alt="腾讯云" style="max-height:30px;border:none;cursor:pointer"></a>|域名|2024-04-17到2027-04-17|jsdmirror.com|
+|<a href="https://Cloud.Tencent.com/?jsdmirror"><img src="https://cdn.jsdmirror.com//static/img/serve/tencent-cloud.svg" alt="腾讯云" style="max-height:30px;border:none;cursor:pointer"></a>|域名|2024-04-17到2025-04-17|jsdmirror.cn|
+|<a href="https://Cloud.Tencent.com/?jsdmirror"><img src="https://cdn.jsdmirror.com//static/img/serve/tencent-cloud.svg" alt="腾讯云" style="max-height:30px;border:none;cursor:pointer"></a>|境外服务器|2024-06-20到2025-02-20|轻量应用服务器|
+|<a href="https://www.cloudflare.com/?jsdmirror"><img src="/static/img/serve/cloudflare.png" alt="cf" style="max-height:30px;border:none;cursor:pointer"></a>|CDN|-|境外CDN|
 
 
 ## 置顶公告
@@ -237,11 +245,3 @@ jsdmirror注重用户数据安全，采用了多重加密技术和严格的安�
 ![image](https://github.com/54ayao/JSDMirror/assets/86733666/6b283f22-de90-473c-9378-5912c914f94b)
 如果出现这个情况请联系管理员进行询问是什么违规
 
-## 赞助商ADS
-
-|赞助商|类型|时间|备注|
-|-------|------|---------------|--------------|
-|腾讯云|域名|2024-04-17到2027-04-17|jsdmirror.com|
-|腾讯云|域名|2024-04-17到2025-04-17|jsdmirror.cn|
-|腾讯云|境外服务器|2024-06-20到2025-02-20|轻量应用服务器|
-|cloudflare|CDN|-|境外CDN|
