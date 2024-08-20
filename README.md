@@ -1,8 +1,11 @@
-JSDMirror 镜像站基础介绍
-概述
-JSDMirror 是一个基于 jsDelivr CDN 服务的国内镜像站点，专注于为前端开发者提供快速、稳定的 JavaScript 资源访问体验。随着前端技术的蓬勃发展，JavaScript 库、框架和工具等资源的使用越来越广泛，而国外源服务器的访问速度受限于网络延迟和地理位置，JSDMirror 通过在国内部署镜像服务器，有效解决了这一问题，使得国内开发者能够更快地获取这些资源。
+# JSDMirror 镜像站基础介绍
+## 概述
+JSDMirror，作为一个基于 jsDelivr CDN 服务的国内镜像站点，自2021年12月21日正式上线以来，始终致力于为前端开发者打造一个快速、稳定的资源访问环境。随着前端技术的迅速演进，JavaScript 库、框架及工具等资源的使用愈发普遍，但国外源服务器的访问常受网络延迟与地理位置限制，影响效率。JSDMirror 通过在国内部署高效镜像服务器，有效克服了这一难题，极大地加速了国内开发者获取这些关键资源的速度。
 
-主要特点
+## 项目历程
+JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数轮精心的版本迭代与优化，项目现已顺利交接至大连市泽瑶网络科技有限公司进行管理，虽然运营主体发生了变化，但项目背后的核心人员与服务宗旨依然保持不变，持续为开发者提供优质服务。
+
+# 主要特点
 高速访问：JSDMirror 镜像站点部署在国内，通过优化网络路由和增加带宽资源，显著提升了国内用户访问 jsDelivr CDN 上资源的速度。
 资源丰富：作为 jsDelivr 的镜像，JSDMirror 同步了 jsDelivr CDN 上的所有资源，包括流行的 JavaScript 库、框架、插件、CSS 框架等，几乎覆盖了前端开发所需的所有资源。
 稳定可靠：JSDMirror 采用了先进的CDN技术和高可用性架构设计，确保在高并发访问下依然能够稳定运行，为开发者提供持续稳定的服务。
@@ -13,12 +16,13 @@ JSDMirror 是一个基于 jsDelivr CDN 服务的国内镜像站点，专注于�
 
 原始 jsDelivr CDN 链接：
 
-html
-'''<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>'''
+
+```<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>```
+
 修改为 JSDMirror 镜像链接：
 
-html
-'''<script src="https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js"></script>'''
+
+```<script src="https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js"></script>```
 
 
 
