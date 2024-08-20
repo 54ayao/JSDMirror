@@ -35,11 +35,14 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 <div class="notecard note" id="sect1">
   <p><strong>备注：</strong>对于从嵌入文件以外的来源提供的资源的子资源完整性验证，浏览器还使用<a href="/zh-CN/docs/Web/HTTP/CORS">跨源资源共享（CORS）</a>检查资源，以确保提供资源的来源允许它与请求来源共享。</p>
 </div></div>
-> **提示：**
-> 请注意！
-> 对于从嵌入文件以外的来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
->
-> 
+
+<div class="alert alert-info">
+  **提示：**
+  <br>
+  这是一个提示框。
+  <br>
+  请注意！
+</div>
 
 
 浏览器如何处理 SRI
