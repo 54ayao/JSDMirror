@@ -36,12 +36,16 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
   <p><strong>备注：</strong>对于从嵌入文件以外的来源提供的资源的子资源完整性验证，浏览器还使用<a href="/zh-CN/docs/Web/HTTP/CORS">跨源资源共享（CORS）</a>检查资源，以确保提供资源的来源允许它与请求来源共享。</p>
 </div></div>
 
-<div class="alert alert-info">
-  **提示：**
-  <br>
-  这是一个提示框。
-  <br>
-  请注意！
+<div class="alert-box" style="  
+  padding: 20px;  
+  background-color: #f4f4f4;  
+  color: #333;  
+  margin-bottom: 15px;  
+  border: 1px solid #ddd;  
+  border-left-width: 5px;  
+  border-left-color: #4CAF50; /* 绿色 */  
+">  
+  <strong>注意!</strong> 这是一个使用Markdown嵌入HTML的提示框示例。  
 </div>
 
 
