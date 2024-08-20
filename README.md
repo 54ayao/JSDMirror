@@ -1,6 +1,6 @@
 # 置顶公告  
   
-1. **国际站域名变动**：请注意，因国际站域名调整，部分功能可能暂时受限，请关注后续官方通知以获取最新信息。  
+1. **国际站域名变动**：请注意，因国际站域名调整，请关注后续官方通知以获取最新信息。  
 2. **缓存清理服务**：如遇缓存未及时更新问题，请通过 `ayao@cola.email` 联系我们进行特殊缓存清理操作。  
 3. **企微渠道更新**：当前暂不支持添加我们的企业微信，敬请期待后续企微渠道开通的通知。  
   
@@ -113,6 +113,45 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 
 通过此承诺，大家一起致力于共同维护一个安全、健康、绿色的网络环境。
 
+## 平台管理员联系方式与问题反馈 
+
+反馈渠道
+微信>>企业微信>企业微信邮件>tg>QQ>bilibili
+
+|QQ|github|TG|邮箱|
+|-------|---------------|----------|------|------|
+|202835956|[点这里](https://github.com/54ayao/JSDMirror/issues) |[点这里](https://t.me/jsdmirrorChannel)|ayao@cola.email|
+
+
+
+可能出现解封的机会
+
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/d80c0729-8d4c-4107-96fa-0ef8332bc99b)
+## 平台管理员联系方式与问题反馈
+
+如果出现这个情况请联系管理员进行处理
+如需反馈问题或咨询，请通过以下渠道联系我们：
+
+- **微信**：企业微信 > 企业微信邮件
+- **Telegram**：[点这里](https://t.me/jsdmirrorChannel)
+- **QQ**：202835956
+- **GitHub**：[点这里](https://github.com/54ayao/JSDMirror/issues)
+- **邮箱**：ayao@cola.email
+
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/54c1303f-a229-498f-9774-3f7879a0c134)
+我们将竭诚为您解答疑问并提供帮助。
+
+如红框所示，某一些太过分的就没办法解封了，还有可能影响到你整个用户
+## 注意事项
+
+![image](https://github.com/54ayao/JSDMirror/assets/86733666/6b283f22-de90-473c-9378-5912c914f94b)
+如果出现这个情况请联系管理员进行询问是什么违规
+- 如遇解封机会，请及时联系管理员处理。
+- 请勿违规使用本服务，否则可能会影响您的使用权限。
+- 未经许可，严禁回源至中国香港、新加坡、中国台湾、美国、日本、中国境内节点等。
+
+
+
 ## 赞助商ADS
 ### JSDMirror的发展离不开以下供应商赞助的云产品 
 |赞助商|类型|时间|备注|
@@ -120,3 +159,4 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 |<a href="https://Cloud.Tencent.com/?jsdmirror"><img src="https://cdn.jsdmirror.com/static/img/serve/tencent-cloud.svg" alt="腾讯云" style="height: 30px;"></a>|域名<br>域名<br>境外服务器|2024-04-17到2027-04-17<br>2024-04-17到2025-04-17<br>2024-06-20到2025-02-20|jsdmirror.com<br>jsdmirror.cn<br>轻量应用服务器*3|
 |<a href="https://www.cloudflare.com/?jsdmirror"><img src="https://cdn.jsdmirror.com//static/img/serve/cloudflare.png" alt="cf" style="height: 30px;"></a>|CDN|-|境外CDN|
 
+感谢您对 JSDMirror 的支持与信任！我们将持续为您提供优质的服务！
