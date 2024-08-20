@@ -131,7 +131,7 @@ pause
 <th class="bc-browserbc-browser-opera">Opera</th>
 <th class="bc-browserbc-browser-safari">Safari</th>
 <th class="bc-browserbc-browser-chrome_android">Chrome Android</th>
-<th class="bc-browserbc-browser-firefox_android">Firefox Android/th>
+<th class="bc-browserbc-browser-firefox_android">Firefox Android</th>
 <th class="bc-browserbc-browser-opera_android">Opera Android</th>
 <th class="bc-browserbc-browser-safari_ios">Safari iOS</th>
 <th class="bc-browserbc-browser-samsunginternet_android">Samsung Internet</th>
@@ -141,17 +141,17 @@ pause
 <tbody>
 <tr>
 <th class="bc-featurebc-feature-depth-0"scope="row">integrity</th>
-<td class="bc-supportbc-browser-chromebc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-edgebc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-firefoxbc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-operabc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-safaribc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-chrome_androidbc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-firefox_androidbc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-opera_androidbc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-safari_iosbc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-samsunginternet_androidbc-supports-yes">Yes</td>
-<td class="bc-supportbc-browser-webview_androidbc-supports-yes">Yes</td>
+<td class="bc-supportbc-browser-chromebc-supports-yes">Yes<br>45</td>
+<td class="bc-supportbc-browser-edgebc-supports-yes">Yes<br>17</td>
+<td class="bc-supportbc-browser-firefoxbc-supports-yes">Yes<br>43</td>
+<td class="bc-supportbc-browser-operabc-supports-yes">Yes<br>32</td>
+<td class="bc-supportbc-browser-safaribc-supports-yes">Yes<br>11.1</td>
+<td class="bc-supportbc-browser-chrome_androidbc-supports-yes">Yes<br>45</td>
+<td class="bc-supportbc-browser-firefox_androidbc-supports-yes">Yes<br>43</td>
+<td class="bc-supportbc-browser-opera_androidbc-supports-yes">Yes<br>32</td>
+<td class="bc-supportbc-browser-safari_iosbc-supports-yes">Yes<br>11.3</td>
+<td class="bc-supportbc-browser-samsunginternet_androidbc-supports-yes">Yes<br>5.0</td>
+<td class="bc-supportbc-browser-webview_androidbc-supports-yes">Yes<br>45</td>
 </tr>
 </tbody>
 </table>
