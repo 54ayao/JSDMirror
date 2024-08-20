@@ -30,23 +30,12 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 
 ```<script src="https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js"></script>```
 
+之外我们强烈建议你开启SRI功能
 
-<div class="section-content"><p><strong>子资源完整性</strong>（Subresource Integrity，SRI）是允许浏览器检查其获得的资源（例如从 <a href="/zh-CN/docs/Glossary/CDN">CDN</a> 获得的）是否被篡改的一项安全特性。它通过验证获取文件的哈希值是否和你提供的哈希值一样来判断资源是否被篡改。</p>
-<div class="notecard note" id="sect1">
-  <p><strong>备注：</strong>对于从嵌入文件以外的来源提供的资源的子资源完整性验证，浏览器还使用<a href="/zh-CN/docs/Web/HTTP/CORS">跨源资源共享（CORS）</a>检查资源，以确保提供资源的来源允许它与请求来源共享。</p>
-</div></div>
+## 子资源完整性
+子资源完整性（Subresource Integrity，SRI）是允许浏览器检查其获得的资源（例如从 CDN 获得的）是否被篡改的一项安全特性。它通过验证获取文件的哈希值是否和你提供的哈希值一样来判断资源是否被篡改。
 
-<div class="alert-box" style="  
-  padding: 20px;  
-  background-color: #f4f4f4;  
-  color: #333;  
-  margin-bottom: 15px;  
-  border: 1px solid #ddd;  
-  border-left-width: 5px;  
-  border-left-color: #4CAF50; /* 绿色 */  
-">  
-  <strong>注意!</strong> 这是一个使用Markdown嵌入HTML的提示框示例。  
-</div>
+备注：对于从嵌入文件以外的来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
 
 
 浏览器如何处理 SRI
@@ -54,10 +43,112 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 
 当浏览器在 <script> 或者 <link> 标签中遇到 integrity 属性之后，会在执行脚本或者应用样式表之前对比所加载文件的哈希值和期望的哈希值。 对于从其他来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
 如果脚本或样式表不符合其相关的 integrity 值，浏览器必须拒绝执行该脚本或拒绝应用该样式表，并且必须返回一个网络错误，表明该脚本或样式表的获取失败。
-用户遵守平台规定与用户承诺
-作为本平台的用户，我（我们）郑重承诺将严格遵守以下平台规定与用户承诺，以维护平台的安全、健康与秩序：
+
+## SRI 如何工作
+使用内容分发网络（CDN）在多个站点之间共享脚本和样式表等文件可以提高站点性能并节省带宽。然而，使用 CDN 也存在风险，如果攻击者获得对 CDN 的控制权，则可以将任意恶意内容注入到 CDN 上的文件中（或完全替换掉文件），因此可能潜在地攻击所有从该 CDN 获取文件的站点。
+
+子资源完整性使你能够减轻这种攻击的一些风险，确保你的网络应用程序或网络文档（从 CDN 或任何地方）获取的文件在交付时没有被第三方注入任何额外的内容，也没有对这些文件进行任何其他形式的修改。
+SRI 如何使用
+使用子资源完整性功能的方法是，在任何 <script> 或 <link> 元素的 integrity 属性值中，指定你要告诉浏览器所获取的资源（或文件）的 base64 编码的加密哈希值。
+
+integrity 值至少由一个字符串开始，每个字符串包括一个前缀，表示一个特定的哈希算法（目前允许的前缀是 sha256、sha384 和 sha512），后面是一个短横线（-），最后是实际的 base64 编码的哈希。
+
+备注： integrity 值可以包含多个由空格分隔的哈希值，只要文件匹配其中任意一个哈希值，就可以通过校验并加载该资源。
+
+使用 base64 编码 sha384 算法计算出摘要后的 integrity 值的示例：
+
+sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC
+oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC 即“哈希”部分，sha384 前缀说明使用的是 sha384 哈希方法。
+
+备注：严格来说，integrity 值的“哈希”部分是通过对一些输入（例如，一个脚本或样式表文件）应用一个特定的哈希函数而形成的加密摘要。但人们通常用“哈希”来表示加密摘要，所以本文就用了这个词。
+
+生成 SRI 哈希的工具
+[SRI Hash Generator](https://srihash.jsdmirror.com/) 是一个在线生成 SRI 哈希值的工具。
+
+也可以用 openssl 在命令行中执行如下命令来生成 SRI 哈希值：
+
+```cat FILENAME.js | openssl dgst -sha384 -binary | openssl base64 -A```
+
+或者用 shasum 在命令行中执行：
+
+```shasum -b -a 384 FILENAME.js | awk '{ print $1 }' | xxd -r -p | base64```
+备注：
+
+通过管道连接的 xxd 步骤从 shasum 中获取十六进制的输出，并将其转换为二进制。
+通过管道连接的 awk 的步骤是必要的，因为 shasum 会将其输出中的散列文件名传递给 xxd。如果文件名中恰好有有效的十六进制字符，这将产生灾难性的后果——因为 xxd 也会对其进行解码并传递给 base64。
+在 Windows 环境下，你可以使用以下代码创建生成 SRI 哈希的工具：
+
+```
+@echo off
+set bits=384
+openssl dgst -sha%bits% -binary %1% | openssl base64 -A > tmp
+set /p a= < tmp
+del tmp
+echo sha%bits%-%a%
+pause
+```
+如何使用这些代码：
+
+在你的环境中的 Windows SendTo 文件夹（例如， C:\Users\USER\AppData\Roaming\Microsoft\Windows\SendTo）中，将该代码保存在一个名为 sri-hash.bat 的文件中。
+在文件资源管理器中右击一个文件，选择发送至...，然后选择 sri-hash。你将在一个命令框中看到完整性值。
+选择完整性值，然后右键单击，将其复制到剪贴板上。
+按任意键都可以关闭命令框。
+跨源资源共享和子资源完整性
+对于从嵌入文档以外的来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。因此，资源必须使用 Access-Control-Allow-Origin 标头来提供，以允许资源与请求方共享；例如：
 
 
+```Access-Control-Allow-Origin: *```
+
+示例
+在这个例子中，我们假设已知 t1tHLsbM7bYMJCXlhr0//00jSs7ZhsAhxgm191xFsyzvieTMCbUWKMhFg9I6ci8q 是一个指定文件 vue.js 经过 SHA-384 算法得出的摘要，同时在 https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js 上有其一份拷贝。
+
+在 <script> 元素中确保 SRI
+你可以使用以下的 <script> 元素告诉浏览器在执行 https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js 中的内容之前，必须先比较该文件的哈希值是否和预期的一致，并验证是否匹配。
+
+
+```<script src="https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js" integrity="sha384-t1tHLsbM7bYMJCXlhr0//00jSs7ZhsAhxgm191xFsyzvieTMCbUWKMhFg9I6ci8q" crossorigin="anonymous"></script>```
+
+## 浏览器如何处理 SRI
+浏览器根据以下步骤处理 SRI：
+
+当浏览器在 <script> 或者 <link> 标签中遇到 integrity 属性之后，会在执行脚本或者应用样式表之前对比所加载文件的哈希值和期望的哈希值。 对于从其他来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
+如果脚本或样式表不符合其相关的 integrity 值，浏览器必须拒绝执行该脚本或拒绝应用该样式表，并且必须返回一个网络错误，表明该脚本或样式表的获取失败。
+
+<figure class="table-container"><figure class="table-container-inner"><table class="bc-table bc-table-web"><thead><tr class="bc-platforms"><td></td><th class="bc-platform bc-platform-desktop" colspan="5" title="desktop"><span class="icon icon-desktop"></span><span class="visually-hidden">desktop</span></th><th class="bc-platform bc-platform-mobile" colspan="6" title="mobile"><span class="icon icon-mobile"></span><span class="visually-hidden">mobile</span></th></tr><tr class="bc-browsers"><td></td><th class="bc-browser bc-browser-chrome"><div class="bc-head-txt-label bc-head-icon-chrome">Chrome</div><div class="bc-head-icon-symbol icon icon-chrome"></div></th><th class="bc-browser bc-browser-edge"><div class="bc-head-txt-label bc-head-icon-edge">Edge</div><div class="bc-head-icon-symbol icon icon-edge"></div></th><th class="bc-browser bc-browser-firefox"><div class="bc-head-txt-label bc-head-icon-firefox">Firefox</div><div class="bc-head-icon-symbol icon icon-simple-firefox"></div></th><th class="bc-browser bc-browser-opera"><div class="bc-head-txt-label bc-head-icon-opera">Opera</div><div class="bc-head-icon-symbol icon icon-opera"></div></th><th class="bc-browser bc-browser-safari"><div class="bc-head-txt-label bc-head-icon-safari">Safari</div><div class="bc-head-icon-symbol icon icon-safari"></div></th><th class="bc-browser bc-browser-chrome_android"><div class="bc-head-txt-label bc-head-icon-chrome_android">Chrome Android</div><div class="bc-head-icon-symbol icon icon-chrome"></div></th><th class="bc-browser bc-browser-firefox_android"><div class="bc-head-txt-label bc-head-icon-firefox_android">Firefox for Android</div><div class="bc-head-icon-symbol icon icon-simple-firefox"></div></th><th class="bc-browser bc-browser-opera_android"><div class="bc-head-txt-label bc-head-icon-opera_android">Opera Android</div><div class="bc-head-icon-symbol icon icon-opera"></div></th><th class="bc-browser bc-browser-safari_ios"><div class="bc-head-txt-label bc-head-icon-safari_ios">Safari on iOS</div><div class="bc-head-icon-symbol icon icon-safari"></div></th><th class="bc-browser bc-browser-samsunginternet_android"><div class="bc-head-txt-label bc-head-icon-samsunginternet_android">Samsung Internet</div><div class="bc-head-icon-symbol icon icon-samsunginternet"></div></th><th class="bc-browser bc-browser-webview_android"><div class="bc-head-txt-label bc-head-icon-webview_android">WebView Android</div><div class="bc-head-icon-symbol icon icon-webview"></div></th></tr></thead><tbody><tr><th class="bc-feature bc-feature-depth-0" scope="row"><div class="bc-table-row-header"><code>integrity</code></div></th><td class="bc-support bc-browser-chrome bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Chrome</span><span class="bc-version-label" title="Released 2015-09-01">45</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-edge bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Edge</span><span class="bc-version-label" title="Released 2018-04-30">17</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-firefox bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Firefox</span><span class="bc-version-label" title="Released 2015-12-15">43</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-opera bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Opera</span><span class="bc-version-label" title="Released 2015-09-15">32</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-safari bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Safari</span><span class="bc-version-label" title="Released 2018-04-12">11.1</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-chrome_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Chrome Android</span><span class="bc-version-label" title="Released 2015-09-01">45</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-firefox_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Firefox for Android</span><span class="bc-version-label" title="Released 2015-12-15">43</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-opera_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Opera Android</span><span class="bc-version-label" title="Released 2015-09-23">32</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-safari_ios bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Safari on iOS</span><span class="bc-version-label" title="Released 2018-03-29">11.3</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-samsunginternet_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">Samsung Internet</span><span class="bc-version-label" title="Released 2016-12-15">5.0</span></div></div><span class="offscreen">Toggle history</span></button></td><td class="bc-support bc-browser-webview_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
+              bc-level-yes
+              icon
+              icon-yes" title="Full support"><span class="bc-support-level">Full support</span></abbr></span></div><div class="bcd-cell-text-copy"><span class="bc-browser-name">WebView Android</span><span class="bc-version-label" title="Released 2015-09-01">45</span></div></div><span class="offscreen">Toggle history</span></button></td></tr></tbody></table></figure></figure>
+              
 ## 核心功能亮点  
   
 - **极速镜像网络**：依托腾讯云香港回源服务器集群，确保数据高速传输。  
@@ -81,6 +172,8 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 - **高效内容分发**：为内容创作者提供强有力的内容分发支持，扩大受众范围。
 
 ## 遵守平台规定
+
+作为本平台的用户，我（我们）郑重承诺将严格遵守以下平台规定与用户承诺，以维护平台的安全、健康与秩序：
 根据中华人民共和国工业和信息化部、公安部等部委关于加强在公共信息服务中传播信息管理的有关规定和相关精神，要求各单位落实完毕
 
 一、遵守国家法律法规
