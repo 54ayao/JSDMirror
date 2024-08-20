@@ -130,12 +130,12 @@ pause
 <th class="bc-browserbc-browser-firefox">Firefox</th>
 <th class="bc-browserbc-browser-opera">Opera</th>
 <th class="bc-browserbc-browser-safari">Safari</th>
-<th class="bc-browserbc-browser-chrome_android">ChromeAndroid</th>
-<th class="bc-browserbc-browser-firefox_android">FirefoxforAndroid</th>
-<th class="bc-browserbc-browser-opera_android">OperaAndroid</th>
-<th class="bc-browserbc-browser-safari_ios">SafarioniOS</th>
-<th class="bc-browserbc-browser-samsunginternet_android">SamsungInternet</th>
-<th class="bc-browserbc-browser-webview_android">WebViewAndroid</th>
+<th class="bc-browserbc-browser-chrome_android">Chrome Android</th>
+<th class="bc-browserbc-browser-firefox_android">Firefox Android/th>
+<th class="bc-browserbc-browser-opera_android">Opera Android</th>
+<th class="bc-browserbc-browser-safari_ios">Safari iOS</th>
+<th class="bc-browserbc-browser-samsunginternet_android">Samsung Internet</th>
+<th class="bc-browserbc-browser-webview_android">WebView Android</th>
 </tr>
 </thead>
 <tbody>
@@ -157,6 +157,7 @@ pause
 </table>
 </figure>
 </figure>
+
 
 
               
