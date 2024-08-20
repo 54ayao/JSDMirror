@@ -30,7 +30,7 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 
 ```<script src="https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js"></script>```
 
-之外我们强烈建议你开启SRI功能
+之外我们强烈建议你开启[SRI功能](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)
 
 ## 子资源完整性
 子资源完整性（Subresource Integrity，SRI）是允许浏览器检查其获得的资源（例如从 CDN 获得的）是否被篡改的一项安全特性。它通过验证获取文件的哈希值是否和你提供的哈希值一样来判断资源是否被篡改。
@@ -114,6 +114,7 @@ pause
 当浏览器在 <script> 或者 <link> 标签中遇到 integrity 属性之后，会在执行脚本或者应用样式表之前对比所加载文件的哈希值和期望的哈希值。 对于从其他来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
 如果脚本或样式表不符合其相关的 integrity 值，浏览器必须拒绝执行该脚本或拒绝应用该样式表，并且必须返回一个网络错误，表明该脚本或样式表的获取失败。
 
+## SRI支持的浏览器
 <figure class="table-container">
 <figure class="table-container-inner">
 <table class="bc-tablebc-table-web">
