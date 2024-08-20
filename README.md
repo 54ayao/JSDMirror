@@ -114,34 +114,50 @@ pause
 当浏览器在 <script> 或者 <link> 标签中遇到 integrity 属性之后，会在执行脚本或者应用样式表之前对比所加载文件的哈希值和期望的哈希值。 对于从其他来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
 如果脚本或样式表不符合其相关的 integrity 值，浏览器必须拒绝执行该脚本或拒绝应用该样式表，并且必须返回一个网络错误，表明该脚本或样式表的获取失败。
 
-<figure class="table-container"><figure class="table-container-inner"><table class="bc-table bc-table-web"><thead><tr class="bc-platforms"><td></td><th class="bc-platform bc-platform-desktop" colspan="5" title="desktop"><span class="icon icon-desktop"></span><span class="visually-hidden">desktop</span></th><th class="bc-platform bc-platform-mobile" colspan="6" title="mobile"><span class="icon icon-mobile"></span><span class="visually-hidden">mobile</span></th></tr><tr class="bc-browsers"><td></td><th class="bc-browser bc-browser-chrome"><div class="bc-head-txt-label bc-head-icon-chrome">Chrome</div><div class="bc-head-icon-symbol icon icon-chrome"></div></th><th class="bc-browser bc-browser-edge"><div class="bc-head-txt-label bc-head-icon-edge">Edge</div><div class="bc-head-icon-symbol icon icon-edge"></div></th><th class="bc-browser bc-browser-firefox"><div class="bc-head-txt-label bc-head-icon-firefox">Firefox</div><div class="bc-head-icon-symbol icon icon-simple-firefox"></div></th><th class="bc-browser bc-browser-opera"><div class="bc-head-txt-label bc-head-icon-opera">Opera</div><div class="bc-head-icon-symbol icon icon-opera"></div></th><th class="bc-browser bc-browser-safari"><div class="bc-head-txt-label bc-head-icon-safari">Safari</div><div class="bc-head-icon-symbol icon icon-safari"></div></th><th class="bc-browser bc-browser-chrome_android"><div class="bc-head-txt-label bc-head-icon-chrome_android">Chrome Android</div><div class="bc-head-icon-symbol icon icon-chrome"></div></th><th class="bc-browser bc-browser-firefox_android"><div class="bc-head-txt-label bc-head-icon-firefox_android">Firefox for Android</div><div class="bc-head-icon-symbol icon icon-simple-firefox"></div></th><th class="bc-browser bc-browser-opera_android"><div class="bc-head-txt-label bc-head-icon-opera_android">Opera Android</div><div class="bc-head-icon-symbol icon icon-opera"></div></th><th class="bc-browser bc-browser-safari_ios"><div class="bc-head-txt-label bc-head-icon-safari_ios">Safari on iOS</div><div class="bc-head-icon-symbol icon icon-safari"></div></th><th class="bc-browser bc-browser-samsunginternet_android"><div class="bc-head-txt-label bc-head-icon-samsunginternet_android">Samsung Internet</div><div class="bc-head-icon-symbol icon icon-samsunginternet"></div></th><th class="bc-browser bc-browser-webview_android"><div class="bc-head-txt-label bc-head-icon-webview_android">WebView Android</div><div class="bc-head-icon-symbol icon icon-webview"></div></th></tr></thead><tbody><tr><th class="bc-feature bc-feature-depth-0" scope="row"><div class="bc-table-row-header"><code>integrity</code></div></th><td class="bc-support bc-browser-chrome bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div></div></button></td><td class="bc-support bc-browser-edge bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-firefox bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-opera bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-safari bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-chrome_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-firefox_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-opera_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-safari_ios bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div></div></button></td><td class="bc-support bc-browser-samsunginternet_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><abbr class="
-              bc-level-yes
-              icon
-              icon-yes" title="Full support"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div><div class="bcd-cell-text-copy"></div></div></button></td><td class="bc-support bc-browser-webview_android bc-supports-yes bc-has-history" aria-expanded="false"><button type="button" title="Toggle history"><div class="bcd-cell-text-wrapper"><div class="bcd-cell-icons"><span class="icon-wrap"><img src="https://developer.mozilla.org/static/media/yes.70caad81ca5e3d9f7576.svg"></abbr></span></div></div></button></td></tr></tbody></table></figure></figure>
+<figure class="table-container">
+  <figure class="table-container-inner">
+    <table class="bc-table bc-table-web">
+      <thead>
+        <tr class="bc-platforms">
+          <td></td>
+          <th class="bc-platform bc-platform-desktop" colspan="5" title="desktop">Desktop</th>
+          <th class="bc-platform bc-platform-mobile" colspan="6" title="mobile">Mobile</th>
+        </tr>
+        <tr class="bc-browsers">
+          <td></td>
+          <th class="bc-browser bc-browser-chrome">Chrome</th>
+          <th class="bc-browser bc-browser-edge">Edge</th>
+          <th class="bc-browser bc-browser-firefox">Firefox</th>
+          <th class="bc-browser bc-browser-opera">Opera</th>
+          <th class="bc-browser bc-browser-safari">Safari</th>
+          <th class="bc-browser bc-browser-chrome_android">Chrome Android</th>
+          <th class="bc-browser bc-browser-firefox_android">Firefox for Android</th>
+          <th class="bc-browser bc-browser-opera_android">Opera Android</th>
+          <th class="bc-browser bc-browser-safari_ios">Safari on iOS</th>
+          <th class="bc-browser bc-browser-samsunginternet_android">Samsung Internet</th>
+          <th class="bc-browser bc-browser-webview_android">WebView Android</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="bc-feature bc-feature-depth-0" scope="row">integrity</th>
+          <td class="bc-support bc-browser-chrome bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-edge bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-firefox bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-opera bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-safari bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-chrome_android bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-firefox_android bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-opera_android bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-safari_ios bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-samsunginternet_android bc-supports-yes">Yes</td>
+          <td class="bc-support bc-browser-webview_android bc-supports-yes">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+  </figure>
+</figure>
+
               
 ## 核心功能亮点  
   
