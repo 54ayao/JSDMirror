@@ -1,9 +1,24 @@
-# 页面重构中.....
-# 页面重构中.....
-# 页面重构中.....
-# 页面重构中.....
-# 页面重构中.....
-# 页面重构中.....
+JSDMirror 镜像站基础介绍
+概述
+JSDMirror 是一个基于 jsDelivr CDN 服务的国内镜像站点，专注于为前端开发者提供快速、稳定的 JavaScript 资源访问体验。随着前端技术的蓬勃发展，JavaScript 库、框架和工具等资源的使用越来越广泛，而国外源服务器的访问速度受限于网络延迟和地理位置，JSDMirror 通过在国内部署镜像服务器，有效解决了这一问题，使得国内开发者能够更快地获取这些资源。
+
+主要特点
+高速访问：JSDMirror 镜像站点部署在国内，通过优化网络路由和增加带宽资源，显著提升了国内用户访问 jsDelivr CDN 上资源的速度。
+资源丰富：作为 jsDelivr 的镜像，JSDMirror 同步了 jsDelivr CDN 上的所有资源，包括流行的 JavaScript 库、框架、插件、CSS 框架等，几乎覆盖了前端开发所需的所有资源。
+稳定可靠：JSDMirror 采用了先进的CDN技术和高可用性架构设计，确保在高并发访问下依然能够稳定运行，为开发者提供持续稳定的服务。
+易于使用：开发者只需将 jsDelivr 的原始 CDN 链接中的域名部分替换为 JSDMirror 的域名，即可享受高速访问服务，无需额外配置或注册。
+使用方法
+修改 CDN 链接
+对于需要通过 CDN 引入的 JavaScript 库或 CSS 框架，开发者只需将 jsDelivr 提供的 CDN 链接中的 cdn.jsdelivr.net 替换为 cdn.jsdmirror.com 或其他 JSDMirror 提供的域名即可。例如：
+
+原始 jsDelivr CDN 链接：
+
+html
+'''<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>'''
+修改为 JSDMirror 镜像链接：
+
+html
+'''<script src="https://cdn.jsdmirror.com/npm/vue@2.6.14/dist/vue.js"></script>'''
 
 
 
