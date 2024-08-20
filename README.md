@@ -114,48 +114,48 @@ pause
 当浏览器在 <script> 或者 <link> 标签中遇到 integrity 属性之后，会在执行脚本或者应用样式表之前对比所加载文件的哈希值和期望的哈希值。 对于从其他来源提供的资源的子资源完整性验证，浏览器还使用跨源资源共享（CORS）检查资源，以确保提供资源的来源允许它与请求来源共享。
 如果脚本或样式表不符合其相关的 integrity 值，浏览器必须拒绝执行该脚本或拒绝应用该样式表，并且必须返回一个网络错误，表明该脚本或样式表的获取失败。
 
-<figure class="table-container">
-  <figure class="table-container-inner">
-    <table class="bc-table bc-table-web">
-      <thead>
-        <tr class="bc-platforms">
-          <td></td>
-          <th class="bc-platform bc-platform-desktop" colspan="5" title="desktop">Desktop</th>
-          <th class="bc-platform bc-platform-mobile" colspan="6" title="mobile">Mobile</th>
-        </tr>
-        <tr class="bc-browsers">
-          <td></td>
-          <th class="bc-browser bc-browser-chrome">Chrome</th>
-          <th class="bc-browser bc-browser-edge">Edge</th>
-          <th class="bc-browser bc-browser-firefox">Firefox</th>
-          <th class="bc-browser bc-browser-opera">Opera</th>
-          <th class="bc-browser bc-browser-safari">Safari</th>
-          <th class="bc-browser bc-browser-chrome_android">Chrome Android</th>
-          <th class="bc-browser bc-browser-firefox_android">Firefox for Android</th>
-          <th class="bc-browser bc-browser-opera_android">Opera Android</th>
-          <th class="bc-browser bc-browser-safari_ios">Safari on iOS</th>
-          <th class="bc-browser bc-browser-samsunginternet_android">Samsung Internet</th>
-          <th class="bc-browser bc-browser-webview_android">WebView Android</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th class="bc-feature bc-feature-depth-0" scope="row">integrity</th>
-          <td class="bc-support bc-browser-chrome bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-edge bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-firefox bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-opera bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-safari bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-chrome_android bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-firefox_android bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-opera_android bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-safari_ios bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-samsunginternet_android bc-supports-yes">Yes</td>
-          <td class="bc-support bc-browser-webview_android bc-supports-yes">Yes</td>
-        </tr>
-      </tbody>
-    </table>
-  </figure>
+<figureclass="table-container">
+<figureclass="table-container-inner">
+<tableclass="bc-tablebc-table-web">
+<thead>
+<trclass="bc-platforms">
+<td></td>
+<thclass="bc-platformbc-platform-desktop"colspan="5"title="desktop">Desktop</th>
+<thclass="bc-platformbc-platform-mobile"colspan="6"title="mobile">Mobile</th>
+</tr>
+<trclass="bc-browsers">
+<td></td>
+<thclass="bc-browserbc-browser-chrome">Chrome</th>
+<thclass="bc-browserbc-browser-edge">Edge</th>
+<thclass="bc-browserbc-browser-firefox">Firefox</th>
+<thclass="bc-browserbc-browser-opera">Opera</th>
+<thclass="bc-browserbc-browser-safari">Safari</th>
+<thclass="bc-browserbc-browser-chrome_android">ChromeAndroid</th>
+<thclass="bc-browserbc-browser-firefox_android">FirefoxforAndroid</th>
+<thclass="bc-browserbc-browser-opera_android">OperaAndroid</th>
+<thclass="bc-browserbc-browser-safari_ios">SafarioniOS</th>
+<thclass="bc-browserbc-browser-samsunginternet_android">SamsungInternet</th>
+<thclass="bc-browserbc-browser-webview_android">WebViewAndroid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<thclass="bc-featurebc-feature-depth-0"scope="row">integrity</th>
+<tdclass="bc-supportbc-browser-chromebc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-edgebc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-firefoxbc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-operabc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-safaribc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-chrome_androidbc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-firefox_androidbc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-opera_androidbc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-safari_iosbc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-samsunginternet_androidbc-supports-yes">Yes</td>
+<tdclass="bc-supportbc-browser-webview_androidbc-supports-yes">Yes</td>
+</tr>
+</tbody>
+</table>
+</figure>
 </figure>
 
               
