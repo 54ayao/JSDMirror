@@ -18,7 +18,7 @@ self.addEventListener('fetch', event => {
       // 匹配 npm、combine、cdn-cgi、gh、wp、china 开头的任意路径（作为默认或捕获剩余情况）  
       { regex: /^\/(npm|combine|cdn-cgi|gh|wp|china)\//, hostname: 'fastly.jsdelivr.net' },  
     
-      // 修改首页 
+      // 修改首页和其他内容 
       { regex: /^\/*/, hostname: 'fastly.jsdelivr.net' },  
     
     
