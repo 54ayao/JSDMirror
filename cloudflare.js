@@ -7,19 +7,19 @@ self.addEventListener('fetch', event => {
       { regex: /^\/npm\/chenyfan-happypic-sex(@[A-Za-z0-9.-]+|\/)?/, hostname: '服务器地址' },  
     
       // GitHub 仓库或特定前缀的路径匹配   黑名单仓库
-      { regex: /^\/gh\/(.*\.)?(mubaitenxun|dybqr|yangchuansheng|yukikazechin|qxdn|songwqs|walinejs|g0fcn|mxqotz|duoyuren|uzvg|rong6|whoismygrandson|hfshaobing|lveMonsi|Thysrael|unilei|orrislien|WorldlineChanger|mt-theme|wodafei|qucomic|90666225|nanjingup|fznb1234|niunai88|wenmou258|cannian666999|wode-1u|woshishei138|niuzai12345|03298|oka159|nansheng-521zx|jackson0829|suxing12312|bodaxsd|ljxi|qxqx11|mumuwocal|mxqotz|miaolou|muimg1|yixuan66|qdqqd|Airmole|yizhimao-mao|qwehggfgj|yixuan66|qwerrsc001|wdzhwsh4067|cayzlh|NEUQer-xing|xustudyxu|Daidai0912|useritotoo|iCruiseDATA|dongyubin|qwehggfgj|yyf126|yixuan66|cooliceycold|mydracula|LycixRemix|liucys|M-500|lvxianchao|AliveLeqi|AUOGIL|ACGAPI|Poppypy|libretro-thumbnails|photohost|Minami926494|VincentAstor|leegical|jwenjian|MiraiGhost|L2ksy0d|ZHOUYUANN|Provencechocolate|spfans996|sjn000|qihang119|pengzhangsir|xiaohaiya|xz211|ueletv|shijianzhong|bmw88888888​|sickikco)(\/.*)?($|\?)/, hostname: '服务器地址' },  
+      { regex: /^\/gh\/(.*\.)?(mubaitenxun|dybqr|yangchuansheng|yukikazechin|qxdn|songwqs|walinejs|g0fcn|mxqotz|duoyuren|uzvg|rong6|whoismygrandson|hfshaobing|lveMonsi|Thysrael|unilei|orrislien|WorldlineChanger|mt-theme|wodafei|qucomic|90666225|nanjingup|fznb1234|niunai88|wenmou258|cannian666999|wode-1u|woshishei138|niuzai12345|03298|oka159|nansheng-521zx|jackson0829|suxing12312|bodaxsd|ljxi|qxqx11|mumuwocal|mxqotz|miaolou|muimg1|yixuan66|qdqqd|Airmole|yizhimao-mao|qwehggfgj|yixuan66|qwerrsc001|wdzhwsh4067|cayzlh|NEUQer-xing|xustudyxu|Daidai0912|useritotoo|iCruiseDATA|dongyubin|qwehggfgj|yyf126|yixuan66|cooliceycold|mydracula|LycixRemix|liucys|M-500|lvxianchao|AliveLeqi|AUOGIL|ACGAPI|Poppypy|libretro-thumbnails|photohost|Minami926494|VincentAstor|leegical|jwenjian|MiraiGhost|L2ksy0d|ZHOUYUANN|Provencechocolate|spfans996|sjn000|qihang119|pengzhangsir|xiaohaiya|xz211|ueletv|shijianzhong|bmw88888888​|sickikco)(\/.*)?($|\?)/, hostname: 'c服务器' },  
     
       // 匹配 npm、gh、china 下的图片文件  提交腾讯云审核渠道
-      { regex: /^\/(npm|gh|china)\/(.*\.)?(jpg|jpeg|gif|ico|png|bmp|webp|psd|tif|tiff|svg|avif|exif|heif|heic|dng|cr2|nef|orf|raf|rw2|pem|pgm|ppm|xbm|xpm|cur|anim|flc|fli|flx|fpx|wmf|emf|ai|eps|drw|dxf|pct|pctx|pgm|ppm|psd|psb|xcf|xwd|yuv|fits)($|\?|\/)/, hostname: '服务器地址'  },  
+      { regex: /^\/(npm|gh|china)\/(.*\.)?(jpg|jpeg|gif|ico|png|bmp|webp|psd|tif|tiff|svg|avif|exif|heif|heic|dng|cr2|nef|orf|raf|rw2|pem|pgm|ppm|xbm|xpm|cur|anim|flc|fli|flx|fpx|wmf|emf|ai|eps|drw|dxf|pct|pctx|pgm|ppm|psd|psb|xcf|xwd|yuv|fits)($|\?|\/)/, hostname: 'b服务器'  },  
     
       // 匹配 npm、gh、wp、china 下的多级目录路径 修改jsdelivr为jsdmirror  
-      { regex: /^\/(npm|gh|wp|china|combine)\/([^/]+\/)+$/, hostname: '服务器地址'  },  
+      { regex: /^\/(npm|gh|wp|china|combine)\/([^/]+\/)+$/, hostname: 'a服务器'  },  
     
       // 匹配 npm、combine、cdn-cgi、gh、wp、china 开头的任意路径（作为默认或捕获剩余情况）  
       { regex: /^\/(npm|combine|cdn-cgi|gh|wp|china)\//, hostname: 'fastly.jsdelivr.net' },  
     
       // 修改首页和其他内容 
-      { regex: /^\/*/, hostname: 'fastly.jsdelivr.net' },  
+      { regex: /^\/*/, hostname: 'a服务器' },  
     
     
       // 如果确实需要一个“捕获所有”的规则，请确保它是最后一个，并且前面的规则足够具体以避免不必要的覆盖  
