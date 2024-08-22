@@ -49,7 +49,7 @@ JSDMirror项目最初由54ayao（Eagle Yao）发起并运营维护，经过数�
 - **安全保障**：采用多重加密与严格安全策略，全方位保护用户数据安全。
 - **实时同步**：JSDMirror 与 jsDelivr 官方站点实时同步，确保您获取到的库文件是最新的。
 - **兼容性**：JSDMirror 支持多种文件格式，如 npm、maven、wordpress 等，满足各种开发需求。
-- **开源加速CCDN**：JSDMirror 开源加速代码 让你用的放心 查看 cloudflare.js 文件
+- **开源加速CCDN**：JSDMirror 开源加速代码 让你用的放心 查看 conf文件
   
   
 ## 应用场景  
