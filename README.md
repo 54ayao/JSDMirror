@@ -7,6 +7,8 @@
 5. **海外将支持清理缓存**：平台正在测试API
 6. **关于永久封禁问题**  考虑了一晚上，有时候错误拦截比较多，不能一直保持错误封禁，，小问题和大问题的封禁时长又不能一样，嗯，综合考虑了一下，决定解封一批用户，后续等待[ 解封的地址 ](https://blog.jsdmirror.com/20.html)发布相关通告以及名单
 7.  **关于cdn.jsdmirror.com 跳 cdn.jsdmirror.cn 我们的jsdmirror.com 在升级维护中 临时跳转到jsdmirror.cn**
+8.  **如果您对于官网或者是其他页面又美化或者是建议的请携带demo或者是在 https://github.com/54ayao/www.jsdmirror.com 克隆一份呢**
+
 
 
 
