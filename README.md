@@ -265,8 +265,7 @@ PS:正常使用肯定是没问题，上述规定是主要打击利用镜像站�
 
 |QQ|github|企业微信|TG|邮箱|
 |-------|---------------|----------|------|------|
-|202835956|[点这里](https://github.com/54ayao/JSDMirror/issues) |![553f1fd432145899eed68fc71fdf4cf](https://github.com/user-attachments/assets/40c2238f-0980-49f2-bc8e-8bb0cb314ade)
-|[点这里](https://t.me/jsdmirrorChannel)|ayao@cola.email|
+|202835956|[点这里](https://github.com/54ayao/JSDMirror/issues) |![553f1fd432145899eed68fc71fdf4cf](https://github.com/user-attachments/assets/40c2238f-0980-49f2-bc8e-8bb0cb314ade)|[点这里](https://t.me/jsdmirrorChannel)|ayao@cola.email|
 
 
 
