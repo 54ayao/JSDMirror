@@ -5,6 +5,7 @@
 3.  **关于cdn.jsdmirror.com 跳 cdn.jsdmirror.cn 我们的jsdmirror.com 在升级维护中 临时跳转到jsdmirror.cn**
 4.  **如果您对于官网或者是其他页面又美化或者是建议的请携带demo或者是在 https://github.com/54ayao/www.jsdmirror.com 克隆一份呢**
 5.  **企业微信渠道已恢复，海外api以正常**
+6.  **最近apk exe ipk 等资源我们会做一次优化已降低我们cdn的使用情况**
 
 
 
